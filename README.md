@@ -11,6 +11,13 @@ Investigación cuantitativa y modelado probabilístico no paramétrico (Procesos
 - **Historial Completo de Recordistas:** Seguimiento año a año de los atletas que rompieron o retuvieron cada marca oficial.
 - **Soporte Estricto de Unidades WCA:** Formato minutero `mm:ss.xx` para marcas superiores a 60 segundos (ej. 7x7x7, 5x5x5 Blindfolded) e intervalos Log-Normales siempre positivos.
 - **Dashboard Web Interactivo:** Aplicación web moderna (HTML5, Vanilla CSS, Chart.js) para explorar interactivamente las 17 disciplinas.
+- **Despliegue Continuo (CI/CD):** Automatizado en GitHub Pages vía GitHub Actions.
+
+---
+
+## 🌐 Demo en Vivo
+Puedes acceder al dashboard interactivo directamente en:
+👉 **`https://<tu-usuario>.github.io/<tu-repo>/`**
 
 ---
 
