@@ -1,0 +1,378 @@
+/* Full-Viewport Modern Design System for Speedcubing Limits Dashboard */
+:root {
+  --bg-app: #080c14;
+  --bg-card: #111827;
+  --bg-card-header: #0e1422;
+  --bg-subtle: #1f2937;
+  --text-primary: #f9fafb;
+  --text-secondary: #9ca3af;
+  --text-muted: #6b7280;
+  --accent-blue: #3b82f6;
+  --accent-blue-hover: #2563eb;
+  --accent-cyan: #06b6d4;
+  --accent-emerald: #10b981;
+  --accent-amber: #f59e0b;
+  --accent-red: #ef4444;
+  --border-subtle: #1f2937;
+  --border-focus: #3b82f6;
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Contenedor Principal Ajustado al 100% de la Altura de Pantalla */
+.app-viewport {
+  height: 100vh;
+  width: 100vw;
+  padding: 1.1rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+/* 1. Header Principal */
+.app-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-subtle);
+  min-height: 52px;
+}
+
+.brand-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.brand-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.brand-title h1 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.badge-tag {
+  background: rgba(59, 130, 246, 0.15);
+  color: #60a5fa;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(59, 130, 246, 0.35);
+}
+
+.brand-subtitle {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.controls-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.control-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.control-item label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+select {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle);
+  padding: 0.45rem 1rem;
+  border-radius: 7px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.15s ease;
+}
+
+select:hover, select:focus {
+  border-color: var(--accent-blue);
+}
+
+.segmented-control {
+  display: flex;
+  background: var(--bg-card);
+  border-radius: 7px;
+  padding: 0.2rem;
+  border: 1px solid var(--border-subtle);
+}
+
+.segment-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  padding: 0.35rem 0.95rem;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.segment-btn.active {
+  background: var(--accent-blue);
+  color: #ffffff;
+}
+
+/* 2. Fila de Tarjetas de Métricas (KPIs Ampliadas) */
+.metrics-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.85rem;
+  min-height: 116px;
+}
+
+.metric-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  padding: 1rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 116px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.metric-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(59, 130, 246, 0.4);
+}
+
+.metric-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.metric-label {
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.metric-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.dot-red { background: var(--accent-red); box-shadow: 0 0 8px rgba(239, 68, 68, 0.7); }
+.dot-green { background: var(--accent-emerald); box-shadow: 0 0 8px rgba(16, 185, 129, 0.7); }
+.dot-cyan { background: var(--accent-cyan); box-shadow: 0 0 8px rgba(6, 182, 212, 0.7); }
+.dot-amber { background: var(--accent-amber); box-shadow: 0 0 8px rgba(245, 158, 11, 0.7); }
+
+.metric-value {
+  font-size: 1.95rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0.35rem 0 0.25rem 0;
+  line-height: 1.1;
+}
+
+.text-white { color: #ffffff; }
+.text-emerald { color: #10b981; }
+.text-cyan { color: #06b6d4; }
+.text-amber { color: #f59e0b; }
+
+.metric-foot {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 3. Main Workspace: Grid Gráfico + Tabla */
+.main-workspace {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1.35fr 0.95fr;
+  gap: 0.85rem;
+  min-height: 0;
+}
+
+.panel-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+}
+
+.panel-header {
+  padding: 0.65rem 1.1rem;
+  background: var(--bg-card-header);
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.panel-title-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.panel-header h2 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.panel-note {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+}
+
+.badge-count {
+  background: var(--bg-subtle);
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.18rem 0.55rem;
+  border-radius: 5px;
+}
+
+/* Contenedor del Gráfico */
+.chart-canvas-container {
+  flex: 1;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0.75rem;
+  min-height: 0;
+}
+
+/* Contenedor de la Tabla con Scroll Interno */
+.table-scroll-area {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: auto;
+  min-height: 0;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.84rem;
+}
+
+.data-table thead th {
+  position: sticky;
+  top: 0;
+  background: #0b111e;
+  color: var(--text-muted);
+  font-weight: 700;
+  padding: 0.55rem 0.85rem;
+  border-bottom: 1px solid var(--border-subtle);
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  z-index: 5;
+}
+
+.data-table td {
+  padding: 0.5rem 0.85rem;
+  border-bottom: 1px solid rgba(31, 41, 55, 0.7);
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.data-table tr:hover td {
+  background-color: rgba(255, 255, 255, 0.035);
+}
+
+/* Insignias de Estado */
+.badge-wr-new {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgba(239, 68, 68, 0.2);
+  color: #f87171;
+  padding: 0.15rem 0.55rem;
+  border-radius: 5px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  border: 1px solid rgba(239, 68, 68, 0.35);
+}
+
+.badge-wr-hold {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgba(156, 163, 175, 0.1);
+  color: #9ca3af;
+  padding: 0.15rem 0.55rem;
+  border-radius: 5px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  border: 1px solid rgba(156, 163, 175, 0.2);
+}
+
+/* 4. Footer Mínimo */
+.app-footer {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-align: center;
+  padding-top: 0.25rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+/* Scrollbars estilizados */
+.table-scroll-area::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.table-scroll-area::-webkit-scrollbar-track {
+  background: var(--bg-card);
+}
+.table-scroll-area::-webkit-scrollbar-thumb {
+  background: var(--border-subtle);
+  border-radius: 4px;
+}
+.table-scroll-area::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}

@@ -1,0 +1,1220 @@
+event_id,type,date,year,time_sec,person_name,person_id,competition_id,raw_value
+222,average,2004-11-27,2004,10.87,Gunnar Krig,2004KRIG01,Sweden2004,1087
+222,average,2005-03-27,2005,8.45,Gunnar Krig,2004KRIG01,Svekub2005,845
+222,average,2005-04-16,2005,6.62,Shotaro Makisumi (牧角章太郎),2003MAKI01,CaltechSpring2005,662
+222,average,2005-05-28,2005,6.29,Shotaro Makisumi (牧角章太郎),2003MAKI01,HoraceMann2005,629
+222,average,2006-06-10,2006,5.38,Gunnar Krig,2004KRIG01,ChalmersOpen2006,538
+222,average,2006-09-16,2006,4.69,Łukasz Ciałoń,2005CIAL02,PolishOpen2006,469
+222,average,2007-07-14,2007,4.13,Mátyás Kuti,2006KUTI01,CzechOpen2007,413
+222,average,2007-09-15,2007,3.92,Łukasz Ciałoń,2005CIAL02,PolishOpen2007,392
+222,average,2007-10-05,2007,3.91,Łukasz Ciałoń,2005CIAL02,WC2007,391
+222,average,2008-05-02,2008,3.74,Edouard Chambon,2004CHAM01,BarcelonaOpen2008,374
+222,average,2008-06-07,2008,3.63,Łukasz Ciałoń,2005CIAL02,PolishOpen2008,363
+222,average,2008-09-19,2008,3.43,Edouard Chambon,2004CHAM01,Euro2008,343
+222,average,2008-11-08,2008,3.28,Edouard Chambon,2004CHAM01,GenevaOpen2008,328
+222,average,2009-05-30,2009,3.15,Rowe Hessler,2007HESS01,CumberlandValley2009,315
+222,average,2009-12-12,2009,2.45,Rowe Hessler,2007HESS01,Brown2009,245
+222,average,2010-10-09,2010,2.35,Feliks Zemdegs,2009ZEMD01,AsianChampionship2010,235
+222,average,2010-11-13,2010,2.12,Feliks Zemdegs,2009ZEMD01,MelbourneCubeDay2010,212
+222,average,2013-01-19,2013,2.08,Christopher Olson,2009OLSO01,DixonWinter2013,208
+222,average,2013-06-15,2013,2.02,Christopher Olson,2009OLSO01,NewAlbany2013,202
+222,average,2013-08-24,2013,1.96,Sameer Mahmood,2013MAHM02,GuildfordOpen2013,196
+222,average,2013-10-05,2013,1.71,Christopher Olson,2009OLSO01,Cubetcha2013,171
+222,average,2014-03-08,2014,1.69,Rami Sbahi,2011SBAH01,HolyToledoWinter2014,169
+222,average,2014-08-23,2014,1.6,Lucas Etter,2011ETTE01,Indiana2014,160
+222,average,2015-06-06,2015,1.55,Rami Sbahi,2011SBAH01,CanadianOpen2015,155
+222,average,2015-09-12,2015,1.51,Lucas Etter,2011ETTE01,MusicCity2015,151
+222,average,2017-08-19,2017,1.45,Rami Sbahi,2011SBAH01,Michigan2017,145
+222,average,2017-11-04,2017,1.42,Kevin Gerhardt,2013GERH01,MunichOpen2017,142
+222,average,2018-02-24,2018,1.35,Maciej Czapiewski,2014CZAP01,WarsawCubeMasters2018,135
+222,average,2018-10-20,2018,1.21,Martin Vædele Egdal,2013EGDA02,KjellerOpen2018,121
+222,average,2021-08-01,2021,1.13,Zayn Khanani,2018KHAN28,EmpireStateSummerB2021,113
+222,average,2021-10-23,2021,1.06,Zayn Khanani,2018KHAN28,UtahFall2021,106
+222,average,2021-10-30,2021,1.05,Zayn Khanani,2018KHAN28,FinnishChampionship2021,105
+222,average,2022-02-05,2022,1.04,Zayn Khanani,2018KHAN28,NorthStarCubingChallenge2022,104
+222,average,2022-02-12,2022,1.02,Zayn Khanani,2018KHAN28,CapeFear2022,102
+222,average,2023-01-22,2023,1.01,Zayn Khanani,2018KHAN28,PioneerValleyCubingB2023,101
+222,average,2024-02-24,2024,0.93,Yiheng Wang (王艺衡),2019WANY36,TwistFriesJohorBahru2024,93
+222,average,2024-03-09,2024,0.92,Zayn Khanani,2018KHAN28,NewCumberlandCounty2024,92
+222,average,2024-12-15,2024,0.88,Yiheng Wang (王艺衡),2019WANY36,HangzhouOpen2024,88
+222,average,2025-12-13,2025,0.86,Sujan Feist,2016FEIS01,KidsAmericaChristmasOH2025,86
+222,single,2004-11-27,2004,8.44,Micael Hellberg,2004HELL01,Sweden2004,844
+222,single,2005-03-27,2005,6.35,Gunnar Krig,2004KRIG01,Svekub2005,635
+222,single,2005-04-16,2005,4.92,Shotaro Makisumi (牧角章太郎),2003MAKI01,CaltechSpring2005,492
+222,single,2005-05-28,2005,4.13,Shotaro Makisumi (牧角章太郎),2003MAKI01,HoraceMann2005,413
+222,single,2005-12-11,2005,3.94,Gunnar Krig,2004KRIG01,SwedishCubeday2005,394
+222,single,2006-05-27,2006,3.55,Anthony Hsu,2005HSUA01,Trumbull2006,355
+222,single,2007-07-14,2007,2.73,Mátyás Kuti,2006KUTI01,CzechOpen2007,273
+222,single,2007-11-10,2007,2.65,Ron van Bruchem,2003BRUC01,UKOpen2007,265
+222,single,2008-02-23,2008,1.63,Javier París,2005PARI01,MurciaOpen2008,163
+222,single,2008-11-08,2008,0.96,Erik Akkersdijk,2005AKKE01,GenevaOpen2008,96
+222,single,2011-11-12,2011,0.69,Christian Kaserer,2009KASE02,TrentinOpen2011,69
+222,single,2015-06-06,2015,0.58,Rami Sbahi,2011SBAH01,CanadianOpen2015,58
+222,single,2016-03-19,2016,0.49,Maciej Czapiewski,2014CZAP01,GrudziadzOpen2016,49
+222,single,2022-11-26,2022,0.47,Guanbo Wang (王冠博),2018WANG35,NorthsideSpringSaturday2022,47
+222,single,2023-11-04,2023,0.43,Teodor Zajder,2021ZAJD03,WarsawCubeMasters2023,43
+222,single,2025-10-25,2025,0.39,Ziyu Ye (叶梓渝),2021YEZI01,HefeiOpen2025,39
+333,average,2003-08-23,2003,20.0,Dan Knights,2003KNIG01,WC2003,2000
+333,average,2004-01-24,2004,16.53,Shotaro Makisumi (牧角章太郎),2003MAKI01,CaltechWinter2004,1653
+333,average,2004-04-03,2004,15.38,Shotaro Makisumi (牧角章太郎),2003MAKI01,CaltechSpring2004,1538
+333,average,2004-10-16,2004,14.52,Shotaro Makisumi (牧角章太郎),2003MAKI01,CaltechFall2004,1452
+333,average,2006-03-18,2006,13.22,Anssi Vanhala,2005VANH01,Svekub2006,1322
+333,average,2007-01-07,2007,11.76,JeongMin Yu (유정민),2007JEON01,KCRC2007,1176
+333,average,2008-02-23,2008,11.48,Edouard Chambon,2004CHAM01,MurciaOpen2008,1148
+333,average,2008-03-29,2008,11.33,Yu Nakajima (中島悠),2007NAKA03,OsakaOpen2008,1133
+333,average,2008-05-05,2008,11.28,Yu Nakajima (中島悠),2007NAKA03,KashiwaOpen2008,1128
+333,average,2009-02-21,2009,11.11,Erik Akkersdijk,2005AKKE01,BeneluxOpen2009,1111
+333,average,2009-03-28,2009,10.83,Yumu Tabuchi (田渕雄夢),2006TABU02,OsakaOpen2009,1083
+333,average,2009-04-04,2009,10.63,Tomasz Żołnowski,2005ZOLN01,WarsawOpen2009,1063
+333,average,2009-09-26,2009,10.07,Tomasz Żołnowski,2005ZOLN01,PolishOpen2009,1007
+333,average,2010-01-30,2010,9.21,Feliks Zemdegs,2009ZEMD01,MelbourneSummerOpen2010,921
+333,average,2010-07-10,2010,8.52,Feliks Zemdegs,2009ZEMD01,NewZealand2010,852
+333,average,2010-11-13,2010,7.91,Feliks Zemdegs,2009ZEMD01,MelbourneCubeDay2010,791
+333,average,2011-01-29,2011,7.87,Feliks Zemdegs,2009ZEMD01,MelbourneSummer2011,787
+333,average,2011-06-25,2011,7.64,Feliks Zemdegs,2009ZEMD01,MelbourneWinterOpen2011,764
+333,average,2012-09-01,2012,7.53,Feliks Zemdegs,2009ZEMD01,AustralianNationals2012,753
+333,average,2013-09-07,2013,7.49,Feliks Zemdegs,2009ZEMD01,AustralianNationals2013,749
+333,average,2013-11-16,2013,6.54,Feliks Zemdegs,2009ZEMD01,MelbourneCubeDay2013,654
+333,average,2016-07-09,2016,6.45,Feliks Zemdegs,2009ZEMD01,WLSLato2016,645
+333,average,2017-04-23,2017,6.39,Max Park,2012PARK03,OCSEFOpen2017,639
+333,average,2017-06-28,2017,5.97,Feliks Zemdegs,2009ZEMD01,LatinAmericaCubingTourChia2017,597
+333,average,2017-10-14,2017,5.8,Feliks Zemdegs,2009ZEMD01,MalaysiaCubeOpen2017,580
+333,average,2019-04-06,2019,5.69,Feliks Zemdegs,2009ZEMD01,KoalaficationBrisbane2019,569
+333,average,2019-11-10,2019,5.53,Feliks Zemdegs,2009ZEMD01,OddDayinSydney2019,553
+333,average,2021-06-05,2021,5.48,Ruihang Xu (许瑞航),2017XURU04,WuhanOpen2021,548
+333,average,2021-11-06,2021,5.32,Max Park,2012PARK03,Missoula2021,532
+333,average,2021-12-18,2021,5.09,Tymon Kolasiński,2016KOLA02,CubersEveLubartow2021,509
+333,average,2022-04-03,2022,5.08,Max Park,2012PARK03,BayAreaSpeedcubin29PM2022,508
+333,average,2022-07-30,2022,4.86,Tymon Kolasiński,2016KOLA02,Cube4funWarsaw2022,486
+333,average,2023-03-10,2023,4.69,Yiheng Wang (王艺衡),2019WANY36,YJKL2023,469
+333,average,2023-06-19,2023,4.48,Yiheng Wang (王艺衡),2019WANY36,MofunlandCruiseOpen2023,448
+333,average,2024-07-05,2024,4.36,Yiheng Wang (王艺衡),2019WANY36,PhilippineChampionship2024,436
+333,average,2024-08-25,2024,4.25,Yiheng Wang (王艺衡),2019WANY36,DeqingSmallCubesSummer2024,425
+333,average,2024-09-21,2024,4.09,Yiheng Wang (王艺衡),2019WANY36,XuzhouAutumn2024,409
+333,average,2024-12-08,2024,4.05,Yiheng Wang (王艺衡),2019WANY36,ZhengzhouOpen2024,405
+333,average,2025-04-04,2025,4.03,Yiheng Wang (王艺衡),2019WANY36,XianCherryBlossom2025,403
+333,average,2025-05-25,2025,3.91,Yiheng Wang (王艺衡),2019WANY36,LishuiOpen2025,391
+333,average,2025-07-26,2025,3.9,Yiheng Wang (王艺衡),2019WANY36,TaizhouOpen2025,390
+333,average,2026-01-10,2026,3.84,Xuanyi Geng (耿暄一),2023GENG02,BeijingWinter2026,384
+333,average,2026-04-26,2026,3.71,Xuanyi Geng (耿暄一),2023GENG02,DeqingSmallSpecial2026,371
+333,average,2026-06-17,2026,3.51,Yiheng Wang (王艺衡),2019WANY36,HefeiCubingLeague3x3III2026,351
+333,single,1982-06-05,1982,22.95,Minh Thai,1982THAI01,WC1982,2295
+333,single,2003-08-23,2003,16.53,Jess Bonde,2003BOND01,WC2003,1653
+333,single,2004-01-24,2004,14.76,Shotaro Makisumi (牧角章太郎),2003MAKI01,CaltechWinter2004,1476
+333,single,2004-04-03,2004,12.11,Shotaro Makisumi (牧角章太郎),2003MAKI01,CaltechSpring2004,1211
+333,single,2005-10-16,2005,11.75,Jean Pons,2004PONS01,DutchOpen2005,1175
+333,single,2006-01-14,2006,11.13,Leyan Lo,2004LOLE01,CaltechWinter2006,1113
+333,single,2006-08-04,2006,10.48,Toby Mao (毛台立),2004MAOT01,US2006,1048
+333,single,2007-02-24,2007,10.36,Edouard Chambon,2004CHAM01,BelgianOpen2007,1036
+333,single,2007-05-05,2007,9.86,Thibaut Jacquinot,2006JACQ01,SpanishOpen2007,986
+333,single,2007-10-13,2007,9.77,Erik Akkersdijk,2005AKKE01,DutchOpen2007,977
+333,single,2007-11-24,2007,9.55,Ron van Bruchem,2003BRUC01,Netherlands2007,955
+333,single,2008-02-23,2008,9.18,Edouard Chambon,2004CHAM01,MurciaOpen2008,918
+333,single,2008-05-05,2008,8.72,Yu Nakajima (中島悠),2007NAKA03,KashiwaOpen2008,872
+333,single,2008-07-12,2008,7.08,Erik Akkersdijk,2005AKKE01,CzechOpen2008,708
+333,single,2010-11-13,2010,6.77,Feliks Zemdegs,2009ZEMD01,MelbourneCubeDay2010,677
+333,single,2011-01-29,2011,6.65,Feliks Zemdegs,2009ZEMD01,MelbourneSummer2011,665
+333,single,2011-05-07,2011,6.24,Feliks Zemdegs,2009ZEMD01,KubarooOpen2011,624
+333,single,2011-06-25,2011,5.66,Feliks Zemdegs,2009ZEMD01,MelbourneWinterOpen2011,566
+333,single,2013-03-02,2013,5.55,Mats Valk,2007VALK01,ZonhovenOpen2013,555
+333,single,2015-04-25,2015,5.25,Collin Burns,2010BURN01,DoylestownSpring2015,525
+333,single,2015-11-21,2015,4.9,Lucas Etter,2011ETTE01,RiverHillFall2015,490
+333,single,2016-11-05,2016,4.74,Mats Valk,2007VALK01,JawaTimurOpen2016,474
+333,single,2016-12-11,2016,4.73,Feliks Zemdegs,2009ZEMD01,POPSOpen2016,473
+333,single,2017-09-02,2017,4.69,Patrick Ponce,2012PONC02,RallyInTheValley2017,469
+333,single,2017-10-28,2017,4.59,SeungBeom Cho (조승범),2012CHOS01,Chicago2017,459
+333,single,2018-05-06,2018,4.22,Feliks Zemdegs,2009ZEMD01,CubeforCambodia2018,422
+333,single,2018-11-24,2018,3.47,Yusheng Du (杜宇生),2015DUYU01,WuhuOpen2018,347
+333,single,2023-06-11,2023,3.13,Max Park,2012PARK03,PrideInLongBeach2023,313
+333,single,2025-02-15,2025,3.08,Yiheng Wang (王艺衡),2019WANY36,XMUMCubeOpen2025,308
+333,single,2025-04-13,2025,3.05,Xuanyi Geng (耿暄一),2023GENG02,ShenyangSpring2025,305
+333,single,2026-02-07,2026,2.76,Teodor Zajder,2021ZAJD03,GLSBigCubesGdansk2026,276
+333bf,average,2005-04-16,2005,179.29,Leyan Lo,2004LOLE01,CaltechSpring2005,17929
+333bf,average,2005-09-17,2005,141.46,Tyson Mao (毛台勝),2004MAOT02,NorthernCA2005,14146
+333bf,average,2006-03-11,2006,111.68,Leyan Lo,2004LOLE01,Chattahoochee2006,11168
+333bf,average,2006-05-27,2006,103.79,Leyan Lo,2004LOLE01,SanDiego2006,10379
+333bf,average,2007-06-16,2007,95.74,Leyan Lo,2004LOLE01,USOpen2007,9574
+333bf,average,2008-02-16,2008,93.62,Alexander Yu,2007YUAL01,KearnyKardinal2008,9362
+333bf,average,2008-03-22,2008,66.05,Alexander Yu,2007YUAL01,PrincetonOpen2008,6605
+333bf,average,2009-10-01,2009,49.35,Yuhui Xu (许宇辉),2007XUYU01,GuangdongOpen2009,4935
+333bf,average,2010-04-04,2010,33.02,Haiyan Zhuang (庄海燕),2008ZHUA01,XianSpring2010,3302
+333bf,average,2012-04-28,2012,29.63,Marcell Endrey,2007ENDR01,ZuneOpen2012,2963
+333bf,average,2013-04-20,2013,29.61,Marcell Endrey,2007ENDR01,SlovenianOpen2013,2961
+333bf,average,2013-11-09,2013,28.87,Marcin Kowalczyk,2011KOWA01,GLSAutumnReda2013,2887
+333bf,average,2014-05-18,2014,28.43,Kaijun Lin (林恺俊),2013LINK01,GuangzhouWushanOpen2014,2843
+333bf,average,2014-10-01,2014,27.74,Kaijun Lin (林恺俊),2013LINK01,GuangdongOpen2014,2774
+333bf,average,2014-11-01,2014,27.63,Kabyanil Talukdar,2013TALU01,AsianChampionship2014,2763
+333bf,average,2014-11-29,2014,27.51,Marcin Kowalczyk,2011KOWA01,PLSSzczecin2014,2751
+333bf,average,2015-03-07,2015,26.72,Marcin Kowalczyk,2011KOWA01,GrudziadzOpen2015,2672
+333bf,average,2015-03-15,2015,26.41,Kaijun Lin (林恺俊),2013LINK01,GuangzhouMoreFun2015,2641
+333bf,average,2015-06-21,2015,25.45,Marcin Kowalczyk,2011KOWA01,BerlinSummerCubeDay2015,2545
+333bf,average,2016-05-07,2016,25.21,Gianfranco Huanqui,2013HUAN29,TorneoNacionalColombia2016,2521
+333bf,average,2016-05-28,2016,24.97,Kaijun Lin (林恺俊),2013LINK01,OneNightinBeijing2016,2497
+333bf,average,2016-07-15,2016,24.72,Kaijun Lin (林恺俊),2013LINK01,HefeiOpen2016,2472
+333bf,average,2016-10-01,2016,24.65,Kaijun Lin (林恺俊),2013LINK01,AsianChampionship2016,2465
+333bf,average,2016-11-05,2016,24.38,Kaijun Lin (林恺俊),2013LINK01,ShanghaiWinterisComing2016,2438
+333bf,average,2017-02-04,2017,24.12,Gianfranco Huanqui,2013HUAN29,AventuraCubicaIII2017,2412
+333bf,average,2017-04-15,2017,23.21,Kaijun Lin (林恺俊),2013LINK01,NanchangSpring2017,2321
+333bf,average,2017-06-24,2017,22.67,Ishaan Agrawal,2015AGRA03,625BayArea2017,2267
+333bf,average,2017-11-18,2017,22.36,Angelo Zhang,2014ZHAN01,LonghornCubeDay2017,2236
+333bf,average,2018-06-30,2018,21.24,Kaijun Lin (林恺俊),2013LINK01,PleaseBeQuietBeijing2018,2124
+333bf,average,2018-07-21,2018,20.34,Jeff Park,2015PARK08,DFWCubingFiestaJuly2018,2034
+333bf,average,2018-12-01,2018,20.29,Max Hilliard,2015HILL09,PBQBerkeley2018,2029
+333bf,average,2019-01-12,2019,20.12,Max Hilliard,2015HILL09,PDXCubingforCauses2019,2012
+333bf,average,2019-04-28,2019,20.03,Jack Cai,2014CAIJ02,CubeforCambodia2019,2003
+333bf,average,2019-05-18,2019,19.79,Jake Klassen,2016KLAS01,NationalCapitalRegion2019,1979
+333bf,average,2019-06-01,2019,18.28,Max Hilliard,2015HILL09,YakimaValleyCubingSpring2019,1828
+333bf,average,2019-11-30,2019,18.27,Jack Cai,2014CAIJ02,MelbourneCubeDays2019,1827
+333bf,average,2019-12-14,2019,18.18,Jeff Park,2015PARK08,OUWinter2019,1818
+333bf,average,2021-12-11,2021,15.24,Tommy Cherry,2015CHER07,FloridaFall2021,1524
+333bf,average,2023-04-22,2023,15.05,Elliott Kobelansky,2019KOBE03,PanthersCubeDay2023,1505
+333bf,average,2023-06-17,2023,14.72,Tommy Cherry,2015CHER07,MidAtlanticChampionship2023,1472
+333bf,average,2023-08-12,2023,14.15,Tommy Cherry,2015CHER07,WC2023,1415
+333bf,average,2024-07-25,2024,14.05,Tommy Cherry,2015CHER07,Euro2024,1405
+333bf,single,2003-08-23,2003,236.0,Dror Vomberg,2003VOMB01,WC2003,23600
+333bf,single,2004-07-10,2004,216.85,Shotaro Makisumi (牧角章太郎),2003MAKI01,US2004,21685
+333bf,single,2004-10-16,2004,190.54,Shotaro Makisumi (牧角章太郎),2003MAKI01,CaltechFall2004,19054
+333bf,single,2005-01-15,2005,177.97,Shotaro Makisumi (牧角章太郎),2003MAKI01,CaltechWinter2005,17797
+333bf,single,2005-04-16,2005,161.54,Leyan Lo,2004LOLE01,CaltechSpring2005,16154
+333bf,single,2005-08-13,2005,138.58,Shotaro Makisumi (牧角章太郎),2003MAKI01,CaltechDallas2005,13858
+333bf,single,2005-09-17,2005,118.32,Tyson Mao (毛台勝),2004MAOT02,NorthernCA2005,11832
+333bf,single,2005-11-05,2005,106.47,Leyan Lo,2004LOLE01,WC2005,10647
+333bf,single,2006-03-11,2006,88.82,Leyan Lo,2004LOLE01,Chattahoochee2006,8882
+333bf,single,2007-05-19,2007,75.6,Chris Krueger,2006KRUE01,CanadianOpen2007,7560
+333bf,single,2007-12-15,2007,70.27,Danyang Chen (陈丹阳),2007DANY01,BeijingOpen2007,7027
+333bf,single,2008-03-22,2008,60.62,Alexander Yu,2007YUAL01,PrincetonOpen2008,6062
+333bf,single,2008-06-07,2008,54.22,Rafał Guzewicz,2006GUZE01,PolishOpen2008,5422
+333bf,single,2008-10-25,2008,54.06,Ville Seppänen,2008SEPP01,TampereOpen2008,5406
+333bf,single,2008-12-06,2008,48.05,Ville Seppänen,2008SEPP01,SwedishCubeDay2008,4805
+333bf,single,2009-05-02,2009,47.22,Haiyan Zhuang (庄海燕),2008ZHUA01,BeijingMetropolisOpen2009,4722
+333bf,single,2009-07-18,2009,45.55,Haiyan Zhuang (庄海燕),2008ZHUA01,HongKongOpen2009,4555
+333bf,single,2009-08-16,2009,35.96,Haiyan Zhuang (庄海燕),2008ZHUA01,BeijingSummerOpen2009,3596
+333bf,single,2010-02-07,2010,32.27,Haiyan Zhuang (庄海燕),2008ZHUA01,ShanghaiWinter2010,3227
+333bf,single,2010-04-04,2010,30.94,Haiyan Zhuang (庄海燕),2008ZHUA01,XianSpring2010,3094
+333bf,single,2010-12-11,2010,30.9,Gabriel Alejandro Orozco Casillas,2008CASI01,TulancingoOpen2010,3090
+333bf,single,2011-10-03,2011,30.58,Yuhui Xu (许宇辉),2007XUYU01,SuzhouOpen2011,3058
+333bf,single,2012-02-25,2012,28.8,Marcell Endrey,2007ENDR01,ZonhovenOpen2012,2880
+333bf,single,2012-04-28,2012,27.65,Marcell Endrey,2007ENDR01,ZuneOpen2012,2765
+333bf,single,2012-10-12,2012,26.36,Marcell Endrey,2007ENDR01,Euro2012,2636
+333bf,single,2013-06-29,2013,23.8,Marcin Zalewski,2011ZALE02,PolishNationals2013,2380
+333bf,single,2014-08-23,2014,23.19,Marcin Kowalczyk,2011KOWA01,BydgoszczSummer2014,2319
+333bf,single,2014-11-29,2014,21.17,Marcin Kowalczyk,2011KOWA01,PLSSzczecin2014,2117
+333bf,single,2015-10-02,2015,21.05,Kaijun Lin (林恺俊),2013LINK01,ChinaChampionship2015,2105
+333bf,single,2016-11-05,2016,18.5,Kaijun Lin (林恺俊),2013LINK01,ShanghaiWinterisComing2016,1850
+333bf,single,2017-06-24,2017,18.31,Gianfranco Huanqui,2013HUAN29,LatinAmericaCubingTourLima2017,1831
+333bf,single,2017-11-19,2017,17.87,Max Hilliard,2015HILL09,TexasBLDShowdown2017,1787
+333bf,single,2018-06-09,2018,17.85,Jeff Park,2015PARK08,DallasFortWorth2018,1785
+333bf,single,2018-07-14,2018,17.55,Max Hilliard,2015HILL09,MentalBreakdownSummer2018,1755
+333bf,single,2018-07-21,2018,17.33,Jeff Park,2015PARK08,DFWCubingFiestaJuly2018,1733
+333bf,single,2018-09-22,2018,17.2,Jeff Park,2015PARK08,DFWCubingFiestaSeptember2018,1720
+333bf,single,2018-12-08,2018,16.55,Max Hilliard,2015HILL09,PugetSoundNxNxN2018,1655
+333bf,single,2019-04-06,2019,16.22,Jack Cai,2014CAIJ02,KoalaficationBrisbane2019,1622
+333bf,single,2019-08-01,2019,15.5,Max Hilliard,2015HILL09,CubingUSANationals2019,1550
+333bf,single,2021-07-24,2021,15.27,Tommy Cherry,2015CHER07,FloridaReturns2021,1527
+333bf,single,2021-12-11,2021,14.67,Tommy Cherry,2015CHER07,FloridaFall2021,1467
+333bf,single,2022-03-13,2022,14.61,Tommy Cherry,2015CHER07,FloridaBigBlindTime2022,1461
+333bf,single,2022-07-29,2022,14.51,Tommy Cherry,2015CHER07,SoutheastChampionship2022,1451
+333bf,single,2022-12-10,2022,12.97,Tommy Cherry,2015CHER07,GACubersPersonalBestQuest2022,1297
+333bf,single,2023-01-28,2023,12.78,Tommy Cherry,2015CHER07,4BLDinaMadisonHall2023,1278
+333bf,single,2023-09-28,2023,12.1,Charlie Eggins,2019EGGI02,AustralianNationals2023,1210
+333bf,single,2024-02-11,2024,12.0,Tommy Cherry,2015CHER07,TritonTricubealon2024,1200
+333bf,single,2026-01-10,2026,11.67,Charlie Eggins,2019EGGI02,CubingatTheCube2026,1167
+333bf,single,2026-06-27,2026,11.56,Tommy Cherry,2015CHER07,MidAtlanticQuietChampionship2026,1156
+333fm,average,2009-12-19,2009,40.67,Clément Gallet,2004GALL02,ClermontOpen2009,4067
+333fm,average,2010-04-10,2010,35.67,Hong Zhang (张宏),2008ZHAN13,PKUFMC2010,3567
+333fm,average,2011-05-15,2011,35.0,Jibo Zhao (赵吉波),2010ZHAO11,BeijingFootsteps2011,3500
+333fm,average,2011-07-02,2011,31.67,Mario Laurent,2008LAUR01,DolmenOpen2011,3167
+333fm,average,2011-12-17,2011,30.67,Kanneti Sae Han (คันธ์เนตี แซ่ห่าน),2008HANK01,PuydeDomeOpen2011,3067
+333fm,average,2012-05-26,2012,30.0,Shuang Chen (陈霜),2008CHEN27,PKUFM2012,3000
+333fm,average,2012-08-25,2012,29.67,Sébastien Auroux,2008AURO01,MovesN00bs2012,2967
+333fm,average,2013-02-16,2013,26.33,Sébastien Auroux,2008AURO01,VelbertOpen2013,2633
+333fm,average,2013-05-17,2013,26.0,Sébastien Auroux,2008AURO01,BerlinOpen2013,2600
+333fm,average,2013-09-07,2013,25.67,Sébastien Auroux,2008AURO01,VilladeCatral2013,2567
+333fm,average,2014-04-18,2014,25.0,Sébastien Auroux,2008AURO01,VelbertEasterOpen2014,2500
+333fm,average,2016-05-28,2016,24.33,Marcel Peters,2012PETE03,SchwandorfOpen2016,2433
+333fm,average,2017-08-26,2017,24.0,Sébastien Auroux,2008AURO01,OnlyFMC2017,2400
+333fm,average,2019-04-20,2019,23.0,Reto Bubendorf,2012BUBE01,FrenchChampionship2019,2300
+333fm,average,2019-06-08,2019,22.33,Mark Boyanowski,2014BOYA01,MentalBreakdownMinnesota2019,2233
+333fm,average,2019-06-15,2019,22.0,Sebastiano Tronto,2011TRON02,FMC2019,2200
+333fm,average,2020-01-18,2020,21.0,Cale Schoon,2014SCHO02,NorthStarCubingChallenge2020,2100
+333fm,average,2023-09-17,2023,20.0,Wong Chong Wen (黄崇文),2014WENW01,FMCJohorBahru2023,2000
+333fm,average,2025-03-01,2025,19.67,Radomił Baran,2020BARA02,5BLDMastersOpole2025,1967
+333fm,average,2026-03-21,2026,19.33,Wong Chong Wen (黄崇文),2014WENW01,FMCantonNansha2026,1933
+333fm,average,2026-05-02,2026,19.0,Brian Johnson,2013JOHN10,EvanstonFMCSpring2026,1900
+333fm,single,2003-08-23,2003,29.0,Mirek Goljan,2003GOLJ01,WC2003,29
+333fm,single,2005-01-15,2005,28.0,Mirek Goljan,2003GOLJ01,CaltechWinter2005,28
+333fm,single,2008-08-23,2008,27.0,Guus Razoux Schultz,1982RAZO01,DutchMasters2008,27
+333fm,single,2009-04-24,2009,22.0,Jimmy Coll,2006COLL01,BarcelonaOpen2009,22
+333fm,single,2012-07-13,2012,20.0,Tomoaki Okayama (岡山友昭),2009OKAY01,CzechOpen2012,20
+333fm,single,2015-10-11,2015,19.0,Tim Wong,2007WONG02,IrvineFall2015,19
+333fm,single,2018-10-26,2018,18.0,Chad Batten,2009BATT01,GACubersMountainTrip2018,18
+333fm,single,2019-01-19,2019,17.0,Harry Savage,2013SAVA01,TGBBO2019,17
+333fm,single,2019-06-15,2019,16.0,Sebastiano Tronto,2011TRON02,FMC2019,16
+333ft,average,2005-04-16,2005,265.1,Will Arnold,2005ARNO01,CaltechSpring2005,26510
+333ft,average,2006-03-18,2006,88.14,Anssi Vanhala,2005VANH01,Svekub2006,8814
+333ft,average,2007-01-13,2007,54.96,Anssi Vanhala,2005VANH01,HelsinkiOpen2007,5496
+333ft,average,2007-08-18,2007,52.46,Anssi Vanhala,2005VANH01,FinnishOpen2007,5246
+333ft,average,2008-08-15,2008,52.25,Chang Jee-Hoon,2007JEEH01,Suwon2008,5225
+333ft,average,2008-10-25,2008,47.21,Anssi Vanhala,2005VANH01,TampereOpen2008,4721
+333ft,average,2009-11-07,2009,42.08,Anssi Vanhala,2005VANH01,EstonianOpen2009,4208
+333ft,average,2011-04-02,2011,39.98,Anssi Vanhala,2005VANH01,KotkaOpen2011,3998
+333ft,average,2011-12-24,2011,35.15,Yunsu Nam (남윤수),2008YUNS02,CubingKoreaXmasEve2011,3515
+333ft,average,2013-08-11,2013,32.41,Yuhei Takagi (高木佑平),2008TAKA01,TachikawaFest2013,3241
+333ft,average,2013-11-30,2013,30.57,Gabriel Pereira Campanha,2012CAMP03,Valeparaibano2013,3057
+333ft,average,2015-03-27,2015,29.96,Jakub Kipa,2010KIPA01,PolishOpen2015,2996
+333ft,average,2015-07-04,2015,29.92,Gabriel Pereira Campanha,2012CAMP03,ColegioIpe2015,2992
+333ft,average,2015-07-24,2015,28.41,Gabriel Pereira Campanha,2012CAMP03,SESCSantos2015,2841
+333ft,average,2016-06-11,2016,28.16,Jakub Kipa,2010KIPA01,MielecCubeDay2016,2816
+333ft,average,2017-11-25,2017,26.84,Jimin Byeon (변지민),2015BYEO01,JejuOpen2017,2684
+333ft,average,2018-04-13,2018,23.69,Daniel Rose-Levine,2015ROSE01,SEChamp2018,2369
+333ft,average,2018-06-09,2018,23.54,Daniel Rose-Levine,2015ROSE01,Meadowlands2018,2354
+333ft,average,2018-07-19,2018,22.22,Daniel Rose-Levine,2015ROSE01,Euro2018,2222
+333ft,average,2019-08-01,2019,21.51,Daniel Rose-Levine,2015ROSE01,CubingUSANationals2019,2151
+333ft,average,2019-10-12,2019,20.58,Daniel Rose-Levine,2015ROSE01,BrooklynFall2019,2058
+333ft,average,2019-12-21,2019,19.9,Lim Hung (林弘),2016HUNG08,Medan10thAnniversary2019,1990
+333ft,single,2004-08-07,2004,344.32,Kåre Krig,2004KRIG02,Euro2004,34432
+333ft,single,2005-03-27,2005,318.65,Kåre Krig,2004KRIG02,Svekub2005,31865
+333ft,single,2005-04-16,2005,246.68,Will Arnold,2005ARNO01,CaltechSpring2005,24668
+333ft,single,2005-09-10,2005,134.33,Kåre Krig,2004KRIG02,SwedishOpen2005,13433
+333ft,single,2005-11-05,2005,114.97,Oliver Wolff,2004WOLF01,WC2005,11497
+333ft,single,2006-03-18,2006,78.15,Anssi Vanhala,2005VANH01,Svekub2006,7815
+333ft,single,2007-01-13,2007,51.13,Anssi Vanhala,2005VANH01,HelsinkiOpen2007,5113
+333ft,single,2007-08-18,2007,39.88,Anssi Vanhala,2005VANH01,FinnishOpen2007,3988
+333ft,single,2008-08-15,2008,36.94,Chang Jee-Hoon,2007JEEH01,Suwon2008,3694
+333ft,single,2009-11-07,2009,36.72,Anssi Vanhala,2005VANH01,EstonianOpen2009,3672
+333ft,single,2011-01-22,2011,31.56,Anssi Vanhala,2005VANH01,HelsinkiOpen2011,3156
+333ft,single,2012-05-26,2012,29.77,Henrik Buus Aagaard,2006BUUS01,BallerupOpen2012,2977
+333ft,single,2012-07-14,2012,27.93,Fakhri Raihaan,2010RAIH01,Celebes2012,2793
+333ft,single,2014-03-21,2014,27.66,Yuhei Takagi (高木佑平),2008TAKA01,KansaiOpen2014,2766
+333ft,single,2014-04-05,2014,27.17,Gabriel Pereira Campanha,2012CAMP03,SESCSantoAmaro2014,2717
+333ft,single,2014-08-16,2014,25.14,Gabriel Pereira Campanha,2012CAMP03,NovaOdessaOpen2014,2514
+333ft,single,2015-06-27,2015,20.57,Jakub Kipa,2010KIPA01,Radomsko2015,2057
+333ft,single,2018-03-09,2018,16.96,Daniel Rose-Levine,2015ROSE01,HeartlandChampionships2018,1696
+333ft,single,2019-12-27,2019,15.56,Mohammed Aiman Koli,2017KOLI01,VJTIMumbaiCubeOpen2019,1556
+333mbf,single,2007-02-24,2007,3,Clément Gallet,2004GALL02,BelgianOpen2007,960290501
+333mbf,single,2007-08-25,2007,4,Milán Baticz,2005BATI01,SwedishOpen2007,950229200
+333mbf,single,2007-10-05,2007,6,Rafał Guzewicz,2006GUZE01,WC2007,930287800
+333mbf,single,2008-08-23,2008,8,Dennis Strehlau,2007STRE01,DutchMasters2008,910347500
+333mbf,single,2008-10-11,2008,10,Dennis Strehlau,2007STRE01,DanishCubeDay2008,890264900
+333mbf,single,2009-08-16,2009,15,Tong Jiang (蒋彤),2009JIAN03,BeijingSummerOpen2009,840312100
+333mbf,single,2010-01-30,2010,16,Muhammad Iril Khairul Anam,2009ANAM01,JakartaOpen2010,830341400
+333mbf,single,2011-06-18,2011,17,Chester Lian,2009LIAN03,OhioOpen2011,820318900
+333mbf,single,2011-10-14,2011,19,Marcell Endrey,2007ENDR01,WC2011,800322800
+333mbf,single,2011-11-26,2011,21,Zane Carney,2010CARN01,MelbourneCubeDay2011,780346802
+333mbf,single,2012-08-04,2012,23,Marcin Kowalczyk,2011KOWA01,PolishNationals2012,760318103
+333mbf,single,2013-03-09,2013,27,Marcin Kowalczyk,2011KOWA01,RybnikOpen2013,720345905
+333mbf,single,2013-04-20,2013,29,Marcin Kowalczyk,2011KOWA01,PolishOpen2013,700326104
+333mbf,single,2013-09-14,2013,32,Marcin Kowalczyk,2011KOWA01,GrudziadzOpen2013,670333600
+333mbf,single,2013-09-28,2013,35,Marcin Kowalczyk,2011KOWA01,SLSJastrzebie2013,640330000
+333mbf,single,2013-11-16,2013,41,Marcin Kowalczyk,2011KOWA01,SLSSwierklany2013,580325400
+333mbf,single,2018-03-24,2018,42,Mark Boyanowski,2014BOYA01,KeepPortlandQuiet2018,570360001
+333mbf,single,2018-07-22,2018,48,Shivam Bansal,2011BANS02,DelhiMonsoonOpen2018,510358800
+333mbf,single,2019-10-13,2019,49,Graham Siggins,2016SIGG01,345CubeDayAllen2019,500351104
+333mbf,single,2019-11-08,2019,58,Graham Siggins,2016SIGG01,OSUBlindWeekend2019,410358601
+333mbf,single,2022-06-26,2022,59,Graham Siggins,2016SIGG01,BlindIsBackLA2022,400346703
+333mbf,single,2025-04-04,2025,60,Rowe Hessler,2007HESS01,NewYorkMultimatePBQ2025,390359003
+333mbf,single,2025-10-18,2025,61,Graham Siggins,2016SIGG01,PleaseBeQuietReno2025,380350302
+333mbo,single,2006-09-23,2006,9404035.0,Stefan Pochmann,2003POCH01,Euro2006,940403500
+333mbo,single,2006-10-14,2006,9403600.0,Constantin Ceausu,2006CEAU01,DutchOpen2006,940360000
+333mbo,single,2007-05-26,2007,9403265.0,Clément Gallet,2004GALL02,ItalianOpen2007,940326500
+333mbo,single,2007-10-05,2007,9302878.0,Rafał Guzewicz,2006GUZE01,WC2007,930287800
+333mbo,single,2008-02-02,2008,8905799.0,Dennis Strehlau,2007STRE01,BelgianOpen2008,890579900
+333mbo,single,2008-04-19,2008,7508157.0,Tim Habermaas,2007HABE01,GermanOpen2008,750815700
+333oh,average,2004-04-03,2004,47.78,Shotaro Makisumi (牧角章太郎),2003MAKI01,CaltechSpring2004,4778
+333oh,average,2004-10-16,2004,39.25,Shotaro Makisumi (牧角章太郎),2003MAKI01,CaltechFall2004,3925
+333oh,average,2005-01-15,2005,35.76,Shotaro Makisumi (牧角章太郎),2003MAKI01,CaltechWinter2005,3576
+333oh,average,2005-04-16,2005,31.59,Ryan Patricio,2004PATR01,CaltechSpring2005,3159
+333oh,average,2005-05-28,2005,27.56,Shotaro Makisumi (牧角章太郎),2003MAKI01,HoraceMann2005,2756
+333oh,average,2005-10-22,2005,26.73,Ryan Patricio,2004PATR01,CaltechFall2005,2673
+333oh,average,2006-04-15,2006,26.52,Ryan Patricio,2004PATR01,CaltechSpring2006,2652
+333oh,average,2006-08-04,2006,24.03,Ryan Patricio,2004PATR01,US2006,2403
+333oh,average,2007-01-13,2007,21.46,Dan Dzoan,2006DZOA03,CaltechWinter2007,2146
+333oh,average,2007-04-14,2007,21.15,Chris Dzoan,2006DZOA02,BerkeleySpring2007,2115
+333oh,average,2007-10-05,2007,21.13,Ryan Patricio,2004PATR01,WC2007,2113
+333oh,average,2007-11-10,2007,20.91,Chris Dzoan,2006DZOA02,CaltechFall2007,2091
+333oh,average,2008-01-14,2008,20.69,Keisuke Hiraya (平谷啓輔),2007HIRA02,KawasakiOpen2008,2069
+333oh,average,2008-01-27,2008,20.66,Ryan Patricio,2004PATR01,UCSD2008,2066
+333oh,average,2008-02-16,2008,20.58,Rama Temmink,2006TEMM01,BeneluxOpen2008,2058
+333oh,average,2008-05-24,2008,19.88,Ryan Patricio,2004PATR01,SanDiegoOpen2008,1988
+333oh,average,2008-08-23,2008,19.84,Rama Temmink,2006TEMM01,DutchMasters2008,1984
+333oh,average,2008-10-04,2008,19.07,Keisuke Hiraya (平谷啓輔),2007HIRA02,JapanOpen2008,1907
+333oh,average,2008-11-15,2008,18.29,Rama Temmink,2006TEMM01,Netherlands2008,1829
+333oh,average,2009-10-09,2009,16.9,Yumu Tabuchi (田渕雄夢),2006TABU02,WC2009,1690
+333oh,average,2010-02-21,2010,16.89,Yumu Tabuchi (田渕雄夢),2006TABU02,LISMOCup2010,1689
+333oh,average,2010-05-09,2010,16.19,Yumu Tabuchi (田渕雄夢),2006TABU02,BUAAOpen2010,1619
+333oh,average,2010-07-24,2010,16.11,Yumu Tabuchi (田渕雄夢),2006TABU02,30thAnniversaryMegaHouse2010,1611
+333oh,average,2010-09-04,2010,14.76,Feliks Zemdegs,2009ZEMD01,AustralianNationals2010,1476
+333oh,average,2011-05-07,2011,14.41,Feliks Zemdegs,2009ZEMD01,KubarooOpen2011,1441
+333oh,average,2011-08-06,2011,14.1,Piti Pichedpan (ปิติ พิเชษฐพันธ์),2009PICH01,KrungThepOpen2011,1410
+333oh,average,2011-10-14,2011,13.57,Michał Pleskowicz,2009PLES01,WC2011,1357
+333oh,average,2012-04-21,2012,12.67,Michał Pleskowicz,2009PLES01,CubingSpringGrudziadz2012,1267
+333oh,average,2014-04-26,2014,12.56,Antoine Cantin,2010CANT02,TorontoOpenSpring2014,1256
+333oh,average,2014-06-21,2014,12.48,Michał Pleskowicz,2009PLES01,PLSSopot2014,1248
+333oh,average,2014-06-28,2014,11.85,Przemysław Kaleta,2012KALE01,MasterpressSummer2014,1185
+333oh,average,2014-12-14,2014,11.72,Feliks Zemdegs,2009ZEMD01,Niddrie2014,1172
+333oh,average,2015-04-25,2015,10.87,Antoine Cantin,2010CANT02,TorontoOpenSpring2015,1087
+333oh,average,2016-07-15,2016,10.7,Feliks Zemdegs,2009ZEMD01,Euro2016,1070
+333oh,average,2016-12-10,2016,10.59,Max Park,2012PARK03,2FTISanDiego2016,1059
+333oh,average,2017-07-13,2017,10.31,Max Park,2012PARK03,WC2017,1031
+333oh,average,2017-10-14,2017,10.21,Feliks Zemdegs,2009ZEMD01,MalaysiaCubeOpen2017,1021
+333oh,average,2018-01-13,2018,9.99,Max Park,2012PARK03,ThanksFourTheInvite2018,999
+333oh,average,2018-05-19,2018,9.54,Kian Mansour,2015MANS03,NationalCapitalRegion2018,954
+333oh,average,2018-07-18,2018,9.47,Max Park,2012PARK03,WCCTReno2018,947
+333oh,average,2018-09-15,2018,9.42,Max Park,2012PARK03,BerkeleySummer2018,942
+333oh,average,2021-11-06,2021,9.34,Max Park,2012PARK03,Missoula2021,934
+333oh,average,2022-03-12,2022,9.02,Max Park,2012PARK03,FloridaSpringB2022,902
+333oh,average,2022-03-19,2022,8.7,Patrick Ponce,2012PONC02,WestonsuperMareOpen2022,870
+333oh,average,2022-04-30,2022,8.65,Patrick Ponce,2012PONC02,StevenageSpring2022,865
+333oh,average,2023-12-03,2023,8.62,Max Park,2012PARK03,NubOpenMissionViejo2023,862
+333oh,average,2024-05-25,2024,8.09,Sean Patrick Villanueva,2017VILL41,QuezonCityOpenII2024,809
+333oh,average,2025-01-25,2025,8.03,Nicholas Archer,2020ARCH01,StevenageJanuary2025,803
+333oh,average,2025-02-22,2025,7.95,Nicholas Archer,2020ARCH01,ManchesterFebruary2025,795
+333oh,average,2025-03-09,2025,7.72,Luke Garrett,2017GARR05,ChicagolandNewcomers2025,772
+333oh,average,2026-07-25,2026,6.99,Zhen Chen (陈震),2023CHEN30,WuhuOpen2026,699
+333oh,single,2003-08-23,2003,44.98,Chris Hardwick,2003HARD01,WC2003,4498
+333oh,single,2004-04-03,2004,43.31,Shotaro Makisumi (牧角章太郎),2003MAKI01,CaltechSpring2004,4331
+333oh,single,2004-07-10,2004,25.95,Chris Hardwick,2003HARD01,US2004,2595
+333oh,single,2005-05-28,2005,23.76,Shotaro Makisumi (牧角章太郎),2003MAKI01,HoraceMann2005,2376
+333oh,single,2005-10-22,2005,22.05,Ryan Patricio,2004PATR01,CaltechFall2005,2205
+333oh,single,2006-04-15,2006,20.09,Ryan Patricio,2004PATR01,CaltechSpring2006,2009
+333oh,single,2007-01-07,2007,19.34,JeongMin Yu (유정민),2007JEON01,KCRC2007,1934
+333oh,single,2007-01-13,2007,17.9,Dan Dzoan,2006DZOA03,CaltechWinter2007,1790
+333oh,single,2007-06-16,2007,16.36,Chris Dzoan,2006DZOA02,USOpen2007,1636
+333oh,single,2007-08-09,2007,15.81,Thibaut Jacquinot,2006JACQ01,MurciaOpen2007,1581
+333oh,single,2008-05-24,2008,14.8,Ryan Patricio,2004PATR01,SanDiegoOpen2008,1480
+333oh,single,2008-08-02,2008,14.56,Yu Nakajima (中島悠),2007NAKA03,TokyoOpen2008,1456
+333oh,single,2008-09-20,2008,14.34,SeungWoon Lee (이승운),2006SEUN02,Seoul2008,1434
+333oh,single,2009-09-05,2009,13.8,Gunnar Krig,2004KRIG01,SwedishOpen2009,1380
+333oh,single,2010-01-16,2010,11.97,Chris Dzoan,2006DZOA02,BayviewHills2010,1197
+333oh,single,2010-08-14,2010,11.69,Piti Pichedpan (ปิติ พิเชษฐพันธ์),2009PICH01,HanoiOpen2010,1169
+333oh,single,2010-08-28,2010,11.19,Piotr Alexandrowicz,2007ALEX01,PolishNationals2010,1119
+333oh,single,2011-05-07,2011,11.16,Feliks Zemdegs,2009ZEMD01,KubarooOpen2011,1116
+333oh,single,2011-07-23,2011,10.68,Piotr Tomczyk,2009TOMC01,SwierklanyOpen2011,1068
+333oh,single,2011-12-17,2011,9.53,Michał Pleskowicz,2009PLES01,KociewieOpen2011,953
+333oh,single,2012-12-08,2012,9.43,Giovanni Contardi,2009CONT01,ItalianChampionship2012,943
+333oh,single,2013-11-16,2013,9.05,Feliks Zemdegs,2009ZEMD01,MelbourneCubeDay2013,905
+333oh,single,2014-01-11,2014,9.03,Feliks Zemdegs,2009ZEMD01,LifestyleSeasonsSummer2014,903
+333oh,single,2014-11-22,2014,8.75,Antoine Cantin,2010CANT02,TorontoOpenFall2014,875
+333oh,single,2015-05-02,2015,8.27,Haixin Yang (杨海鑫),2014YANG11,ChengduOpen2015,827
+333oh,single,2015-05-09,2015,6.88,Feliks Zemdegs,2009ZEMD01,CanberraAutumn2015,688
+333oh,single,2019-10-12,2019,6.82,Max Park,2012PARK03,BayAreaSpeedcubin202019,682
+333oh,single,2022-08-27,2022,6.2,Max Park,2012PARK03,MarshallMiddleSlice2022,620
+333oh,single,2024-06-30,2024,6.05,Sean Patrick Villanueva,2017VILL41,ClockedinQuezonCity2024,605
+333oh,single,2024-10-04,2024,5.66,Dhruva Sai Meruva,2021MERU01,SwissNationals2024,566
+444,average,2003-08-23,2003,90.57,David Wesley,2003WESL01,WC2003,9057
+444,average,2004-07-10,2004,75.54,Chris Hardwick,2003HARD01,US2004,7554
+444,average,2005-04-22,2005,75.03,Frédérick Badie,2003BADI01,France2005,7503
+444,average,2005-07-10,2005,64.97,Yuki Hayashi (林祐樹),2005HAYA01,Kyoto2005,6497
+444,average,2005-11-05,2005,64.63,Yuki Hayashi (林祐樹),2005HAYA01,WC2005,6463
+444,average,2006-09-23,2006,62.4,Jean Pons,2004PONS01,Euro2006,6240
+444,average,2006-10-14,2006,59.21,Michael Fung,2005FUNG01,DutchOpen2006,5921
+444,average,2007-09-15,2007,58.15,Mátyás Kuti,2006KUTI01,PolishOpen2007,5815
+444,average,2008-02-02,2008,57.15,Erik Akkersdijk,2005AKKE01,BelgianOpen2008,5715
+444,average,2008-02-16,2008,54.71,Erik Akkersdijk,2005AKKE01,BeneluxOpen2008,5471
+444,average,2008-04-05,2008,53.99,Erik Akkersdijk,2005AKKE01,MadridOpen2008,5399
+444,average,2008-08-02,2008,52.31,Keisuke Hiraya (平谷啓輔),2007HIRA02,TokyoOpen2008,5231
+444,average,2008-09-06,2008,49.03,Erik Akkersdijk,2005AKKE01,BrusselsSummerOpen2008,4903
+444,average,2009-01-10,2009,47.94,Erik Akkersdijk,2005AKKE01,AachenOpen2009,4794
+444,average,2009-05-31,2009,45.85,Han-Cyun Chen (陳翰群),2008CHEN06,TaiwanSpringOpen2009,4585
+444,average,2009-08-22,2009,43.43,Han-Cyun Chen (陳翰群),2008CHEN06,TaiwanSummerOpen2009,4343
+444,average,2010-01-30,2010,42.01,Feliks Zemdegs,2009ZEMD01,MelbourneSummerOpen2010,4201
+444,average,2010-09-04,2010,41.29,Erik Akkersdijk,2005AKKE01,LemgoOpen2010,4129
+444,average,2010-10-03,2010,40.86,Haixu Zhang (张海旭),2008ZHAN06,GuangdongOpen2010,4086
+444,average,2010-10-16,2010,40.67,Giovanni Contardi,2009CONT01,MantuaOpen2010,4067
+444,average,2010-11-13,2010,35.8,Feliks Zemdegs,2009ZEMD01,MelbourneCubeDay2010,3580
+444,average,2011-09-24,2011,35.54,Dan Cohen,2007COHE01,PrincetonFall2011,3554
+444,average,2011-10-01,2011,35.52,Giovanni Contardi,2009CONT01,ItalianOpen2011,3552
+444,average,2011-10-14,2011,35.22,Feliks Zemdegs,2009ZEMD01,WC2011,3522
+444,average,2012-02-25,2012,34.82,Feliks Zemdegs,2009ZEMD01,MelbourneSummer2012,3482
+444,average,2012-04-14,2012,33.57,Mats Valk,2007VALK01,GermanOpen2012,3357
+444,average,2012-06-23,2012,30.81,Sebastian Weyer,2010WEYE02,AachenSummer2012,3081
+444,average,2012-12-08,2012,29.17,Sebastian Weyer,2010WEYE02,FrankfurtOpen2012,2917
+444,average,2014-01-18,2014,28.15,Sebastian Weyer,2010WEYE02,FrankfurtCubeDays2014,2815
+444,average,2014-08-08,2014,27.17,Sebastian Weyer,2010WEYE02,Euro2014,2717
+444,average,2014-09-06,2014,26.03,Sebastian Weyer,2010WEYE02,GermanNationals2014,2603
+444,average,2017-01-21,2017,25.97,Feliks Zemdegs,2009ZEMD01,AdelaideSummer2017,2597
+444,average,2017-01-28,2017,25.96,Sebastian Weyer,2010WEYE02,FrankfurtCubeDays2017,2596
+444,average,2017-04-08,2017,25.53,Max Park,2012PARK03,LasVegasSpring2017,2553
+444,average,2017-06-10,2017,24.01,Sebastian Weyer,2010WEYE02,BerlinSummerDays2017,2401
+444,average,2017-07-01,2017,23.03,Sebastian Weyer,2010WEYE02,GermanBigCubeOpen2017,2303
+444,average,2018-01-27,2018,22.55,Max Park,2012PARK03,SacCubingIII2018,2255
+444,average,2018-04-21,2018,22.27,Sebastian Weyer,2010WEYE02,GermanOpen2018,2227
+444,average,2018-05-12,2018,22.26,Max Park,2012PARK03,ThanksfortheInFive2018,2226
+444,average,2018-05-27,2018,21.13,Max Park,2012PARK03,SacCubingIV2018,2113
+444,average,2019-12-01,2019,21.11,Max Park,2012PARK03,BayAreaSpeedcubin212019,2111
+444,average,2021-11-06,2021,20.94,Max Park,2012PARK03,Missoula2021,2094
+444,average,2022-01-22,2022,20.68,Max Park,2012PARK03,BatonRougeWinter2022,2068
+444,average,2022-03-12,2022,20.51,Max Park,2012PARK03,FloridaSpringB2022,2051
+444,average,2022-04-03,2022,19.88,Max Park,2012PARK03,BayAreaSpeedcubin29PM2022,1988
+444,average,2023-03-19,2023,19.38,Max Park,2012PARK03,ArizonaSpeedcubingSpring2023,1938
+444,average,2025-02-08,2025,19.17,Tymon Kolasiński,2016KOLA02,HvidovreNxN2025,1917
+444,average,2025-09-20,2025,18.88,Tymon Kolasiński,2016KOLA02,CFLBrzeziny2025,1888
+444,average,2025-10-12,2025,18.74,Max Park,2012PARK03,MissionViejoFall2025,1874
+444,average,2026-01-17,2026,18.56,Tymon Kolasiński,2016KOLA02,SeoulWinter2026,1856
+444,single,2003-08-23,2003,80.16,Masayuki Akimoto (秋元正行),2003AKIM01,WC2003,8016
+444,single,2004-07-10,2004,72.85,Chris Hardwick,2003HARD01,US2004,7285
+444,single,2004-08-07,2004,69.11,Lars Vandenbergh,2003VAND01,Euro2004,6911
+444,single,2005-01-15,2005,68.12,Frank Morris,2003MORR01,CaltechWinter2005,6812
+444,single,2005-04-22,2005,61.52,Frédérick Badie,2003BADI01,France2005,6152
+444,single,2005-07-10,2005,60.38,Yuki Hayashi (林祐樹),2005HAYA01,Kyoto2005,6038
+444,single,2005-08-13,2005,55.38,Chris Hardwick,2003HARD01,CaltechDallas2005,5538
+444,single,2005-11-05,2005,54.13,Yuki Hayashi (林祐樹),2005HAYA01,WC2005,5413
+444,single,2006-10-14,2006,51.16,Michael Fung,2005FUNG01,DutchOpen2006,5116
+444,single,2007-11-10,2007,46.63,Mátyás Kuti,2006KUTI01,UKOpen2007,4663
+444,single,2008-06-14,2008,46.03,Dan Cohen,2007COHE01,DaVinciScience2008,4603
+444,single,2008-08-02,2008,45.15,Keisuke Hiraya (平谷啓輔),2007HIRA02,TokyoOpen2008,4515
+444,single,2008-08-23,2008,43.72,Erik Akkersdijk,2005AKKE01,DutchMasters2008,4372
+444,single,2008-09-06,2008,41.31,Erik Akkersdijk,2005AKKE01,BrusselsSummerOpen2008,4131
+444,single,2008-10-04,2008,41.16,Yumu Tabuchi (田渕雄夢),2006TABU02,JapanOpen2008,4116
+444,single,2009-01-10,2009,40.05,Erik Akkersdijk,2005AKKE01,AachenOpen2009,4005
+444,single,2009-04-25,2009,39.83,Erik Akkersdijk,2005AKKE01,GermanOpen2009,3983
+444,single,2009-08-01,2009,39.28,Shuhei Omura (大村周平),2007OMUR01,JapanOpen2009,3928
+444,single,2009-10-09,2009,36.46,Dan Cohen,2007COHE01,WC2009,3646
+444,single,2010-07-10,2010,35.55,Feliks Zemdegs,2009ZEMD01,NewZealand2010,3555
+444,single,2010-07-11,2010,35.4,Haixu Zhang (张海旭),2008ZHAN06,GuangzhouBigCubes2010,3540
+444,single,2010-10-09,2010,34.41,Feliks Zemdegs,2009ZEMD01,AsianChampionship2010,3441
+444,single,2010-11-13,2010,31.97,Feliks Zemdegs,2009ZEMD01,MelbourneCubeDay2010,3197
+444,single,2011-04-30,2011,31.66,Sebastian Weyer,2010WEYE02,HamburgOpen2011,3166
+444,single,2011-05-07,2011,31.05,Feliks Zemdegs,2009ZEMD01,KubarooOpen2011,3105
+444,single,2011-06-25,2011,30.88,Feliks Zemdegs,2009ZEMD01,MelbourneWinterOpen2011,3088
+444,single,2011-08-27,2011,30.28,Feliks Zemdegs,2009ZEMD01,AustralianNationals2011,3028
+444,single,2011-12-17,2011,30.02,Mats Valk,2007VALK01,DutchNationals2011,3002
+444,single,2012-04-14,2012,26.77,Mats Valk,2007VALK01,GermanOpen2012,2677
+444,single,2012-09-01,2012,26.75,Feliks Zemdegs,2009ZEMD01,AustralianNationals2012,2675
+444,single,2013-02-16,2013,26.44,Sebastian Weyer,2010WEYE02,VelbertOpen2013,2644
+444,single,2013-06-08,2013,25.34,Feliks Zemdegs,2009ZEMD01,SheppartonWinter2013,2534
+444,single,2014-01-03,2014,24.67,Sebastian Weyer,2010WEYE02,DuisburgWinter2014,2467
+444,single,2014-01-11,2014,24.66,Feliks Zemdegs,2009ZEMD01,LifestyleSeasonsSummer2014,2466
+444,single,2014-04-18,2014,24.33,Sebastian Weyer,2010WEYE02,VelbertEasterOpen2014,2433
+444,single,2014-08-08,2014,21.97,Sebastian Weyer,2010WEYE02,Euro2014,2197
+444,single,2015-10-02,2015,21.54,Feliks Zemdegs,2009ZEMD01,ChinaChampionship2015,2154
+444,single,2017-06-10,2017,19.41,Sebastian Weyer,2010WEYE02,BerlinSummerDays2017,1941
+444,single,2017-06-22,2017,19.36,Feliks Zemdegs,2009ZEMD01,LatinAmericaCubingTourArequi2017,1936
+444,single,2018-04-21,2018,18.84,Sebastian Weyer,2010WEYE02,GermanOpen2018,1884
+444,single,2018-05-27,2018,18.42,Max Park,2012PARK03,SacCubingIV2018,1842
+444,single,2019-08-02,2019,18.25,Sebastian Weyer,2010WEYE02,GermanNationals2019,1825
+444,single,2019-09-13,2019,17.42,Sebastian Weyer,2010WEYE02,DanishOpen2019,1742
+444,single,2021-11-26,2021,16.86,Max Park,2012PARK03,CubingUSAWesternChampionship2021,1686
+444,single,2022-04-03,2022,16.79,Max Park,2012PARK03,BayAreaSpeedcubin29PM2022,1679
+444,single,2024-04-20,2024,15.83,Max Park,2012PARK03,NubOpenYucaipa2024,1583
+444,single,2024-06-08,2024,15.71,Max Park,2012PARK03,CMTEvergreen2024,1571
+444,single,2025-12-06,2025,15.18,Tymon Kolasiński,2016KOLA02,SpanishChampionship2025,1518
+444bf,average,2010-07-24,2010,369.39,Gabriel Alejandro Orozco Casillas,2008CASI01,GuadalajaraOpen2010,36939
+444bf,average,2012-07-13,2012,197.56,Marcell Endrey,2007ENDR01,CzechOpen2012,19756
+444bf,average,2014-05-31,2014,177.81,Grzegorz Jałocha,2012JALO01,PolishNationals2014,17781
+444bf,average,2014-08-23,2014,155.62,Oliver Frost,2012FROS01,AugustBank2014,15562
+444bf,average,2016-03-27,2016,148.31,Kaijun Lin (林恺俊),2013LINK01,QuietAnHuiUniversity2016,14831
+444bf,average,2017-03-25,2017,127.83,Kaijun Lin (林恺俊),2013LINK01,ZUAOpen2017,12783
+444bf,average,2017-11-11,2017,103.13,Kaijun Lin (林恺俊),2013LINK01,NanchangOpen2017,10313
+444bf,average,2018-11-10,2018,95.07,Kaijun Lin (林恺俊),2013LINK01,HangzhouOpen2018,9507
+444bf,average,2019-07-11,2019,81.81,Stanley Chapel,2016CHAP04,WC2019,8181
+444bf,average,2019-08-01,2019,81.12,Stanley Chapel,2016CHAP04,CubingUSANationals2019,8112
+444bf,average,2019-09-21,2019,72.55,Stanley Chapel,2016CHAP04,FloridaFallFest2019,7255
+444bf,average,2019-12-15,2019,68.76,Stanley Chapel,2016CHAP04,MichiganCubingClubEpsilon2019,6876
+444bf,average,2024-03-30,2024,66.46,Stanley Chapel,2016CHAP04,PBQOxford2024,6646
+444bf,average,2025-06-13,2025,59.39,Stanley Chapel,2016CHAP04,NewYorkMultimatePBQII2025,5939
+444bf,single,2003-08-23,2003,1355.0,Dror Vomberg,2003VOMB01,WC2003,135500
+444bf,single,2004-08-07,2004,1194.0,Dror Vomberg,2003VOMB01,Euro2004,119400
+444bf,single,2006-08-04,2006,732.0,Chris Hardwick,2003HARD01,US2006,73200
+444bf,single,2006-10-21,2006,484.9,Chris Hardwick,2003HARD01,GWiz2006,48490
+444bf,single,2007-11-24,2007,380.96,Chris Hardwick,2003HARD01,VirginiaOpen2007,38096
+444bf,single,2008-12-06,2008,365.21,Ville Seppänen,2008SEPP01,SwedishCubeDay2008,36521
+444bf,single,2009-03-21,2009,286.19,Chris Hardwick,2003HARD01,ChattahoocheeSpring2009,28619
+444bf,single,2010-01-16,2010,282.34,Ville Seppänen,2008SEPP01,AachenOpen2010,28234
+444bf,single,2011-01-29,2011,217.8,Feliks Zemdegs,2009ZEMD01,MelbourneSummer2011,21780
+444bf,single,2011-07-30,2011,206.11,Daniel Sheppard,2009SHEP01,GuildfordSummerOpen2011,20611
+444bf,single,2012-02-11,2012,197.41,Daniel Sheppard,2009SHEP01,IrishOpen2012,19741
+444bf,single,2012-07-13,2012,168.88,Marcell Endrey,2007ENDR01,CzechOpen2012,16888
+444bf,single,2013-04-20,2013,150.62,Marcell Endrey,2007ENDR01,SlovenianOpen2013,15062
+444bf,single,2014-05-17,2014,150.47,Oliver Frost,2012FROS01,OxfordOpen2014,15047
+444bf,single,2014-08-23,2014,145.27,Oliver Frost,2012FROS01,AugustBank2014,14527
+444bf,single,2014-10-11,2014,138.65,Oliver Frost,2012FROS01,CuthbertsOpen2014,13865
+444bf,single,2015-03-21,2015,130.47,Oliver Frost,2012FROS01,EdinburghSpring2015,13047
+444bf,single,2015-07-04,2015,122.75,Oliver Frost,2012FROS01,IrishChampionship2015,12275
+444bf,single,2016-11-05,2016,122.49,Kaijun Lin (林恺俊),2013LINK01,ShanghaiWinterisComing2016,12249
+444bf,single,2016-12-11,2016,101.9,Kaijun Lin (林恺俊),2013LINK01,BignBlind2016,10190
+444bf,single,2017-07-28,2017,94.66,Kaijun Lin (林恺俊),2013LINK01,ChinaChampionship2017,9466
+444bf,single,2018-05-18,2018,89.42,Stanley Chapel,2016CHAP04,GreatLakesChampionship2018,8942
+444bf,single,2018-06-30,2018,86.41,Kaijun Lin (林恺俊),2013LINK01,PleaseBeQuietBeijing2018,8641
+444bf,single,2019-04-27,2019,70.68,Stanley Chapel,2016CHAP04,MentalBreakdownWashington2019,7068
+444bf,single,2019-07-11,2019,68.07,Stanley Chapel,2016CHAP04,WC2019,6807
+444bf,single,2019-08-01,2019,66.84,Stanley Chapel,2016CHAP04,CubingUSANationals2019,6684
+444bf,single,2019-11-08,2019,66.23,Stanley Chapel,2016CHAP04,OSUBlindWeekend2019,6623
+444bf,single,2019-12-15,2019,62.51,Stanley Chapel,2016CHAP04,MichiganCubingClubEpsilon2019,6251
+444bf,single,2021-11-26,2021,57.87,Stanley Chapel,2016CHAP04,CubingUSAWesternChampionship2021,5787
+444bf,single,2023-01-28,2023,51.96,Stanley Chapel,2016CHAP04,4BLDinaMadisonHall2023,5196
+555,average,2003-08-23,2003,170.45,Masayuki Akimoto (秋元正行),2003AKIM01,WC2003,17045
+555,average,2004-08-07,2004,150.35,Lars Vandenbergh,2003VAND01,Euro2004,15035
+555,average,2004-10-10,2004,144.99,Lars Vandenbergh,2003VAND01,DutchOpen2004,14499
+555,average,2005-08-13,2005,140.99,Frank Morris,2003MORR01,CaltechDallas2005,14099
+555,average,2005-10-16,2005,126.15,Olivier Gaucher,2004GAUC01,DutchOpen2005,12615
+555,average,2006-08-04,2006,118.66,Frank Morris,2003MORR01,US2006,11866
+555,average,2006-10-21,2006,115.24,Frank Morris,2003MORR01,GWiz2006,11524
+555,average,2007-03-31,2007,111.37,Takayuki Ookusa (大艸尊之),2006OOKU01,Osaka2007,11137
+555,average,2007-07-28,2007,110.01,Takayuki Ookusa (大艸尊之),2006OOKU01,JapanOpen2007,11001
+555,average,2007-10-05,2007,105.07,Mátyás Kuti,2006KUTI01,WC2007,10507
+555,average,2007-11-17,2007,102.16,Takayuki Ookusa (大艸尊之),2006OOKU01,Ibaraki2007,10216
+555,average,2007-12-15,2007,96.71,Erik Akkersdijk,2005AKKE01,SwedishCubeDay2007,9671
+555,average,2008-02-02,2008,96.02,Erik Akkersdijk,2005AKKE01,BelgianOpen2008,9602
+555,average,2008-03-29,2008,95.04,Takayuki Ookusa (大艸尊之),2006OOKU01,OsakaOpen2008,9504
+555,average,2008-07-19,2008,89.4,Dan Cohen,2007COHE01,USOpen2008,8940
+555,average,2008-09-06,2008,86.86,Erik Akkersdijk,2005AKKE01,BrusselsSummerOpen2008,8686
+555,average,2009-01-31,2009,81.05,Michał Halczuk,2006HALC01,GalantaOpen2009,8105
+555,average,2009-02-08,2009,80.91,Hsuan Chang (張璿),2008CHAN09,TaiwanWinterOpen2009,8091
+555,average,2009-03-21,2009,76.75,Dan Cohen,2007COHE01,UPennSpring2009,7675
+555,average,2010-02-06,2010,73.36,Dan Cohen,2007COHE01,ChicagoOpen2010,7336
+555,average,2010-09-04,2010,67.59,Feliks Zemdegs,2009ZEMD01,AustralianNationals2010,6759
+555,average,2011-01-29,2011,67.01,Feliks Zemdegs,2009ZEMD01,MelbourneSummer2011,6701
+555,average,2011-08-27,2011,64.2,Feliks Zemdegs,2009ZEMD01,AustralianNationals2011,6420
+555,average,2011-10-14,2011,59.94,Feliks Zemdegs,2009ZEMD01,WC2011,5994
+555,average,2012-02-25,2012,57.94,Feliks Zemdegs,2009ZEMD01,MelbourneSummer2012,5794
+555,average,2012-09-01,2012,57.64,Feliks Zemdegs,2009ZEMD01,AustralianNationals2012,5764
+555,average,2012-11-24,2012,57.63,Feliks Zemdegs,2009ZEMD01,MelbourneCubeDay2012,5763
+555,average,2013-09-07,2013,56.87,Feliks Zemdegs,2009ZEMD01,AustralianNationals2013,5687
+555,average,2013-11-16,2013,55.33,Feliks Zemdegs,2009ZEMD01,MelbourneCubeDay2013,5533
+555,average,2014-08-16,2014,55.1,Feliks Zemdegs,2009ZEMD01,AustralianNationals2014,5510
+555,average,2014-12-14,2014,54.2,Feliks Zemdegs,2009ZEMD01,Niddrie2014,5420
+555,average,2015-07-11,2015,51.93,Feliks Zemdegs,2009ZEMD01,TCGAndFriends2015,5193
+555,average,2015-10-02,2015,50.23,Feliks Zemdegs,2009ZEMD01,ChinaChampionship2015,5023
+555,average,2015-11-07,2015,50.15,Feliks Zemdegs,2009ZEMD01,MelbourneCubeDay2015,5015
+555,average,2016-07-15,2016,49.32,Feliks Zemdegs,2009ZEMD01,Euro2016,4932
+555,average,2017-06-28,2017,47.88,Feliks Zemdegs,2009ZEMD01,LatinAmericaCubingTourChia2017,4788
+555,average,2017-07-13,2017,46.24,Feliks Zemdegs,2009ZEMD01,WC2017,4624
+555,average,2017-10-01,2017,46.13,Feliks Zemdegs,2009ZEMD01,China10years2017,4613
+555,average,2017-10-14,2017,45.64,Feliks Zemdegs,2009ZEMD01,MalaysiaCubeOpen2017,4564
+555,average,2017-11-18,2017,43.21,Feliks Zemdegs,2009ZEMD01,MelbourneCubeDays2017,4321
+555,average,2018-06-15,2018,42.99,Max Park,2012PARK03,WesternChampionship2018,4299
+555,average,2018-07-15,2018,42.56,Max Park,2012PARK03,WestCoastCubingTourCupertino2018,4256
+555,average,2018-08-17,2018,42.36,Max Park,2012PARK03,AsianChampionship2018,4236
+555,average,2019-06-22,2019,39.65,Max Park,2012PARK03,WesternChampionship2019,3965
+555,average,2021-11-26,2021,39.49,Max Park,2012PARK03,CubingUSAWesternChampionship2021,3949
+555,average,2022-03-13,2022,38.45,Max Park,2012PARK03,FloridaBigBlindTime2022,3845
+555,average,2022-07-03,2022,38.42,Max Park,2012PARK03,BASC34SanRamon2022,3842
+555,average,2023-03-11,2023,37.0,Max Park,2012PARK03,CircleCityTurbocharged2023,3700
+555,average,2023-06-30,2023,36.46,Max Park,2012PARK03,CubingUSAWesternChampionship2023,3646
+555,average,2023-12-16,2023,35.94,Max Park,2012PARK03,UCSDWinter2023,3594
+555,average,2024-07-18,2024,34.76,Max Park,2012PARK03,NAC2024,3476
+555,average,2025-07-03,2025,34.31,Tymon Kolasiński,2016KOLA02,WC2025,3431
+555,average,2026-05-01,2026,33.73,Tymon Kolasiński,2016KOLA02,AllRoundersKatowiceI2026,3373
+555,single,2003-08-23,2003,139.69,David Wesley,2003WESL01,WC2003,13969
+555,single,2004-08-07,2004,128.45,Lars Vandenbergh,2003VAND01,Euro2004,12845
+555,single,2005-08-13,2005,111.41,Frank Morris,2003MORR01,CaltechDallas2005,11141
+555,single,2006-05-06,2006,107.22,Ron van Bruchem,2003BRUC01,BelgianOpen2006,10722
+555,single,2006-10-21,2006,106.28,Frank Morris,2003MORR01,GWiz2006,10628
+555,single,2007-02-24,2007,104.47,Frédérick Badie,2003BADI01,BelgianOpen2007,10447
+555,single,2007-07-28,2007,98.78,Takayuki Ookusa (大艸尊之),2006OOKU01,JapanOpen2007,9878
+555,single,2007-11-10,2007,90.58,Mátyás Kuti,2006KUTI01,UKOpen2007,9058
+555,single,2007-12-15,2007,90.03,Erik Akkersdijk,2005AKKE01,SwedishCubeDay2007,9003
+555,single,2008-02-02,2008,88.66,Erik Akkersdijk,2005AKKE01,BelgianOpen2008,8866
+555,single,2008-03-29,2008,87.43,Takayuki Ookusa (大艸尊之),2006OOKU01,OsakaOpen2008,8743
+555,single,2008-04-05,2008,83.83,Erik Akkersdijk,2005AKKE01,MadridOpen2008,8383
+555,single,2008-07-19,2008,80.98,Dan Cohen,2007COHE01,USOpen2008,8098
+555,single,2008-09-19,2008,78.59,Erik Akkersdijk,2005AKKE01,Euro2008,7859
+555,single,2008-10-11,2008,76.21,Erik Akkersdijk,2005AKKE01,DanishCubeDay2008,7621
+555,single,2009-02-08,2009,73.28,Hsuan Chang (張璿),2008CHAN09,TaiwanWinterOpen2009,7328
+555,single,2009-04-04,2009,73.22,Erik Akkersdijk,2005AKKE01,DanishOpen2009,7322
+555,single,2009-07-17,2009,71.02,Erik Akkersdijk,2005AKKE01,CzechOpen2009,7102
+555,single,2009-07-26,2009,67.25,Dan Cohen,2007COHE01,BigCubesSummer2009,6725
+555,single,2010-07-24,2010,66.93,Shuhei Omura (大村周平),2007OMUR01,30thAnniversaryMegaHouse2010,6693
+555,single,2010-08-06,2010,64.33,Dan Cohen,2007COHE01,USNationals2010,6433
+555,single,2010-09-04,2010,62.93,Feliks Zemdegs,2009ZEMD01,AustralianNationals2010,6293
+555,single,2011-01-29,2011,61.59,Feliks Zemdegs,2009ZEMD01,MelbourneSummer2011,6159
+555,single,2011-08-27,2011,60.27,Feliks Zemdegs,2009ZEMD01,AustralianNationals2011,6027
+555,single,2011-10-14,2011,56.22,Feliks Zemdegs,2009ZEMD01,WC2011,5622
+555,single,2012-04-08,2012,54.86,Yu Nakajima (中島悠),2007NAKA03,MatsudoSpring2012,5486
+555,single,2012-08-11,2012,52.65,Kristopher De Asis,2008ASIS01,VancouverSummer2012,5265
+555,single,2012-09-01,2012,51.09,Feliks Zemdegs,2009ZEMD01,AustralianNationals2012,5109
+555,single,2013-09-07,2013,50.5,Feliks Zemdegs,2009ZEMD01,AustralianNationals2013,5050
+555,single,2014-08-01,2014,48.42,Feliks Zemdegs,2009ZEMD01,USNationals2014,4842
+555,single,2015-10-02,2015,47.25,Feliks Zemdegs,2009ZEMD01,ChinaChampionship2015,4725
+555,single,2015-11-07,2015,46.97,Feliks Zemdegs,2009ZEMD01,MelbourneCubeDay2015,4697
+555,single,2016-03-19,2016,44.83,Feliks Zemdegs,2009ZEMD01,CubingClassic2016,4483
+555,single,2016-11-05,2016,41.27,Feliks Zemdegs,2009ZEMD01,MelbourneCubeDays2016,4127
+555,single,2017-06-28,2017,41.24,Feliks Zemdegs,2009ZEMD01,LatinAmericaCubingTourChia2017,4124
+555,single,2017-07-13,2017,38.52,Feliks Zemdegs,2009ZEMD01,WC2017,3852
+555,single,2018-04-21,2018,37.93,Feliks Zemdegs,2009ZEMD01,CanberraAutumn2018,3793
+555,single,2018-05-27,2018,37.28,Max Park,2012PARK03,SacCubingIV2018,3728
+555,single,2019-06-22,2019,36.06,Max Park,2012PARK03,WesternChampionship2019,3606
+555,single,2020-01-25,2020,34.92,Max Park,2012PARK03,HoustonWinter2020,3492
+555,single,2022-03-13,2022,33.02,Max Park,2012PARK03,FloridaBigBlindTime2022,3302
+555,single,2023-07-27,2023,32.88,Max Park,2012PARK03,CubingUSANationals2023,3288
+555,single,2023-12-16,2023,32.6,Max Park,2012PARK03,UCSDWinter2023,3260
+555,single,2024-03-16,2024,32.52,Max Park,2012PARK03,DFWMegacomp2024,3252
+555,single,2024-09-28,2024,31.6,Tymon Kolasiński,2016KOLA02,DuPageFall2024,3160
+555,single,2024-11-01,2024,30.45,Tymon Kolasiński,2016KOLA02,RubiksWCAAsianChampionship2024,3045
+555,single,2026-05-01,2026,29.49,Tymon Kolasiński,2016KOLA02,AllRoundersKatowiceI2026,2949
+555bf,average,2013-02-23,2013,1038.0,Nevins Chan Pak Hoong (陈百鸿),2010CHAN20,Leicester2013,103800
+555bf,average,2013-07-26,2013,425.77,Marcell Endrey,2007ENDR01,WC2013,42577
+555bf,average,2015-04-18,2015,421.0,Cale Schoon,2014SCHO02,FieldOfCubes2015,42100
+555bf,average,2017-03-25,2017,349.77,Roman Strakhov,2012STRA02,SpringinVitebsk2017,34977
+555bf,average,2017-06-24,2017,258.76,Kaijun Lin (林恺俊),2013LINK01,BeijingOpen2017,25876
+555bf,average,2018-02-24,2018,234.71,Kaijun Lin (林恺俊),2013LINK01,SingaporeChampionship2018,23471
+555bf,average,2019-07-03,2019,203.92,Stanley Chapel,2016CHAP04,WarmUpCanberra2019,20392
+555bf,average,2019-11-15,2019,183.21,Kaijun Lin (林恺俊),2013LINK01,ThailandChampionship2019,18321
+555bf,average,2019-12-15,2019,147.63,Stanley Chapel,2016CHAP04,MichiganCubingClubEpsilon2019,14763
+555bf,single,2004-08-07,2004,9276.0,Stefan Pochmann,2003POCH01,Euro2004,927600
+555bf,single,2006-03-11,2006,3321.0,Chris Hardwick,2003HARD01,Chattahoochee2006,332100
+555bf,single,2006-08-04,2006,1708.0,Chris Hardwick,2003HARD01,US2006,170800
+555bf,single,2006-10-21,2006,1579.0,Chris Hardwick,2003HARD01,GWiz2006,157900
+555bf,single,2007-03-24,2007,1195.0,Chris Hardwick,2003HARD01,Chattahoochee2007,119500
+555bf,single,2008-03-29,2008,1042.0,Chris Hardwick,2003HARD01,ChattahoocheeSpring2008,104200
+555bf,single,2008-05-17,2008,922.0,Chris Hardwick,2003HARD01,WashingtonDCOpen2008,92200
+555bf,single,2010-07-17,2010,882.0,Chester Lian,2009LIAN03,CatAndMouse2010,88200
+555bf,single,2010-08-28,2010,625.0,Ville Seppänen,2008SEPP01,FinnishOpen2010,62500
+555bf,single,2011-01-22,2011,603.0,Ville Seppänen,2008SEPP01,HelsinkiOpen2011,60300
+555bf,single,2011-05-21,2011,588.58,Ville Seppänen,2008SEPP01,KirkkonummiOpen2011,58858
+555bf,single,2012-03-31,2012,479.16,Marcell Endrey,2007ENDR01,AustrianOpen2012,47916
+555bf,single,2012-04-14,2012,425.68,Daniel Sheppard,2009SHEP01,RapidashOpen2012,42568
+555bf,single,2012-04-28,2012,404.77,Marcell Endrey,2007ENDR01,ZuneOpen2012,40477
+555bf,single,2013-05-04,2013,394.83,Marcell Endrey,2007ENDR01,AustrianOpen2013,39483
+555bf,single,2013-07-12,2013,386.86,Marcell Endrey,2007ENDR01,CzechOpen2013,38686
+555bf,single,2013-07-26,2013,366.41,Marcell Endrey,2007ENDR01,WC2013,36641
+555bf,single,2014-07-12,2014,356.56,Oliver Frost,2012FROS01,WelcomeToCambridge2014,35656
+555bf,single,2014-08-23,2014,339.1,Grzegorz Jałocha,2012JALO01,BydgoszczSummer2014,33910
+555bf,single,2015-04-11,2015,335.84,Oliver Frost,2012FROS01,WelcomeBackToGuildford2015,33584
+555bf,single,2015-08-28,2015,318.65,Roman Strakhov,2012STRA02,CCCEndofSummer2015,31865
+555bf,single,2015-11-27,2015,304.81,Roman Strakhov,2012STRA02,MPEIOpen2015,30481
+555bf,single,2016-03-26,2016,301.85,Roman Strakhov,2012STRA02,VSUOpen2016,30185
+555bf,single,2016-08-27,2016,301.4,Roman Strakhov,2012STRA02,PSUOpen2016,30140
+555bf,single,2016-09-03,2016,295.63,Roman Strakhov,2012STRA02,SPBChampionship2016,29563
+555bf,single,2016-11-05,2016,286.74,Kaijun Lin (林恺俊),2013LINK01,ShanghaiWinterisComing2016,28674
+555bf,single,2016-11-25,2016,282.06,Roman Strakhov,2012STRA02,FinnishChampionship2016,28206
+555bf,single,2017-04-02,2017,251.93,Kaijun Lin (林恺俊),2013LINK01,XianCherryBlossom2017,25193
+555bf,single,2017-04-15,2017,250.0,Kaijun Lin (林恺俊),2013LINK01,NanchangSpring2017,25000
+555bf,single,2017-06-24,2017,227.5,Kaijun Lin (林恺俊),2013LINK01,BeijingOpen2017,22750
+555bf,single,2018-02-24,2018,226.56,Kaijun Lin (林恺俊),2013LINK01,SingaporeChampionship2018,22656
+555bf,single,2018-07-27,2018,225.42,Stanley Chapel,2016CHAP04,CubingUSANationals2018,22542
+555bf,single,2018-10-06,2018,220.84,Stanley Chapel,2016CHAP04,OSUBlindWeekend2018,22084
+555bf,single,2018-10-20,2018,214.41,Stanley Chapel,2016CHAP04,FlagCityFall2018,21441
+555bf,single,2018-12-01,2018,181.01,Stanley Chapel,2016CHAP04,ShakerFall2018,18101
+555bf,single,2019-03-08,2019,169.42,Stanley Chapel,2016CHAP04,OregonChampionship2019,16942
+555bf,single,2019-06-22,2019,168.19,Stanley Chapel,2016CHAP04,BulldogQualifier2019,16819
+555bf,single,2019-07-11,2019,158.77,Stanley Chapel,2016CHAP04,WC2019,15877
+555bf,single,2019-12-15,2019,141.62,Stanley Chapel,2016CHAP04,MichiganCubingClubEpsilon2019,14162
+555bf,single,2023-05-20,2023,139.07,Hill Pong Yong Feng,2017FENG10,MayMBLDMadnessSingapore2023,13907
+555bf,single,2023-08-12,2023,138.78,Hill Pong Yong Feng,2017FENG10,WC2023,13878
+555bf,single,2023-10-14,2023,130.04,Stanley Chapel,2016CHAP04,Square1onaMadisonSquare2023,13004
+555bf,single,2023-11-10,2023,124.41,Stanley Chapel,2016CHAP04,VirginiaChampionship2023,12441
+555bf,single,2025-03-15,2025,123.33,Stanley Chapel,2016CHAP04,MegaminxontheMadisonIsthmus2025,12333
+555bf,single,2025-08-01,2025,122.28,Stanley Chapel,2016CHAP04,GreatLakesChampionship2025,12228
+555bf,single,2026-01-02,2026,118.59,Stanley Chapel,2016CHAP04,MultiMayhemVA2026,11859
+666,average,2009-02-07,2009,181.4,Dan Cohen,2007COHE01,NewarkWinter2009,18140
+666,average,2009-02-21,2009,159.25,Michał Halczuk,2006HALC01,PolishNationals2009,15925
+666,average,2009-05-30,2009,156.64,Michał Halczuk,2006HALC01,LublinOpen2009,15664
+666,average,2009-08-14,2009,152.0,Dan Cohen,2007COHE01,USNationals2009,15200
+666,average,2010-08-28,2010,148.92,Michał Halczuk,2006HALC01,PolishNationals2010,14892
+666,average,2011-01-29,2011,135.64,Feliks Zemdegs,2009ZEMD01,MelbourneSummer2011,13564
+666,average,2011-07-23,2011,130.87,Michał Halczuk,2006HALC01,SwierklanyOpen2011,13087
+666,average,2011-08-12,2011,129.03,Kevin Hays,2009HAYS01,USNationals2011,12903
+666,average,2011-12-10,2011,122.13,Kevin Hays,2009HAYS01,VancouverWinter2011,12213
+666,average,2012-02-04,2012,120.43,Kevin Hays,2009HAYS01,LyndenOpen2012,12043
+666,average,2012-05-05,2012,115.13,Kevin Hays,2009HAYS01,Couve2012,11513
+666,average,2013-08-03,2013,111.3,Kevin Hays,2009HAYS01,VancouverOpenSummer2013,11130
+666,average,2015-07-11,2015,107.6,Feliks Zemdegs,2009ZEMD01,TCGAndFriends2015,10760
+666,average,2015-07-17,2015,105.98,Kevin Hays,2009HAYS01,WC2015,10598
+666,average,2015-11-07,2015,103.83,Feliks Zemdegs,2009ZEMD01,MelbourneCubeDay2015,10383
+666,average,2016-07-15,2016,103.21,Feliks Zemdegs,2009ZEMD01,Euro2016,10321
+666,average,2016-10-01,2016,102.36,Kevin Hays,2009HAYS01,AsianChampionship2016,10236
+666,average,2016-11-05,2016,97.85,Feliks Zemdegs,2009ZEMD01,MelbourneCubeDays2016,9785
+666,average,2017-01-21,2017,94.68,Feliks Zemdegs,2009ZEMD01,AdelaideSummer2017,9468
+666,average,2017-07-01,2017,94.21,Kevin Hays,2009HAYS01,LexingtonSummer2017,9421
+666,average,2017-07-08,2017,88.51,Feliks Zemdegs,2009ZEMD01,LondonOpen2017,8851
+666,average,2017-07-13,2017,87.79,Feliks Zemdegs,2009ZEMD01,WC2017,8779
+666,average,2018-01-13,2018,85.34,Max Park,2012PARK03,ThanksFourTheInvite2018,8534
+666,average,2018-01-27,2018,85.1,Max Park,2012PARK03,SacCubingIII2018,8510
+666,average,2018-05-27,2018,84.14,Max Park,2012PARK03,SacCubingIV2018,8414
+666,average,2018-07-15,2018,77.37,Max Park,2012PARK03,WestCoastCubingTourCupertino2018,7737
+666,average,2018-08-17,2018,77.1,Max Park,2012PARK03,AsianChampionship2018,7710
+666,average,2020-01-25,2020,75.9,Max Park,2012PARK03,HoustonWinter2020,7590
+666,average,2022-01-22,2022,75.63,Max Park,2012PARK03,BatonRougeWinter2022,7563
+666,average,2022-07-29,2022,69.23,Max Park,2012PARK03,SoutheastChampionship2022,6923
+666,average,2022-10-07,2022,68.56,Max Park,2012PARK03,WCCWesternChampionship2022,6856
+666,average,2023-08-12,2023,67.11,Max Park,2012PARK03,WC2023,6711
+666,average,2024-02-03,2024,66.46,Seung Hyuk Nahm (남승혁),2013NAHM01,DaeguColdWinter2024,6646
+666,average,2024-07-18,2024,65.88,Max Park,2012PARK03,NAC2024,6588
+666,average,2024-08-02,2024,65.66,Max Park,2012PARK03,WesternChampionship2024,6566
+666,average,2025-10-04,2025,65.04,Max Park,2012PARK03,NubOpenTrabucoHillsFall2025,6504
+666,average,2026-05-10,2026,64.94,Lim Hung (林弘),2016HUNG08,UniKLMIATCubeOpen2026,6494
+666,single,2009-02-07,2009,176.34,Dan Cohen,2007COHE01,NewarkWinter2009,17634
+666,single,2009-02-21,2009,153.55,Michał Halczuk,2006HALC01,PolishNationals2009,15355
+666,single,2009-03-28,2009,143.63,Dan Cohen,2007COHE01,OhioOpen2009,14363
+666,single,2009-07-26,2009,138.81,Dan Cohen,2007COHE01,BigCubesSummer2009,13881
+666,single,2009-11-28,2009,135.53,Michał Halczuk,2006HALC01,SilesiaOpen2009,13553
+666,single,2010-10-23,2010,133.9,Bence Barát,2008BARA01,VCUBESpiel2010,13390
+666,single,2011-01-29,2011,125.88,Feliks Zemdegs,2009ZEMD01,MelbourneSummer2011,12588
+666,single,2011-08-12,2011,122.31,Kevin Hays,2009HAYS01,USNationals2011,12231
+666,single,2011-08-27,2011,116.96,Feliks Zemdegs,2009ZEMD01,AustralianNationals2011,11696
+666,single,2011-12-10,2011,114.81,Kevin Hays,2009HAYS01,VancouverWinter2011,11481
+666,single,2012-05-05,2012,109.46,Kevin Hays,2009HAYS01,Couve2012,10946
+666,single,2013-08-03,2013,100.86,Kevin Hays,2009HAYS01,VancouverOpenSummer2013,10086
+666,single,2015-06-12,2015,93.55,Kevin Hays,2009HAYS01,Indiana2015,9355
+666,single,2016-10-01,2016,92.77,Kevin Hays,2009HAYS01,AsianChampionship2016,9277
+666,single,2016-12-17,2016,92.47,Feliks Zemdegs,2009ZEMD01,SydneyChampionship2016,9247
+666,single,2017-01-21,2017,87.85,Feliks Zemdegs,2009ZEMD01,AdelaideSummer2017,8785
+666,single,2017-07-08,2017,80.37,Feliks Zemdegs,2009ZEMD01,LondonOpen2017,8037
+666,single,2017-07-13,2017,80.03,Feliks Zemdegs,2009ZEMD01,WC2017,8003
+666,single,2018-01-27,2018,79.6,Max Park,2012PARK03,SacCubingIII2018,7960
+666,single,2018-05-06,2018,79.46,Max Park,2012PARK03,Qualifornia2018,7946
+666,single,2018-05-19,2018,74.86,Max Park,2012PARK03,ABCD2018,7486
+666,single,2018-08-17,2018,73.82,Max Park,2012PARK03,AsianChampionship2018,7382
+666,single,2020-01-25,2020,69.51,Max Park,2012PARK03,HoustonWinter2020,6951
+666,single,2022-07-29,2022,59.74,Max Park,2012PARK03,SoutheastChampionship2022,5974
+666,single,2024-08-02,2024,58.03,Max Park,2012PARK03,WesternChampionship2024,5803
+666,single,2025-04-26,2025,57.69,Max Park,2012PARK03,BurbankBigCubes2025,5769
+777,average,2009-02-08,2009,292.57,Hsuan Chang (張璿),2008CHAN09,TaiwanWinterOpen2009,29257
+777,average,2009-02-14,2009,271.26,Michael Gottlieb,2006GOTT01,EPGYStanfordWinter2009,27126
+777,average,2009-02-21,2009,241.99,Michał Halczuk,2006HALC01,PolishNationals2009,24199
+777,average,2009-03-28,2009,241.73,Yu Nakajima (中島悠),2007NAKA03,OsakaOpen2009,24173
+777,average,2009-07-26,2009,237.71,Dan Cohen,2007COHE01,BigCubesSummer2009,23771
+777,average,2010-07-16,2010,223.06,Bence Barát,2008BARA01,CzechOpen2010,22306
+777,average,2010-08-28,2010,220.33,Michał Halczuk,2006HALC01,PolishNationals2010,22033
+777,average,2010-09-18,2010,218.43,Michał Halczuk,2006HALC01,PabianiceOpen2010,21843
+777,average,2010-10-23,2010,213.63,Michał Halczuk,2006HALC01,VCUBESpiel2010,21363
+777,average,2011-07-23,2011,205.1,Michał Halczuk,2006HALC01,SwierklanyOpen2011,20510
+777,average,2012-03-10,2012,200.47,Lin Chen (陈霖),2010CHEN20,HefeiSpring2012,20047
+777,average,2012-07-21,2012,198.35,Lin Chen (陈霖),2010CHEN20,ShanghaiSummer2012,19835
+777,average,2012-07-29,2012,193.56,Lin Chen (陈霖),2010CHEN20,QingdaoOpen2012,19356
+777,average,2012-09-22,2012,176.85,Lin Chen (陈霖),2010CHEN20,HangzhouOpen2012,17685
+777,average,2013-07-26,2013,174.77,Kevin Hays,2009HAYS01,WC2013,17477
+777,average,2013-08-24,2013,172.19,Bence Barát,2008BARA01,AustrianBigCube2013,17219
+777,average,2013-09-07,2013,172.09,Feliks Zemdegs,2009ZEMD01,AustralianNationals2013,17209
+777,average,2014-08-01,2014,168.16,Feliks Zemdegs,2009ZEMD01,USNationals2014,16816
+777,average,2014-11-15,2014,168.03,Mattia Furlan,2013FURL01,AustrianBigCubeOpen2014,16803
+777,average,2015-04-18,2015,166.85,Mattia Furlan,2013FURL01,SlovenianOpen2015,16685
+777,average,2015-05-23,2015,162.85,Kevin Hays,2009HAYS01,ClockNStuff2015,16285
+777,average,2015-07-17,2015,153.73,Feliks Zemdegs,2009ZEMD01,WC2015,15373
+777,average,2015-11-07,2015,150.14,Feliks Zemdegs,2009ZEMD01,MelbourneCubeDay2015,15014
+777,average,2016-07-15,2016,145.06,Feliks Zemdegs,2009ZEMD01,Euro2016,14506
+777,average,2016-12-17,2016,142.55,Feliks Zemdegs,2009ZEMD01,SydneyChampionship2016,14255
+777,average,2017-06-14,2017,141.81,Feliks Zemdegs,2009ZEMD01,LatinAmericaCubingTourMontev2017,14181
+777,average,2017-06-17,2017,138.96,Feliks Zemdegs,2009ZEMD01,LatinAmericaCubingTourCochab2017,13896
+777,average,2017-07-08,2017,138.65,Feliks Zemdegs,2009ZEMD01,LondonOpen2017,13865
+777,average,2017-07-13,2017,135.07,Feliks Zemdegs,2009ZEMD01,WC2017,13507
+777,average,2017-10-01,2017,134.04,Feliks Zemdegs,2009ZEMD01,China10years2017,13404
+777,average,2018-01-13,2018,133.12,Max Park,2012PARK03,ThanksFourTheInvite2018,13312
+777,average,2018-03-09,2018,128.71,Kevin Hays,2009HAYS01,HeartlandChampionships2018,12871
+777,average,2018-04-14,2018,124.32,Max Park,2012PARK03,Cerritos2018,12432
+777,average,2018-07-14,2018,117.1,Max Park,2012PARK03,WCCTFresno2018,11710
+777,average,2018-12-22,2018,111.63,Max Park,2012PARK03,CubeChella2018,11163
+777,average,2019-07-11,2019,110.1,Max Park,2012PARK03,WC2019,11010
+777,average,2020-01-25,2020,106.57,Max Park,2012PARK03,HoustonWinter2020,10657
+777,average,2022-09-24,2022,102.12,Max Park,2012PARK03,MarshallCubingSeptember2022,10212
+777,average,2024-01-27,2024,101.78,Max Park,2012PARK03,UniHeightsCubingWinter2024,10178
+777,average,2024-04-20,2024,99.68,Max Park,2012PARK03,NubOpenYucaipa2024,9968
+777,average,2025-10-04,2025,96.86,Max Park,2012PARK03,NubOpenTrabucoHillsFall2025,9686
+777,single,2009-02-07,2009,367.0,Claes Hedin,2009HEDI01,NorrkopingOpen2009,36700
+777,single,2009-02-08,2009,289.13,Hsuan Chang (張璿),2008CHAN09,TaiwanWinterOpen2009,28913
+777,single,2009-02-14,2009,256.47,Michael Gottlieb,2006GOTT01,EPGYStanfordWinter2009,25647
+777,single,2009-02-21,2009,236.06,Michał Halczuk,2006HALC01,PolishNationals2009,23606
+777,single,2009-03-28,2009,227.36,Yu Nakajima (中島悠),2007NAKA03,OsakaOpen2009,22736
+777,single,2009-10-09,2009,223.15,Michał Halczuk,2006HALC01,WC2009,22315
+777,single,2010-07-16,2010,217.38,Bence Barát,2008BARA01,CzechOpen2010,21738
+777,single,2010-07-31,2010,213.25,Bence Barát,2008BARA01,AustrianOpen2010,21325
+777,single,2010-09-18,2010,205.91,Michał Halczuk,2006HALC01,PabianiceOpen2010,20591
+777,single,2011-07-23,2011,197.97,Michał Halczuk,2006HALC01,SwierklanyOpen2011,19797
+777,single,2011-08-13,2011,193.19,Michał Halczuk,2006HALC01,PolishNationals2011,19319
+777,single,2012-03-10,2012,193.11,Lin Chen (陈霖),2010CHEN20,HefeiSpring2012,19311
+777,single,2012-07-21,2012,190.71,Lin Chen (陈霖),2010CHEN20,ShanghaiSummer2012,19071
+777,single,2012-07-29,2012,185.8,Lin Chen (陈霖),2010CHEN20,QingdaoOpen2012,18580
+777,single,2012-09-22,2012,161.63,Lin Chen (陈霖),2010CHEN20,HangzhouOpen2012,16163
+777,single,2013-08-24,2013,160.11,Bence Barát,2008BARA01,AustrianBigCube2013,16011
+777,single,2014-03-02,2014,159.41,Lin Chen (陈霖),2010CHEN20,ShanghaiSpring2014,15941
+777,single,2014-10-04,2014,158.93,Vladislav Shavelskiy,2012SHAV01,CCCAutumnOpen2014,15893
+777,single,2015-03-13,2015,156.58,Vladislav Shavelskiy,2012SHAV01,MoscowSpringOpen2015,15658
+777,single,2015-05-30,2015,154.64,Michał Halczuk,2006HALC01,SpeedDaysKrasnik2015,15464
+777,single,2015-07-17,2015,143.55,Feliks Zemdegs,2009ZEMD01,WC2015,14355
+777,single,2016-07-15,2016,140.66,Feliks Zemdegs,2009ZEMD01,Euro2016,14066
+777,single,2017-03-18,2017,138.13,Feliks Zemdegs,2009ZEMD01,CubingClassic2017,13813
+777,single,2017-05-20,2017,134.55,Wong Kin Lok (黃健樂),2014LOKW01,WuhanNxNOpen2017,13455
+777,single,2017-07-08,2017,134.09,Feliks Zemdegs,2009ZEMD01,LondonOpen2017,13409
+777,single,2017-07-13,2017,126.73,Feliks Zemdegs,2009ZEMD01,WC2017,12673
+777,single,2018-03-09,2018,119.95,Kevin Hays,2009HAYS01,HeartlandChampionships2018,11995
+777,single,2018-04-14,2018,119.89,Max Park,2012PARK03,Cerritos2018,11989
+777,single,2018-06-08,2018,117.76,Kevin Hays,2009HAYS01,RoseCity2018,11776
+777,single,2018-07-14,2018,107.89,Max Park,2012PARK03,WCCTFresno2018,10789
+777,single,2019-07-11,2019,104.02,Max Park,2012PARK03,WC2019,10402
+777,single,2019-08-01,2019,100.89,Max Park,2012PARK03,CubingUSANationals2019,10089
+777,single,2022-09-24,2022,95.68,Max Park,2012PARK03,MarshallCubingSeptember2022,9568
+777,single,2024-07-18,2024,94.15,Max Park,2012PARK03,NAC2024,9415
+777,single,2025-10-04,2025,93.48,Max Park,2012PARK03,NubOpenTrabucoHillsFall2025,9348
+777,single,2026-05-10,2026,92.92,Lim Hung (林弘),2016HUNG08,UniKLMIATCubeOpen2026,9292
+777,single,2026-05-23,2026,92.07,Max Park,2012PARK03,WesternChampionship2026,9207
+777,single,2026-07-02,2026,90.59,Max Park,2012PARK03,NAC2026,9059
+clock,average,2004-04-24,2004,11.61,Stefan Pochmann,2003POCH01,GermanOpen2004,1161
+clock,average,2004-08-07,2004,10.78,Stefan Pochmann,2003POCH01,Euro2004,1078
+clock,average,2005-04-23,2005,9.74,Stefan Pochmann,2003POCH01,GermanOpen2005,974
+clock,average,2007-07-14,2007,8.83,Mátyás Kuti,2006KUTI01,CzechOpen2007,883
+clock,average,2007-09-15,2007,8.6,Mátyás Kuti,2006KUTI01,PolishOpen2007,860
+clock,average,2010-03-27,2010,7.96,Yu Sajima (佐島優),2008SAJI01,JapanOpen2010,796
+clock,average,2010-06-06,2010,7.53,Yu Sajima (佐島優),2008SAJI01,KawasakiOpen2010,753
+clock,average,2011-07-30,2011,7.33,Sam Zhixiao Wang (王志骁),2009WANG19,GuildfordSummerOpen2011,733
+clock,average,2012-05-26,2012,7.09,Jonathan Irvin Gunawan,2011GUNA02,BandungOpen2012,709
+clock,average,2013-03-02,2013,6.9,Pierre Bouvier,2010BOUV01,CannesOpen2013,690
+clock,average,2013-07-26,2013,6.79,Evan Liu,2009LIUE01,WC2013,679
+clock,average,2014-02-22,2014,6.68,Evan Liu,2009LIUE01,UniversityofNottingham2014,668
+clock,average,2014-05-17,2014,6.61,Evan Liu,2009LIUE01,OxfordOpen2014,661
+clock,average,2014-11-01,2014,6.0,Yunho Nam (남윤호),2014NAMY01,AsianChampionship2014,600
+clock,average,2015-04-04,2015,5.94,Evan Liu,2009LIUE01,XianCherryBlossom2015,594
+clock,average,2016-06-11,2016,5.72,Wojciech Knott,2011KNOT01,MielecCubeDay2016,572
+clock,average,2016-08-27,2016,5.38,Wojciech Knott,2011KNOT01,IIMasovianOpenPlock2016,538
+clock,average,2016-12-17,2016,5.33,Evan Liu,2009LIUE01,BirminghamOpen2016,533
+clock,average,2017-05-29,2017,5.23,Tairan Zhong (钟泰然),2013ZHON04,ZhuhaiOpen2017,523
+clock,average,2017-08-19,2017,5.22,Tairan Zhong (钟泰然),2013ZHON04,QuanzhouSideEvent2017,522
+clock,average,2017-12-16,2017,5.2,Wojciech Knott,2011KNOT01,CFLSantaClausCubeRace2017,520
+clock,average,2018-01-20,2018,4.95,Tairan Zhong (钟泰然),2013ZHON04,ShanghaiWinter2018,495
+clock,average,2018-07-21,2018,4.9,Yunhao Lou (娄云皓),2017LOUY01,ShenzhenOpen2018,490
+clock,average,2018-10-02,2018,4.56,Yunhao Lou (娄云皓),2017LOUY01,ChinaChampionship2018,456
+clock,average,2019-05-02,2019,4.43,Yunhao Lou (娄云皓),2017LOUY01,WuhanOpen2019,443
+clock,average,2019-11-09,2019,4.38,Yunhao Lou (娄云皓),2017LOUY01,HangzhouAutumn2019,438
+clock,average,2020-12-13,2020,3.86,Yunhao Lou (娄云皓),2017LOUY01,GuangzhouGoodAfternoon2020,386
+clock,average,2022-07-29,2022,3.81,Caleb Trelford,2015TREL02,CubingUSASouthernChampionshi2022,381
+clock,average,2022-09-17,2022,3.56,Cham J. Chambers,2017CHAM09,DroitwichSpaAutumn2022,356
+clock,average,2023-07-04,2023,3.54,Niklas Aasen Eliasson,2021ELIA01,TrondheimCubeWeek2023,354
+clock,average,2023-07-27,2023,3.5,Tommy Cherry,2015CHER07,CubingUSANationals2023,350
+clock,average,2024-01-20,2024,3.44,Niklas Aasen Eliasson,2021ELIA01,WestCoast1Trollhattan2024,344
+clock,average,2024-02-17,2024,3.31,Niklas Aasen Eliasson,2021ELIA01,LierskogenVinterkubing2024,331
+clock,average,2024-02-29,2024,3.13,Niklas Aasen Eliasson,2021ELIA01,Uppsalaligan2Leap2024,313
+clock,average,2024-04-20,2024,2.52,Eryk Kasperek,2021KASP01,Cube4funLublinonWEII2024,252
+clock,average,2024-09-14,2024,2.39,Volodymyr Kapustianskyi,2022KAPU01,GrandForks2024,239
+clock,average,2025-04-12,2025,2.38,Lachlan Gibson,2022GIBS04,AucklandAutumn2025,238
+clock,average,2025-05-10,2025,2.28,Lachlan Gibson,2022GIBS04,PuzzlingPapatoetoe2025,228
+clock,average,2025-08-16,2025,2.26,Lachlan Gibson,2022GIBS04,2x2inTamakiMakaurau2025,226
+clock,average,2025-12-13,2025,2.24,Brendyn Dunagan,2021DUNA01,TemeculaValleyWinter2025,224
+clock,average,2026-07-10,2026,2.14,Lachlan Gibson,2022GIBS04,NewZealandNationals2026,214
+clock,single,2003-08-23,2003,38.97,Jaap Scherphuis,2003SCHE01,WC2003,3897
+clock,single,2004-04-24,2004,9.54,Stefan Pochmann,2003POCH01,GermanOpen2004,954
+clock,single,2004-10-10,2004,9.05,Stefan Pochmann,2003POCH01,DutchOpen2004,905
+clock,single,2005-11-05,2005,8.39,Stefan Pochmann,2003POCH01,WC2005,839
+clock,single,2007-07-14,2007,7.69,Mátyás Kuti,2006KUTI01,CzechOpen2007,769
+clock,single,2009-05-02,2009,7.08,David Woner,2008WONE01,CarnegieMellonSpring2009,708
+clock,single,2009-11-21,2009,6.93,Olivér Perge,2007PERG01,BristolOpen2009,693
+clock,single,2010-03-27,2010,6.9,Taki Sugimoto (杉本太暉),2008SUGI01,JapanOpen2010,690
+clock,single,2010-06-06,2010,6.36,Yu Sajima (佐島優),2008SAJI01,KawasakiOpen2010,636
+clock,single,2010-08-06,2010,6.25,David Woner,2008WONE01,USNationals2010,625
+clock,single,2011-07-30,2011,5.88,Sam Zhixiao Wang (王志骁),2009WANG19,GuildfordSummerOpen2011,588
+clock,single,2011-10-14,2011,5.83,Javier Tirado Ortiz,2009TIRA01,WC2011,583
+clock,single,2011-12-24,2011,5.27,Sam Zhixiao Wang (王志骁),2009WANG19,ShanghaiWinter2011,527
+clock,single,2015-02-22,2015,5.25,Nathaniel Berg,2012BERG04,Generalforsamlingen2015,525
+clock,single,2015-04-04,2015,4.8,Evan Liu,2009LIUE01,XianCherryBlossom2015,480
+clock,single,2015-06-20,2015,3.73,Nathaniel Berg,2012BERG04,DanishOpen2015,373
+clock,single,2018-07-21,2018,3.4,Yunhao Lou (娄云皓),2017LOUY01,ShenzhenOpen2018,340
+clock,single,2019-03-23,2019,3.29,Suen Ming Chi (孫銘志),2017CHIS02,GDSYOpen2019,329
+clock,single,2021-05-01,2021,2.87,Yunhao Lou (娄云皓),2017LOUY01,GuangdongOpen2021,287
+clock,single,2023-03-25,2023,2.77,Cham J. Chambers,2017CHAM09,WiltshireSpring2023,277
+clock,single,2023-06-17,2023,2.61,Tommy Cherry,2015CHER07,MidAtlanticChampionship2023,261
+clock,single,2024-01-06,2024,2.54,Neil Gour,2022GOUR01,SideEventsBangaloreJan2024,254
+clock,single,2024-04-20,2024,2.4,Eryk Kasperek,2021KASP01,Cube4funLublinonWEII2024,240
+clock,single,2024-05-17,2024,2.31,Eryk Kasperek,2021KASP01,NoTriangleinRzeszow2024,231
+clock,single,2024-06-08,2024,2.29,Niklas Aasen Eliasson,2021ELIA01,WestCoast3Trollhattan2024,229
+clock,single,2024-06-14,2024,2.25,Niklas Aasen Eliasson,2021ELIA01,VannasFriends2024,225
+clock,single,2024-08-10,2024,2.15,Volodymyr Kapustianskyi,2022KAPU01,CubinginOakCreek2024,215
+clock,single,2024-08-31,2024,1.97,Brendyn Dunagan,2021DUNA01,LaLaLand2024,197
+clock,single,2025-01-17,2025,1.86,Lachlan Gibson,2022GIBS04,ANewYearinAuckland2025,186
+clock,single,2025-05-10,2025,1.64,Volodymyr Kapustianskyi,2022KAPU01,MoorheadMadness2025,164
+clock,single,2025-09-27,2025,1.53,Lachlan Gibson,2022GIBS04,HastyHastings2025,153
+magic,average,2004-04-24,2004,2.44,Jaap Scherphuis,2003SCHE01,GermanOpen2004,244
+magic,average,2004-08-07,2004,1.6,Jaap Scherphuis,2003SCHE01,Euro2004,160
+magic,average,2005-09-18,2005,1.52,Josef Jelínek,2004JELI01,PolishOpen2005,152
+magic,average,2005-10-16,2005,1.48,Alexander Ooms,2005OOMS01,DutchOpen2005,148
+magic,average,2005-11-05,2005,1.46,Alexander Ooms,2005OOMS01,WC2005,146
+magic,average,2006-05-27,2006,1.4,Bob Burton,2003BURT01,Trumbull2006,140
+magic,average,2006-08-04,2006,1.34,Bob Burton,2003BURT01,US2006,134
+magic,average,2006-10-14,2006,1.33,Gilles van den Peereboom,2005PEER01,DutchOpen2006,133
+magic,average,2006-11-18,2006,1.15,Craig Bouchard,2005BOUC01,RutgersFall2006,115
+magic,average,2007-02-24,2007,0.96,Mátyás Kuti,2006KUTI01,BelgianOpen2007,96
+magic,average,2009-07-18,2009,0.9,Tang Yiu Chun (鄧耀俊),2009CHUN07,HongKongOpen2009,90
+magic,average,2009-12-05,2009,0.87,Henrik Bui,2009BUIH02,SwedishCubeDay2009,87
+magic,average,2010-04-25,2010,0.8,Yuxuan Wang (王宇轩),2009WANG13,NanjingSpringOpen2010,80
+magic,average,2011-05-21,2011,0.79,Yuxuan Wang (王宇轩),2009WANG13,Taiyuan2011,79
+magic,average,2011-07-31,2011,0.76,Yuxuan Wang (王宇轩),2009WANG13,BeijingSummer2011,76
+magic,single,2003-08-23,2003,3.06,Jaap Scherphuis,2003SCHE01,WC2003,306
+magic,single,2004-04-24,2004,2.09,Jaap Scherphuis,2003SCHE01,GermanOpen2004,209
+magic,single,2004-08-07,2004,1.43,Stefan Pochmann,2003POCH01,Euro2004,143
+magic,single,2004-10-10,2004,1.36,Stefan Pochmann,2003POCH01,DutchOpen2004,136
+magic,single,2005-08-13,2005,1.28,Bob Burton,2003BURT01,CaltechDallas2005,128
+magic,single,2005-10-16,2005,1.23,Stefan Pochmann,2003POCH01,DutchOpen2005,123
+magic,single,2005-11-05,2005,1.14,Quinn Lewis,2005LEWI01,WC2005,114
+magic,single,2006-08-04,2006,1.07,Craig Bouchard,2005BOUC01,US2006,107
+magic,single,2007-02-24,2007,0.86,Mátyás Kuti,2006KUTI01,BelgianOpen2007,86
+magic,single,2008-08-23,2008,0.84,Olivér Perge,2007PERG01,DutchMasters2008,84
+magic,single,2009-03-14,2009,0.83,Patrick Jameson,2007JAME01,DrexelWinter2009,83
+magic,single,2009-08-15,2009,0.8,Oskar Åsbrink,2009ASBR01,KristianstadOpen2009,80
+magic,single,2009-08-22,2009,0.77,Tang Yiu Chun (鄧耀俊),2009CHUN07,ShenzhenSummerOpen2009,77
+magic,single,2010-05-09,2010,0.72,Yuxuan Wang (王宇轩),2009WANG13,BUAAOpen2010,72
+magic,single,2010-11-28,2010,0.71,Yuxuan Wang (王宇轩),2009WANG13,BeijingNoCubes2010,71
+magic,single,2011-04-23,2011,0.69,Yuxuan Wang (王宇轩),2009WANG13,BeijingSpring2011,69
+minx,average,2006-04-21,2006,93.76,Stefan Pochmann,2003POCH01,GermanOpen2006,9376
+minx,average,2006-10-14,2006,88.06,Stefan Pochmann,2003POCH01,DutchOpen2006,8806
+minx,average,2007-10-05,2007,79.16,Erik Akkersdijk,2005AKKE01,WC2007,7916
+minx,average,2007-10-13,2007,78.86,Erik Akkersdijk,2005AKKE01,DutchOpen2007,7886
+minx,average,2007-12-15,2007,74.02,Erik Akkersdijk,2005AKKE01,SwedishCubeDay2007,7402
+minx,average,2008-02-02,2008,67.7,Erik Akkersdijk,2005AKKE01,BelgianOpen2008,6770
+minx,average,2009-04-04,2009,64.34,Erik Akkersdijk,2005AKKE01,DanishOpen2009,6434
+minx,average,2010-04-24,2010,56.62,Bálint Bodor,2008BODO01,SlovenianOpen2010,5662
+minx,average,2010-10-01,2010,51.45,Bálint Bodor,2008BODO01,Euro2010,5145
+minx,average,2011-04-22,2011,49.9,Simon Westlund,2008WEST02,DanishOpen2011,4990
+minx,average,2012-02-18,2012,48.8,Simon Westlund,2008WEST02,NorwegianChampionship2012,4880
+minx,average,2012-09-08,2012,47.82,Bálint Bodor,2008BODO01,HungarianOpen2012,4782
+minx,average,2014-08-08,2014,45.77,Louis Cormier,2010CORM02,Euro2014,4577
+minx,average,2014-11-01,2014,42.89,Yu Da-Hyun (유다현),2008YUDA01,AsianChampionship2014,4289
+minx,average,2016-07-29,2016,40.94,Juan Pablo Huanqui,2013HUAN30,USNationals2016,4094
+minx,average,2016-08-27,2016,39.86,Juan Pablo Huanqui,2013HUAN30,LimaRubik2016,3986
+minx,average,2016-10-29,2016,39.43,Juan Pablo Huanqui,2013HUAN30,TorneodeSpeedcubers2016,3943
+minx,average,2016-12-11,2016,37.25,Yu Da-Hyun (유다현),2008YUDA01,BusanWinter2016,3725
+minx,average,2017-06-10,2017,35.15,Juan Pablo Huanqui,2013HUAN30,LatAmTourSantiago2017,3515
+minx,average,2018-02-24,2018,32.03,Yu Da-Hyun (유다현),2008YUDA01,CWRWinter2018,3203
+minx,average,2019-08-01,2019,31.7,Juan Pablo Huanqui,2013HUAN30,CubingUSANationals2019,3170
+minx,average,2019-08-10,2019,30.39,Juan Pablo Huanqui,2013HUAN30,WuxiOpen2019,3039
+minx,average,2022-06-11,2022,29.27,Leandro Martín López,2018LOPE22,JaquecaDeFlorida2022,2927
+minx,average,2022-11-19,2022,28.56,Leandro Martín López,2018LOPE22,BuenosAiresCubea2022,2856
+minx,average,2023-04-29,2023,28.03,Tristan Chua Yong,2016YONG02,MedanSpeedcubingFestival2023,2803
+minx,average,2023-05-27,2023,27.34,Leandro Martín López,2018LOPE22,JaquecaDiTella2023,2734
+minx,average,2023-06-17,2023,27.27,Leandro Martín López,2018LOPE22,SantaFeCubea2023,2727
+minx,average,2023-07-22,2023,27.09,Leandro Martín López,2018LOPE22,DiTellaOpenv22023,2709
+minx,average,2023-09-01,2023,26.84,Leandro Martín López,2018LOPE22,NacionalesArgentinas2023,2684
+minx,average,2024-12-31,2024,26.6,Leandro Martín López,2018LOPE22,BuenosAiresFindeAno2024,2660
+minx,average,2025-02-08,2025,25.36,Timofei Tarasenko,2019TARA09,CentralAsianTourAstana2025,2536
+minx,average,2025-11-02,2025,25.15,Ziyu Wu (吴子钰),2016WUZI04,XianAutumn2025,2515
+minx,average,2025-11-08,2025,24.76,Ziyu Wu (吴子钰),2016WUZI04,GuangzhouSpecial2025,2476
+minx,average,2025-12-06,2025,24.38,Timofei Tarasenko,2019TARA09,TashkentOpen2025,2438
+minx,single,2003-08-23,2003,132.82,Grant Tregay,2003TREG02,WC2003,13282
+minx,single,2005-04-23,2005,115.34,Stefan Pochmann,2003POCH01,GermanOpen2005,11534
+minx,single,2005-11-05,2005,101.82,Stefan Pochmann,2003POCH01,WC2005,10182
+minx,single,2006-04-21,2006,92.3,Stefan Pochmann,2003POCH01,GermanOpen2006,9230
+minx,single,2006-09-23,2006,89.05,Stefan Pochmann,2003POCH01,Euro2006,8905
+minx,single,2006-10-14,2006,83.55,Stefan Pochmann,2003POCH01,DutchOpen2006,8355
+minx,single,2007-10-05,2007,77.46,Erik Akkersdijk,2005AKKE01,WC2007,7746
+minx,single,2007-10-13,2007,74.9,Erik Akkersdijk,2005AKKE01,DutchOpen2007,7490
+minx,single,2007-12-15,2007,72.59,Erik Akkersdijk,2005AKKE01,SwedishCubeDay2007,7259
+minx,single,2008-02-02,2008,61.78,Erik Akkersdijk,2005AKKE01,BelgianOpen2008,6178
+minx,single,2009-01-12,2009,59.33,Takumi Yoshida (吉田匠),2007YOSH01,AmagasakiOpen2009,5933
+minx,single,2009-10-09,2009,57.94,Bálint Bodor,2008BODO01,WC2009,5794
+minx,single,2010-04-24,2010,49.71,Bálint Bodor,2008BODO01,SlovenianOpen2010,4971
+minx,single,2010-10-01,2010,47.53,Bálint Bodor,2008BODO01,Euro2010,4753
+minx,single,2011-01-22,2011,46.81,Simon Westlund,2008WEST02,HelsinkiOpen2011,4681
+minx,single,2011-04-22,2011,42.28,Simon Westlund,2008WEST02,DanishOpen2011,4228
+minx,single,2014-08-08,2014,39.57,Louis Cormier,2010CORM02,Euro2014,3957
+minx,single,2014-11-01,2014,37.83,Yu Da-Hyun (유다현),2008YUDA01,AsianChampionship2014,3783
+minx,single,2015-04-11,2015,37.58,Yu Da-Hyun (유다현),2008YUDA01,SpringComes2015,3758
+minx,single,2016-05-21,2016,35.94,Nicolas Naing,2015NAIN01,BigAppleSpring2016,3594
+minx,single,2016-07-29,2016,35.5,Juan Pablo Huanqui,2013HUAN30,USNationals2016,3550
+minx,single,2016-08-27,2016,35.18,Juan Pablo Huanqui,2013HUAN30,LimaRubik2016,3518
+minx,single,2016-10-29,2016,34.4,Juan Pablo Huanqui,2013HUAN30,TorneodeSpeedcubers2016,3440
+minx,single,2016-12-11,2016,33.17,Yu Da-Hyun (유다현),2008YUDA01,BusanWinter2016,3317
+minx,single,2017-05-21,2017,31.53,Juan Pablo Huanqui,2013HUAN30,RubikPro2017,3153
+minx,single,2017-06-10,2017,29.93,Juan Pablo Huanqui,2013HUAN30,LatAmTourSantiago2017,2993
+minx,single,2018-07-19,2018,29.49,Juan Pablo Huanqui,2013HUAN30,Euro2018,2949
+minx,single,2018-07-27,2018,27.81,Juan Pablo Huanqui,2013HUAN30,CubingUSANationals2018,2781
+minx,single,2019-12-21,2019,27.22,Juan Pablo Huanqui,2013HUAN30,LaTiendaCuberaChristmas2019,2722
+minx,single,2022-03-12,2022,25.24,Juan Pablo Huanqui,2013HUAN30,LimaCuberano2022,2524
+minx,single,2023-03-18,2023,24.92,Leandro Martín López,2018LOPE22,DiTellaOpen2023,2492
+minx,single,2023-05-27,2023,24.83,Leandro Martín López,2018LOPE22,JaquecaDiTella2023,2483
+minx,single,2023-07-22,2023,24.44,Leandro Martín López,2018LOPE22,DiTellaOpenv22023,2444
+minx,single,2023-12-08,2023,24.12,Leandro Martín López,2018LOPE22,RioCuartoalCubo2023,2412
+minx,single,2024-04-13,2024,23.18,Leandro Martín López,2018LOPE22,DiTellaInspira2024,2318
+minx,single,2025-05-17,2025,22.89,Aidan Grainger,2018GRAI01,WestonsuperMareSpring2025,2289
+minx,single,2025-08-15,2025,22.05,Timofei Tarasenko,2019TARA09,UzbekistanNationals2025,2205
+minx,single,2025-12-06,2025,21.99,Timofei Tarasenko,2019TARA09,TashkentOpen2025,2199
+minx,single,2026-05-01,2026,21.85,Timofei Tarasenko,2019TARA09,StartofSummerBeijing2026,2185
+minx,single,2026-05-30,2026,21.04,Ziyu Wu (吴子钰),2016WUZI04,QuanzhouSummer2026,2104
+mmagic,average,2005-08-13,2005,3.54,Bob Burton,2003BURT01,CaltechDallas2005,354
+mmagic,average,2005-10-16,2005,3.36,Stefan Pochmann,2003POCH01,DutchOpen2005,336
+mmagic,average,2006-05-06,2006,3.21,Alexander Ooms,2005OOMS01,BelgianOpen2006,321
+mmagic,average,2006-11-18,2006,3.15,Craig Bouchard,2005BOUC01,RutgersFall2006,315
+mmagic,average,2007-02-24,2007,2.27,Milán Baticz,2005BATI01,BelgianOpen2007,227
+mmagic,average,2007-04-28,2007,2.15,Máté Horváth,2007HORV01,GermanOpen2007,215
+mmagic,average,2007-08-25,2007,2.09,Milán Baticz,2005BATI01,SwedishOpen2007,209
+mmagic,average,2007-09-15,2007,1.96,Mátyás Kuti,2006KUTI01,PolishOpen2007,196
+mmagic,average,2008-09-19,2008,1.95,Máté Horváth,2007HORV01,Euro2008,195
+mmagic,average,2011-08-12,2011,1.75,Ernie Pulchny,2010PULC01,USNationals2011,175
+mmagic,single,2003-08-23,2003,8.22,Jaap Scherphuis,2003SCHE01,WC2003,822
+mmagic,single,2004-10-16,2004,5.16,Sunil Pedapudi,2004PEDA01,CaltechFall2004,516
+mmagic,single,2005-08-13,2005,3.05,Bob Burton,2003BURT01,CaltechDallas2005,305
+mmagic,single,2005-11-05,2005,2.79,Stefan Pochmann,2003POCH01,WC2005,279
+mmagic,single,2006-08-04,2006,2.73,Craig Bouchard,2005BOUC01,US2006,273
+mmagic,single,2006-09-23,2006,2.48,Mátyás Kuti,2006KUTI01,Euro2006,248
+mmagic,single,2007-02-24,2007,2.02,Máté Horváth,2007HORV01,BelgianOpen2007,202
+mmagic,single,2007-04-28,2007,1.94,Máté Horváth,2007HORV01,GermanOpen2007,194
+mmagic,single,2007-08-25,2007,1.83,Máté Horváth,2007HORV01,SwedishOpen2007,183
+mmagic,single,2008-02-02,2008,1.72,Mátyás Kuti,2006KUTI01,BelgianOpen2008,172
+mmagic,single,2010-07-24,2010,1.71,Yuxuan Wang (王宇轩),2009WANG13,InnerMongolia2010,171
+mmagic,single,2011-05-14,2011,1.68,Ernie Pulchny,2010PULC01,ParkRidgeOpen2011,168
+mmagic,single,2012-12-23,2012,1.66,Yuxuan Wang (王宇轩),2009WANG13,TianjinWinter2012,166
+pyram,average,2005-03-27,2005,16.55,Gunnar Krig,2004KRIG01,Svekub2005,1655
+pyram,average,2005-09-10,2005,14.81,Gunnar Krig,2004KRIG01,SwedishOpen2005,1481
+pyram,average,2005-09-18,2005,11.22,Piotr Kózka,2005KOZK01,PolishOpen2005,1122
+pyram,average,2006-09-16,2006,8.46,Grzegorz Łuczyna,2005LUCZ01,PolishOpen2006,846
+pyram,average,2007-07-08,2007,6.23,Grzegorz Łuczyna,2005LUCZ01,WroclawOpen2007,623
+pyram,average,2007-07-14,2007,6.19,Grzegorz Łuczyna,2005LUCZ01,CzechOpen2007,619
+pyram,average,2007-09-15,2007,5.98,Grzegorz Łuczyna,2005LUCZ01,PolishOpen2007,598
+pyram,average,2008-05-10,2008,5.04,Tomasz Kiedrowicz,2006KIED01,PabianiceOpen2008,504
+pyram,average,2008-08-02,2008,4.39,Yohei Oka (岡要平),2006OKAY01,TokyoOpen2008,439
+pyram,average,2008-12-20,2008,4.15,Yohei Oka (岡要平),2006OKAY01,KanazawaOpen2008,415
+pyram,average,2009-09-19,2009,4.07,Yohei Oka (岡要平),2006OKAY01,ToyamaOpen2009,407
+pyram,average,2010-03-27,2010,3.94,Yohei Oka (岡要平),2006OKAY01,JapanOpen2010,394
+pyram,average,2010-04-25,2010,3.92,Oscar Roth Andersen,2008ANDE02,SkarupSpring2010,392
+pyram,average,2010-08-21,2010,3.71,Yohei Oka (岡要平),2006OKAY01,CubeCampKanazawa2010,371
+pyram,average,2011-03-26,2011,3.65,Yohei Oka (岡要平),2006OKAY01,Osaka2011,365
+pyram,average,2011-04-10,2011,3.6,Yohei Oka (岡要平),2006OKAY01,MatsudoSpring2011,360
+pyram,average,2011-04-22,2011,3.43,Oscar Roth Andersen,2008ANDE02,DanishOpen2011,343
+pyram,average,2011-11-19,2011,3.39,Yohei Oka (岡要平),2006OKAY01,KyotanabeOpen2011,339
+pyram,average,2012-07-13,2012,3.25,Oscar Roth Andersen,2008ANDE02,CzechOpen2012,325
+pyram,average,2013-03-30,2013,2.96,Oscar Roth Andersen,2008ANDE02,DanishSpecial2013,296
+pyram,average,2014-10-18,2014,2.56,Drew Brads,2010BRAD01,VirginiaOpenFall2014,256
+pyram,average,2015-10-24,2015,2.52,Drew Brads,2010BRAD01,LexingtonFall2015,252
+pyram,average,2016-06-25,2016,2.48,Drew Brads,2010BRAD01,Indiana2016,248
+pyram,average,2016-07-19,2016,2.41,Rafał Waryszak,2013WARY01,CzechOpen2016,241
+pyram,average,2016-07-29,2016,2.14,Drew Brads,2010BRAD01,USNationals2016,214
+pyram,average,2017-07-13,2017,2.04,Drew Brads,2010BRAD01,WC2017,204
+pyram,average,2017-12-09,2017,2.02,Tymon Kolasiński,2016KOLA02,GLSFinal2017,202
+pyram,average,2018-09-15,2018,1.87,Tymon Kolasiński,2016KOLA02,CubeFactoryCzestochowa2018,187
+pyram,average,2019-04-06,2019,1.86,Tymon Kolasiński,2016KOLA02,GrudziadzOpen2019,186
+pyram,average,2021-07-10,2021,1.83,Tymon Kolasiński,2016KOLA02,LLSIIBialaPodlaska2021,183
+pyram,average,2022-01-09,2022,1.79,Simon Kellum,2016KELL12,GemCity2022,179
+pyram,average,2022-04-23,2022,1.66,Jasper Murray,2018MURR03,TwistyTaranaki2022,166
+pyram,average,2023-04-08,2023,1.64,Michael Nielsen,2017NIEL03,RichmondSpring2023,164
+pyram,average,2023-04-30,2023,1.55,Ezra Shere,2019SHER10,MichiganSpeedcubingSpring2023,155
+pyram,average,2023-07-22,2023,1.51,Ezra Shere,2019SHER10,FlagCitySummer2023,151
+pyram,average,2023-09-23,2023,1.45,Ezra Shere,2019SHER10,WashtenawFastnLateFall2023,145
+pyram,average,2024-03-02,2024,1.43,Lingkun Jiang (姜凌坤),2019JIAN54,HangzhouSpring2024,143
+pyram,average,2024-08-25,2024,1.27,Lingkun Jiang (姜凌坤),2019JIAN54,DeqingSmallCubesSummer2024,127
+pyram,average,2024-11-23,2024,1.15,Sebastian Lee,2021LEES01,MaitlandSpring2024,115
+pyram,average,2025-12-27,2025,1.14,Lingkun Jiang (姜凌坤),2019JIAN54,ZhengzhouZest2025,114
+pyram,single,2003-08-23,2003,14.09,Andy Bellenir,2003BELL01,WC2003,1409
+pyram,single,2005-03-27,2005,13.96,Gunnar Krig,2004KRIG01,Svekub2005,1396
+pyram,single,2005-09-10,2005,6.55,Gunnar Krig,2004KRIG01,SwedishOpen2005,655
+pyram,single,2006-09-16,2006,4.18,Piotr Kózka,2005KOZK01,PolishOpen2006,418
+pyram,single,2008-02-24,2008,2.83,Tomasz Kiedrowicz,2006KIED01,GdanskOpen2008,283
+pyram,single,2010-10-01,2010,2.65,Brúnó Bereczki,2008BERE01,Euro2010,265
+pyram,single,2011-01-29,2011,2.4,Oscar Roth Andersen,2008ANDE02,FredericiaOpen2011,240
+pyram,single,2011-04-02,2011,2.36,Oscar Roth Andersen,2008ANDE02,VejstrupOpen2011,236
+pyram,single,2011-07-30,2011,1.93,Yohei Oka (岡要平),2006OKAY01,JapanOpen2011,193
+pyram,single,2012-04-14,2012,1.61,Brúnó Bereczki,2008BERE01,SlovenianOpen2012,161
+pyram,single,2013-03-30,2013,1.36,Oscar Roth Andersen,2008ANDE02,DanishSpecial2013,136
+pyram,single,2015-10-24,2015,1.32,Drew Brads,2010BRAD01,LexingtonFall2015,132
+pyram,single,2017-06-17,2017,1.28,Benjamin Kyle,2016KYLE01,NewmarketOpen2017,128
+pyram,single,2018-01-13,2018,1.2,Tymon Kolasiński,2016KOLA02,SpeedDaysKrasnik2018,120
+pyram,single,2018-04-21,2018,1.19,Dominik Górny,2015GORN01,LLSIV2018,119
+pyram,single,2018-06-02,2018,1.1,Yulun Wu (吴宇伦),2010WUYU02,LishuiUniversityOpen2018,110
+pyram,single,2018-06-23,2018,0.91,Dominik Górny,2015GORN01,ByczyCubeRace2018,91
+pyram,single,2023-01-21,2023,0.75,Elijah Brown,2015BROW03,BerkeleyWinterA2023,75
+pyram,single,2023-12-21,2023,0.73,Simon Kellum,2016KELL12,MiddletonMeetupThursday2023,73
+skewb,average,2014-01-01,2014,13.7,Abhishek Sathyanarayanan,2012SATH01,TelesisOpen2014,1370
+skewb,average,2014-01-04,2014,8.16,Walker Welch,2011WELC01,HoustonWinterOpen2014,816
+skewb,average,2014-01-11,2014,7.46,John Brechon,2010BREC01,BlizzardTown2014,746
+skewb,average,2014-01-12,2014,7.34,Marco Rota,2009ROTA01,MilanWinterOpen2014,734
+skewb,average,2014-02-01,2014,6.21,Brandon Harnish,2009HARN01,BerkeleyWinter2014,621
+skewb,average,2014-02-08,2014,6.17,Hideki Niina (新名秀樹),2008NIIN01,JRCAKansaiWinter2014,617
+skewb,average,2014-02-22,2014,5.61,Jonatan Kłosko,2013KOSK01,SLSGliwice2014,561
+skewb,average,2014-04-05,2014,4.58,Jonatan Kłosko,2013KOSK01,SLSTarnowskieGory2014,458
+skewb,average,2014-08-09,2014,4.54,Antoine Cantin,2010CANT02,StarlightOpen2014,454
+skewb,average,2014-08-16,2014,3.15,Jonatan Kłosko,2013KOSK01,KaliskaOpen2014,315
+skewb,average,2014-12-14,2014,3.1,Jayden McNeill,2012MCNE01,Niddrie2014,310
+skewb,average,2015-07-18,2015,2.99,Michał Rzewuski,2014RZEW01,SLSSosnowiec2015,299
+skewb,average,2015-12-05,2015,2.95,Jonatan Kłosko,2013KOSK01,SantaClausCubeRace2015,295
+skewb,average,2016-04-16,2016,2.76,Michał Rzewuski,2014RZEW01,GLSCupII2016,276
+skewb,average,2016-10-08,2016,2.63,Michał Rzewuski,2014RZEW01,GLSCupV2016,263
+skewb,average,2017-03-11,2017,2.62,Michał Rzewuski,2014RZEW01,StaszicOpen2017,262
+skewb,average,2017-09-15,2017,2.55,Jonatan Kłosko,2013KOSK01,PolishOpen2017,255
+skewb,average,2017-10-14,2017,2.51,Jonatan Kłosko,2013KOSK01,SpeedDaysKielce2017,251
+skewb,average,2017-12-16,2017,2.03,Łukasz Burliga,2013BURL01,CFLSantaClausCubeRace2017,203
+skewb,average,2021-12-04,2021,1.86,Carter Kucala,2015KUCA01,CubetchaA2021,186
+skewb,average,2022-06-11,2022,1.84,Zayn Khanani,2018KHAN28,BluegrassSpring2022,184
+skewb,average,2022-07-07,2022,1.73,Zayn Khanani,2018KHAN28,NAC2022,173
+skewb,average,2022-09-03,2022,1.56,Zayn Khanani,2018KHAN28,PretzelMania2022,156
+skewb,average,2023-07-13,2023,1.53,Carter Kucala,2015KUCA01,CanadianChampionship2023,153
+skewb,average,2024-06-07,2024,1.52,Carter Kucala,2015KUCA01,HeartlandChampionship2024,152
+skewb,average,2025-06-14,2025,1.37,Ignacy Samselski,2022SAMS03,CFLJustynow2025,137
+skewb,single,2014-01-01,2014,9.21,Santosh Tantravahi,2013TANT02,TelesisOpen2014,921
+skewb,single,2014-01-04,2014,4.63,Walker Welch,2011WELC01,HoustonWinterOpen2014,463
+skewb,single,2014-01-11,2014,4.27,Jayden McNeill,2012MCNE01,LifestyleSeasonsSummer2014,427
+skewb,single,2014-02-08,2014,3.21,Mharr Justhinne Ampong,2012AMPO01,PangasinanOpen2014,321
+skewb,single,2014-02-09,2014,2.19,Brandon Harnish,2009HARN01,BayAreaSpeedcubin2014,219
+skewb,single,2014-12-06,2014,1.81,Jonatan Kłosko,2013KOSK01,SantaClausRace2014,181
+skewb,single,2015-07-11,2015,1.69,Lee Chiang (蔣礪),2013CHIA02,TaiwanOpen2015,169
+skewb,single,2015-07-17,2015,1.68,Jan Bentlage,2010BENT01,WC2015,168
+skewb,single,2015-09-26,2015,1.67,Michał Rzewuski,2014RZEW01,MasovianOpen2015,167
+skewb,single,2015-10-17,2015,1.1,Jonatan Kłosko,2013KOSK01,SLSWodzislawSlaski2015,110
+skewb,single,2019-07-11,2019,0.93,Andrew Huang,2016HUAN43,WC2019,93
+skewb,single,2022-07-07,2022,0.81,Zayn Khanani,2018KHAN28,NAC2022,81
+skewb,single,2024-03-23,2024,0.75,Carter Kucala,2015KUCA01,GoingFastinGrandview2024,75
+skewb,single,2026-03-07,2026,0.73,Vojtěch Grohmann,2021GROH01,GluszycaOpen2026,73
+sq1,average,2004-10-10,2004,33.21,Lars Vandenbergh,2003VAND01,DutchOpen2004,3321
+sq1,average,2006-04-21,2006,32.01,Lars Vandenbergh,2003VAND01,GermanOpen2006,3201
+sq1,average,2006-09-23,2006,31.85,Lars Vandenbergh,2003VAND01,Euro2006,3185
+sq1,average,2006-10-14,2006,28.14,Michael Fung,2005FUNG01,DutchOpen2006,2814
+sq1,average,2007-02-24,2007,25.98,Lars Vandenbergh,2003VAND01,BelgianOpen2007,2598
+sq1,average,2007-04-28,2007,25.82,Mátyás Kuti,2006KUTI01,GermanOpen2007,2582
+sq1,average,2007-06-16,2007,24.59,Lars Vandenbergh,2003VAND01,USOpen2007,2459
+sq1,average,2007-07-08,2007,22.85,Grzegorz Prusak,2006PRUS01,WroclawOpen2007,2285
+sq1,average,2007-09-15,2007,19.57,Grzegorz Prusak,2006PRUS01,PolishOpen2007,1957
+sq1,average,2008-07-27,2008,17.77,Kang Ji-Jon,2007JIJO01,Cheonan2008,1777
+sq1,average,2008-12-20,2008,16.62,Kazuhito Iimura (飯村数人),2008IIMU01,KanazawaOpen2008,1662
+sq1,average,2009-06-20,2009,16.28,Dan Cohen,2007COHE01,SafeHaven2009,1628
+sq1,average,2009-08-16,2009,14.61,Jianwei Zhu (朱剑伟),2007ZHUJ01,BeijingSummerOpen2009,1461
+sq1,average,2010-05-29,2010,14.33,Piotr Michał Padlewski,2008PADL01,BialystokOpen2010,1433
+sq1,average,2010-07-11,2010,12.99,Bingliang Li (李炳良),2008LIBI01,GuangzhouBigCubes2010,1299
+sq1,average,2010-10-03,2010,12.37,Bingliang Li (李炳良),2008LIBI01,GuangdongOpen2010,1237
+sq1,average,2011-05-01,2011,11.78,Bingliang Li (李炳良),2008LIBI01,ShenzhenUniversity2011,1178
+sq1,average,2011-11-27,2011,11.33,Bingliang Li (李炳良),2008LIBI01,ChangshaOpen2011,1133
+sq1,average,2012-08-05,2012,11.31,Bingliang Li (李炳良),2008LIBI01,GuiyangOpen2012,1131
+sq1,average,2014-05-18,2014,10.21,Bingliang Li (李炳良),2008LIBI01,GuangzhouWushanOpen2014,1021
+sq1,average,2016-01-30,2016,9.9,Brandon Lin (林博浩),2011LINB01,SlowNSteadyWinter2016,990
+sq1,average,2016-09-17,2016,9.75,Ty Marshall,2014MARS04,BerkeleySummer2016,975
+sq1,average,2016-09-24,2016,9.33,Brandon Lin (林博浩),2011LINB01,SlowNSteadyFall2016,933
+sq1,average,2017-01-07,2017,9.07,Brandon Lin (林博浩),2011LINB01,CliftonWinter2017,907
+sq1,average,2017-01-14,2017,8.45,Brandon Lin (林博浩),2011LINB01,RockvilleWinter2017,845
+sq1,average,2017-11-25,2017,8.38,Zijia Feng (冯子甲),2013FENG02,JiaozuoOpen2017,838
+sq1,average,2017-12-09,2017,8.04,Anuar Miguel Abib Onofre,2015ONOF01,Capivara2017,804
+sq1,average,2018-03-17,2018,7.56,Charlie Stark,2014STAR05,GuildfordOpen2018,756
+sq1,average,2018-05-11,2018,7.25,Rasmus Stub Detlefsen,2014DETL01,SwedishChampionship2018,725
+sq1,average,2018-08-10,2018,7.14,Rasmus Stub Detlefsen,2014DETL01,DastrupSleepover2018,714
+sq1,average,2018-10-12,2018,7.02,Rasmus Stub Detlefsen,2014DETL01,SkottegardsskolenOpen2018,702
+sq1,average,2018-10-20,2018,6.73,Vicenzo Guerino Cecchini,2015CECC01,SchoolmarkOpen2018,673
+sq1,average,2019-12-14,2019,6.54,Vicenzo Guerino Cecchini,2015CECC01,BernoFeetFriendship2019,654
+sq1,average,2021-04-10,2021,6.34,David Epstein,2016EPST02,SolvinginSale2021,634
+sq1,average,2021-12-12,2021,6.06,Sameer Aggarwal,2017AGGA01,RichmondOpenB2021,606
+sq1,average,2022-05-27,2022,5.02,Max Siauw,2017SIAU02,NortheastChampionship2022,502
+sq1,average,2023-07-22,2023,4.91,Max Siauw,2017SIAU02,StumptownSummer2023,491
+sq1,average,2024-08-25,2024,4.88,Dylan Baumbach,2019BAUM02,DFWBacktoSchool2024,488
+sq1,average,2024-09-21,2024,4.81,Dylan Baumbach,2019BAUM02,CubeMoreinArdmore2024,481
+sq1,average,2025-01-11,2025,4.69,Sameer Aggarwal,2017AGGA01,GemCityOhioShowdown2025,469
+sq1,average,2025-02-01,2025,4.63,Sameer Aggarwal,2017AGGA01,CubinginSouthernOregon2025,463
+sq1,single,2003-08-23,2003,41.8,Lars Vandenbergh,2003VAND01,WC2003,4180
+sq1,single,2004-10-10,2004,25.29,Lars Vandenbergh,2003VAND01,DutchOpen2004,2529
+sq1,single,2006-05-06,2006,25.04,Lars Vandenbergh,2003VAND01,BelgianOpen2006,2504
+sq1,single,2006-10-14,2006,23.65,Michael Fung,2005FUNG01,DutchOpen2006,2365
+sq1,single,2007-02-24,2007,19.46,Lars Vandenbergh,2003VAND01,BelgianOpen2007,1946
+sq1,single,2007-07-08,2007,16.45,Grzegorz Prusak,2006PRUS01,WroclawOpen2007,1645
+sq1,single,2007-09-15,2007,13.56,Grzegorz Prusak,2006PRUS01,PolishOpen2007,1356
+sq1,single,2008-10-25,2008,13.55,Grzegorz Prusak,2006PRUS01,PoznanOpen2008,1355
+sq1,single,2009-07-17,2009,12.5,Piotr Michał Padlewski,2008PADL01,CzechOpen2009,1250
+sq1,single,2009-08-16,2009,12.05,Jianwei Zhu (朱剑伟),2007ZHUJ01,BeijingSummerOpen2009,1205
+sq1,single,2009-10-09,2009,10.96,Piotr Michał Padlewski,2008PADL01,WC2009,1096
+sq1,single,2010-03-27,2010,10.93,Simon Crawford,2008CRAW01,BristolSpring2010,1093
+sq1,single,2010-08-06,2010,10.9,Andrew Nelson,2007NELS01,USNationals2010,1090
+sq1,single,2010-08-28,2010,9.93,Piotr Michał Padlewski,2008PADL01,PolishNationals2010,993
+sq1,single,2010-10-03,2010,8.65,Bingliang Li (李炳良),2008LIBI01,GuangdongOpen2010,865
+sq1,single,2013-11-02,2013,7.41,Andrea Santambrogio,2008SANT01,LegnanoOpen2013,741
+sq1,single,2014-05-18,2014,6.96,Bingliang Li (李炳良),2008LIBI01,GuangzhouWushanOpen2014,696
+sq1,single,2016-06-25,2016,6.84,Tommy Szeliga,2012SZEL01,Indiana2016,684
+sq1,single,2017-04-29,2017,6.67,Helmer Ewert,2015EWER01,SwedishDecathlonChallenge2017,667
+sq1,single,2017-05-06,2017,5.88,Nathan Dwyer,2011DWYE02,BuzzerBeater2017,588
+sq1,single,2017-09-23,2017,5.73,Charlie Stark,2014STAR05,GuildfordOpen2017,573
+sq1,single,2018-03-31,2018,5.66,Rasmus Stub Detlefsen,2014DETL01,RoyalCornerTwist2018,566
+sq1,single,2018-07-27,2018,5.49,Daniel Karnaukh,2014KARN02,CubingUSANationals2018,549
+sq1,single,2018-10-20,2018,5.0,Vicenzo Guerino Cecchini,2015CECC01,SchoolmarkOpen2018,500
+sq1,single,2019-05-03,2019,4.98,Tijmen van der Ree,2016REET01,MentalBreakdownCapelle2019,498
+sq1,single,2019-05-25,2019,4.95,Jackey Zheng,2017ZHEN10,Brooklyn2019,495
+sq1,single,2020-09-04,2020,4.59,Martin Vædele Egdal,2013EGDA02,DanishChampionship2020,459
+sq1,single,2022-04-23,2022,4.4,David Epstein,2016EPST02,WonderfulWilliamstown2022,440
+sq1,single,2022-05-27,2022,4.37,Sameer Aggarwal,2017AGGA01,NortheastChampionship2022,437
+sq1,single,2022-10-22,2022,4.34,Hassan Khanani,2018KHAN26,RochesterFall2022,434
+sq1,single,2022-10-29,2022,4.33,Elijah Rain Phelps,2019PHEL01,Naticube2022,433
+sq1,single,2022-12-10,2022,4.28,Max Siauw,2017SIAU02,BigCubesinBothell2022,428
+sq1,single,2023-02-11,2023,3.87,Michał Krasowski,2013KRAS02,OlsztynSquared2023,387
+sq1,single,2023-06-02,2023,3.73,Ryan Pilat,2016PILA03,HeartlandChampionship2023,373
+sq1,single,2023-12-02,2023,3.69,Max Siauw,2017SIAU02,UWorUDont2023,369
+sq1,single,2024-03-02,2024,3.41,Ryan Pilat,2016PILA03,WichitaFamilyArtVenture2024,341
+sq1,single,2026-01-24,2026,3.4,Hassan Khanani,2018KHAN26,SteelCitySprint2026,340
+sq1,single,2026-05-17,2026,2.85,Brian Johnson,2013JOHN10,EvanstonQualifier2026,285

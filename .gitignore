@@ -1,0 +1,21 @@
+# Entornos virtuales y Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Datos crudos gigantes de la WCA (>1 GB - se descargan con data/download_wca_data.py)
+data/raw/
+
+# Archivos temporales y de configuración local
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+*.log

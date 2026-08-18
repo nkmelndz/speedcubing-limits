@@ -1,0 +1,272 @@
+[
+  {
+    "stan_id": 1,
+    "wca_person_id": "2004GALL02",
+    "person_name": "Cl\u00e9ment Gallet"
+  },
+  {
+    "stan_id": 2,
+    "wca_person_id": "2005BATI01",
+    "person_name": "Mil\u00e1n Baticz"
+  },
+  {
+    "stan_id": 3,
+    "wca_person_id": "2006GUZE01",
+    "person_name": "Rafa\u0142 Guzewicz"
+  },
+  {
+    "stan_id": 4,
+    "wca_person_id": "2007ENDR01",
+    "person_name": "Marcell Endrey"
+  },
+  {
+    "stan_id": 5,
+    "wca_person_id": "2007HESS01",
+    "person_name": "Rowe Hessler"
+  },
+  {
+    "stan_id": 6,
+    "wca_person_id": "2007STRE01",
+    "person_name": "Dennis Strehlau"
+  },
+  {
+    "stan_id": 7,
+    "wca_person_id": "2009ANAM01",
+    "person_name": "Muhammad Iril Khairul Anam"
+  },
+  {
+    "stan_id": 8,
+    "wca_person_id": "2009JIAN03",
+    "person_name": "Tong Jiang (\u848b\u5f64)"
+  },
+  {
+    "stan_id": 9,
+    "wca_person_id": "2009LIAN03",
+    "person_name": "Chester Lian"
+  },
+  {
+    "stan_id": 10,
+    "wca_person_id": "2010CARN01",
+    "person_name": "Zane Carney"
+  },
+  {
+    "stan_id": 11,
+    "wca_person_id": "2011BANS02",
+    "person_name": "Shivam Bansal"
+  },
+  {
+    "stan_id": 12,
+    "wca_person_id": "2011KOWA01",
+    "person_name": "Marcin Kowalczyk"
+  },
+  {
+    "stan_id": 13,
+    "wca_person_id": "2014BOYA01",
+    "person_name": "Mark Boyanowski"
+  },
+  {
+    "stan_id": 14,
+    "wca_person_id": "2016SIGG01",
+    "person_name": "Graham Siggins"
+  },
+  {
+    "stan_id": 15,
+    "wca_person_id": "dummy_0",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 16,
+    "wca_person_id": "dummy_1",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 17,
+    "wca_person_id": "dummy_2",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 18,
+    "wca_person_id": "dummy_3",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 19,
+    "wca_person_id": "dummy_4",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 20,
+    "wca_person_id": "dummy_5",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 21,
+    "wca_person_id": "dummy_6",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 22,
+    "wca_person_id": "dummy_7",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 23,
+    "wca_person_id": "dummy_8",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 24,
+    "wca_person_id": "dummy_9",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 25,
+    "wca_person_id": "dummy_10",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 26,
+    "wca_person_id": "dummy_11",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 27,
+    "wca_person_id": "dummy_12",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 28,
+    "wca_person_id": "dummy_13",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 29,
+    "wca_person_id": "dummy_14",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 30,
+    "wca_person_id": "dummy_15",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 31,
+    "wca_person_id": "dummy_16",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 32,
+    "wca_person_id": "dummy_17",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 33,
+    "wca_person_id": "dummy_18",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 34,
+    "wca_person_id": "dummy_19",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 35,
+    "wca_person_id": "dummy_20",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 36,
+    "wca_person_id": "dummy_21",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 37,
+    "wca_person_id": "dummy_22",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 38,
+    "wca_person_id": "dummy_23",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 39,
+    "wca_person_id": "dummy_24",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 40,
+    "wca_person_id": "dummy_25",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 41,
+    "wca_person_id": "dummy_26",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 42,
+    "wca_person_id": "dummy_27",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 43,
+    "wca_person_id": "dummy_28",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 44,
+    "wca_person_id": "dummy_29",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 45,
+    "wca_person_id": "dummy_30",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 46,
+    "wca_person_id": "dummy_31",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 47,
+    "wca_person_id": "dummy_32",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 48,
+    "wca_person_id": "dummy_33",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 49,
+    "wca_person_id": "dummy_34",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 50,
+    "wca_person_id": "dummy_35",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 51,
+    "wca_person_id": "dummy_36",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 52,
+    "wca_person_id": "dummy_37",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 53,
+    "wca_person_id": "dummy_38",
+    "person_name": "Competidor de Control / Dummy"
+  },
+  {
+    "stan_id": 54,
+    "wca_person_id": "dummy_39",
+    "person_name": "Competidor de Control / Dummy"
+  }
+]

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Límites Humanos en Speedcubing | WCA Analytics</title>
+  <meta name="description" content="Dashboard analítico interactivo sobre la estimación de límites humanos y trayectoria oficial WCA.">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="app-viewport">
+    
+    <!-- Topbar Compacta y Controles Integrados -->
+    <header class="app-topbar">
+      <div class="brand-group">
+        <div class="brand-title">
+          <h1>Límites Humanos en Speedcubing</h1>
+          <span class="badge-tag">WCA 2003–2026</span>
+        </div>
+        <p class="brand-subtitle">Modelado probabilístico con Procesos Gaussianos y Teoría de Valores Extremos</p>
+      </div>
+
+      <div class="controls-toolbar">
+        <div class="control-item">
+          <label for="eventSelect">Categoría WCA</label>
+          <select id="eventSelect">
+            <option value="333">3x3x3 Cube</option>
+          </select>
+        </div>
+
+        <div class="control-item">
+          <label>Modalidad</label>
+          <div class="segmented-control">
+            <button class="segment-btn active" data-type="single">Single</button>
+            <button class="segment-btn" data-type="average">Average</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Fila de Tarjetas de Métricas Clave (KPIs Ampliadas) -->
+    <section class="metrics-row">
+      <div class="metric-card">
+        <div class="metric-head">
+          <span class="metric-label">RÉCORD MUNDIAL ACTUAL</span>
+          <span class="metric-dot dot-red"></span>
+        </div>
+        <div class="metric-value text-white" id="mCurrentRecord">--</div>
+        <div class="metric-foot" id="mCurrentHolder">Titular: --</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-head">
+          <span class="metric-label">LÍMITE ASINTÓTICO DERIVADO</span>
+          <span class="metric-dot dot-green"></span>
+        </div>
+        <div class="metric-value text-emerald" id="mHumanLimit">--</div>
+        <div class="metric-foot" id="mLimitCI">95% CI: [-- - --]</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-head">
+          <span class="metric-label">CONVERGENCIA AL LÍMITE</span>
+          <span class="metric-dot dot-cyan"></span>
+        </div>
+        <div class="metric-value text-cyan" id="mLimitYear">--</div>
+        <div class="metric-foot" id="mLimitWindow">Ventana: --</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-head">
+          <span class="metric-label">ÍNDICE DE SATURACIÓN</span>
+          <span class="metric-dot dot-amber"></span>
+        </div>
+        <div class="metric-value text-amber" id="mSaturation">--</div>
+        <div class="metric-foot" id="mSaturationDesc">Cercanía a la frontera final</div>
+      </div>
+    </section>
+
+    <!-- Grid Principal de Contenido (Gráfico a la Izquierda, Tabla a la Derecha) -->
+    <main class="main-workspace">
+      
+      <!-- Panel Izquierdo: Gráfico de Trayectoria -->
+      <section class="panel-card chart-panel">
+        <div class="panel-header">
+          <div class="panel-title-wrap">
+            <h2>Trayectoria del Récord Mundial y Proyección</h2>
+            <span class="panel-note">Tendencia GP + Línea Asintótica + Récords Oficiales Observados</span>
+          </div>
+        </div>
+        <div class="chart-canvas-container">
+          <canvas id="trajectoryChart"></canvas>
+        </div>
+      </section>
+
+      <!-- Panel Derecho: Tabla Cronológica con Scroll Interno -->
+      <section class="panel-card table-panel">
+        <div class="panel-header table-panel-header">
+          <div class="panel-title-wrap">
+            <h2>Historial Cronológico de WRs</h2>
+            <span class="badge-count" id="tableRecordCount">-- años</span>
+          </div>
+        </div>
+        <div class="table-scroll-area">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Año</th>
+                <th>Marca</th>
+                <th>Atleta / Competidor</th>
+                <th>Fecha</th>
+                <th>Estado</th>
+              </tr>
+            </thead>
+            <tbody id="recordHoldersTableBody">
+              <!-- Rellenado dinámicamente -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer Mínimo Integrado -->
+    <footer class="app-footer">
+      <span>Datos provistos por la <strong>World Cube Association (WCA)</strong>. Inferencia no paramétrica basada en Procesos Gaussianos e intervalos Log-Normales.</span>
+    </footer>
+
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
