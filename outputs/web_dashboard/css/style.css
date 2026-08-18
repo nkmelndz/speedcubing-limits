@@ -79,7 +79,7 @@ html, body {
   color: #60a5fa;
   font-size: 0.75rem;
   font-weight: 700;
-  padding: 0.2rem 0.6rem;
+  padding: 0.22rem 0.65rem;
   border-radius: 9999px;
   border: 1px solid rgba(59, 130, 246, 0.35);
 }
@@ -150,6 +150,29 @@ select:hover, select:focus {
 .segment-btn.active {
   background: var(--accent-blue);
   color: #ffffff;
+}
+
+/* Botón de Enlace a GitHub */
+.github-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle);
+  padding: 0.4rem 0.85rem;
+  border-radius: 7px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.github-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: #60a5fa;
+  color: #60a5fa;
 }
 
 /* 2. Fila de Tarjetas de Métricas (KPIs Ampliadas) */
@@ -352,13 +375,40 @@ select:hover, select:focus {
   border: 1px solid rgba(156, 163, 175, 0.2);
 }
 
-/* 4. Footer Mínimo */
+/* 4. Footer Mínimo Centrado y Discreto */
 .app-footer {
-  font-size: 0.72rem;
+  font-size: 0.74rem;
   color: var(--text-muted);
-  text-align: center;
-  padding-top: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.65rem;
+  padding-top: 0.35rem;
   border-top: 1px solid var(--border-subtle);
+  min-height: 28px;
+}
+
+.app-footer strong {
+  color: var(--text-secondary);
+}
+
+.footer-divider {
+  color: var(--border-subtle);
+}
+
+.footer-gh-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.15s ease;
+}
+
+.footer-gh-link:hover {
+  color: #60a5fa;
+  text-decoration: underline;
 }
 
 /* Scrollbars estilizados */

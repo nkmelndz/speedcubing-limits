@@ -15,16 +15,13 @@ Investigación cuantitativa y modelado probabilístico no paramétrico (Procesos
 
 ---
 
-## 🌐 Demo en Vivo
-Puedes acceder al dashboard interactivo directamente en:
-👉 **`https://<tu-usuario>.github.io/<tu-repo>/`**
-
----
-
 ## 📁 Estructura del Repositorio
 
 ```text
 speedcubing-limits/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml             # Despliegue automatizado a GitHub Pages
 ├── data/
 │   ├── download_wca_data.py       # Descarga y extracción automatizada del export oficial WCA
 │   ├── process_all_wca_events.py  # Filtrado y decodificación de las 17 categorías
@@ -56,7 +53,7 @@ speedcubing-limits/
 
 1. Clona el repositorio en tu máquina local:
    ```bash
-   git clone <URL_DE_TU_REPOSITORIO>
+   git clone https://github.com/nkmelndz/speedcubing-limits.git
    cd speedcubing-limits
    ```
 
