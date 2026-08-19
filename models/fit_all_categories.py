@@ -71,7 +71,6 @@ def extract_yearly_record_holders(df_records, event_id, r_type, years):
                 if current_best_rec is None or best_row["time_sec"] > current_best_rec:
                     current_best_rec = float(best_row["time_sec"])
                     current_person = best_row["person_name"]
-                    current_person_id = str(best_row["person_id"])
                     current_date = str(best_row["date"])
                     is_new = True
                 else:
@@ -81,7 +80,6 @@ def extract_yearly_record_holders(df_records, event_id, r_type, years):
                 if current_best_rec is None or best_row["time_sec"] < current_best_rec:
                     current_best_rec = float(best_row["time_sec"])
                     current_person = best_row["person_name"]
-                    current_person_id = str(best_row["person_id"])
                     current_date = str(best_row["date"])
                     is_new = True
                 else:
@@ -93,7 +91,6 @@ def extract_yearly_record_holders(df_records, event_id, r_type, years):
             "year": int(y),
             "record": round(current_best_rec, 2) if current_best_rec is not None else None,
             "person_name": current_person,
-            "person_id": current_person_id,
             "record_date": current_date,
             "is_new_wr_this_year": is_new
         })
@@ -224,36 +221,9 @@ def fit_gp_and_limits(years, records, yearly_holders=None, is_mbf=False, is_sing
     std_latente = corrected_std
 
     limit_reached_year = current_year + years_to_limit
-
-    # Tasa de Poisson
-    if saturation_pct >= 98.0:
-        lambda_annual = 0.18
-    elif saturation_pct >= 95.0:
-        lambda_annual = 0.35
-    elif saturation_pct >= 90.0:
-        lambda_annual = 0.60
-    else:
-        lambda_annual = 0.95
-    
-    probs_cumulative = []
-    next_record_year = None
-    
-    for idx, fy in enumerate(future_years):
-        years_elapsed = idx + 1
-        p_acc = 1.0 - np.exp(-lambda_annual * years_elapsed)
-        probs_cumulative.append({"year": int(fy), "prob_cumulative": round(float(p_acc), 3)})
-        
-        if p_acc >= 0.50 and next_record_year is None:
-            next_record_year = int(fy)
-            
-    if next_record_year is None:
-        next_record_year = current_year + 3
-        
-    drop_target = current_rec - (current_rec - asymptotic_mean) * 0.15 if not is_mbf else current_rec + (asymptotic_mean - current_rec) * 0.15
         
     return {
         "current_record": current_rec,
-        "initial_record": initial_rec,
         "human_limit": {
             "median": round(asymptotic_mean, 2),
             "ci_95_lower": round(limit_q025, 2),
@@ -262,12 +232,6 @@ def fit_gp_and_limits(years, records, yearly_holders=None, is_mbf=False, is_sing
             "convergence_window": f"{limit_reached_year - 3} - {limit_reached_year + 4}"
         },
         "saturation_index_pct": round(saturation_pct, 1),
-        "next_record_prediction": {
-            "most_likely_year": next_record_year,
-            "window_range": f"{next_record_year - 1} - {next_record_year + 2}",
-            "estimated_target_time": round(drop_target, 2),
-            "cumulative_probabilities": probs_cumulative[:10]
-        },
         "yearly_record_holders": yearly_holders or [],
         "trajectory": {
             "years": [int(y) for y in all_years],

@@ -183,7 +183,7 @@ def process_world_records(comp_dates):
     return clean_single, clean_average
 
 
-def build_stan_dataset_for_event(records, event_id="333", rec_type="single", top_k=8):
+def build_stan_dataset_for_event(records, event_id="333", rec_type="single"):
     event_recs = [r for r in records if r["event_id"] == event_id and r["type"] == rec_type]
     if not event_recs:
         return None
@@ -200,22 +200,12 @@ def build_stan_dataset_for_event(records, event_id="333", rec_type="single", top
     years = list(range(first_year, current_year + 1))
     event_recs = wca_event_recs
     
-    unique_athletes = sorted(list(set(r["person_id"] for r in event_recs)))
-    dummy_athletes = [f"dummy_{i}" for i in range(top_k * 5)]
-    all_athlete_ids = unique_athletes + dummy_athletes
-    athlete_to_idx = {pid: i + 1 for i, pid in enumerate(all_athlete_ids)}
-    
     yearly_records = []
-    yearly_record_holder_idx = []
-    yearly_active_athletes = []
-    
     current_wr_val = event_recs[0]["time_sec"]
     recs_by_year = defaultdict(list)
     for r in event_recs:
         recs_by_year[r["year"]].append(r)
         
-    dummy_pool_idx = len(unique_athletes)
-    
     for y in years:
         if y in recs_by_year:
             if event_id == "333mbf":
@@ -223,57 +213,19 @@ def build_stan_dataset_for_event(records, event_id="333", rec_type="single", top
             else:
                 best_r = min(recs_by_year[y], key=lambda x: x["time_sec"])
             current_wr_val = best_r["time_sec"]
-            holder_idx = athlete_to_idx[best_r["person_id"]]
-        else:
-            holder_idx = 0
             
         yearly_records.append(current_wr_val)
-        yearly_record_holder_idx.append(holder_idx)
-        
-        active = []
-        if holder_idx > 0:
-            active.append(holder_idx)
-            
-        for a_id in unique_athletes:
-            idx = athlete_to_idx[a_id]
-            if idx not in active and len(active) < top_k:
-                active.append(idx)
-                
-        while len(active) < top_k:
-            dummy_pool_idx += 1
-            active.append(dummy_pool_idx)
-            
-        yearly_active_athletes.append(active)
         
     stan_data = {
-        "N": len(years),
-        "A": len(all_athlete_ids),
-        "AY": top_k,
         "years": years,
-        "records": yearly_records,
-        "recordsa": yearly_record_holder_idx,
-        "athletes": yearly_active_athletes
+        "records": yearly_records
     }
     
     out_json = PROCESSED_DIR / f"stan_data_{event_id}_{rec_type}.json"
     with open(out_json, "w", encoding="utf-8") as f:
         json.dump(stan_data, f, indent=2)
-
-    person_names = {r["person_id"]: r["person_name"] for r in event_recs}
-    mapping_list = []
-    for pid, idx in athlete_to_idx.items():
-        mapping_list.append({
-            "stan_id": idx,
-            "wca_person_id": pid,
-            "person_name": person_names.get(pid, "Competidor de Control / Dummy")
-        })
-    mapping_list.sort(key=lambda x: x["stan_id"])
-    
-    mapping_file = PROCESSED_DIR / f"athlete_mapping_{event_id}_{rec_type}.json"
-    with open(mapping_file, "w", encoding="utf-8") as f:
-        json.dump(mapping_list, f, indent=2)
         
-    print(f"   [OK] Stan dataset: {out_json.name} ({len(years)} años)")
+    print(f"   [OK] Dataset: {out_json.name} ({len(years)} años)")
     return stan_data
 
 

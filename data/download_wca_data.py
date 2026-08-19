@@ -14,16 +14,10 @@ from pathlib import Path
 # URL oficial directa de exportación de la WCA
 WCA_EXPORT_URL = "https://exports.worldcubeassociation.org/results/WCA_export_v2_229_20260817T000041Z.tsv.zip"
 
-# Tablas esenciales para el estudio (formato WCA export v2 en minúsculas)
+# Tablas estrictamente necesarias para el procesamiento (WCA export v2)
 REQUIRED_FILES = [
-    "WCA_export_events.tsv",
-    "WCA_export_persons.tsv",
     "WCA_export_competitions.tsv",
     "WCA_export_results.tsv",
-    "WCA_export_ranks_single.tsv",
-    "WCA_export_ranks_average.tsv",
-    "WCA_export_continents.tsv",
-    "WCA_export_countries.tsv",
 ]
 
 

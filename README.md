@@ -26,6 +26,8 @@ speedcubing-limits/
 │   ├── download_wca_data.py       # Descarga y extracción automatizada del export oficial WCA
 │   ├── process_all_wca_events.py  # Filtrado y decodificación de las 17 categorías
 │   └── processed/                 # Dataset limpio de récords (.csv) y matrices Stan (.json)
+├── docs/
+│   └── DATA_PIPELINE.md           # Explicación técnica detallada del flujo de datos
 ├── models/
 │   ├── fit_all_categories.py      # Pipeline de inferencia estadística y exportación JSON
 │   └── stan/

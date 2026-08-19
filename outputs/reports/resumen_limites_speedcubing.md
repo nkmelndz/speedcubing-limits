@@ -1,6 +1,6 @@
 # Reporte Estadístico: Límites Humanos Derivados con EVT y Procesos Gaussianos
 
-**Fecha de generación:** 2026-08-18 13:49
+**Fecha de generación:** 2026-08-18 21:12
 **Categorías analizadas:** 17 eventos (Single y Average)
 
 ---
