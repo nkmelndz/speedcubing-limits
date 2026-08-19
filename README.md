@@ -23,9 +23,9 @@ speedcubing-limits/
 │   └── workflows/
 │       └── deploy.yml             # Despliegue automatizado a GitHub Pages
 ├── data/
-│   ├── download_wca_data.py       # Descarga y extracción automatizada del export oficial WCA
+│   ├── download_wca_data.py       # Descarga y extracción selectiva del export oficial WCA (solo tablas necesarias)
 │   ├── process_all_wca_events.py  # Filtrado y decodificación de las 17 categorías
-│   └── processed/                 # Dataset limpio de récords (.csv) y matrices Stan (.json)
+│   └── processed/                 # Dataset limpio de récords (.csv) y series anuales (.json)
 ├── docs/
 │   └── DATA_PIPELINE.md           # Explicación técnica detallada del flujo de datos
 ├── models/
@@ -102,7 +102,7 @@ python -m http.server 8000
 Luego abre tu navegador web en: **`http://localhost:8000`**
 
 #### Opción C: Re-ejecutar el Pipeline de Inferencia Global
-Si deseas recalcular todos los límites asintóticos, probabilidades de Poisson y actualizar el archivo maestro `outputs/limits_summary.json` y el reporte en Markdown:
+Si deseas recalcular todos los límites asintóticos, actualizar el archivo maestro `outputs/limits_summary.json` y el reporte en Markdown:
 ```bash
 python models/fit_all_categories.py
 ```
@@ -111,12 +111,12 @@ python models/fit_all_categories.py
 #### Opción D: Descargar y Reprocesar el Dataset Oficial WCA desde Cero (Opcional)
 *(Nota: El repositorio ya incluye el dataset procesado en `data/processed/`, por lo que este paso no es obligatorio).*
 
-Si deseas descargar el volcado oficial más reciente directamente desde los servidores de la WCA (~370 MB comprimido / ~1.1 GB descomprimido) y reconstruir la base de datos de récords:
+Si deseas descargar el volcado oficial más reciente directamente desde los servidores de la WCA (~370 MB comprimido / ~670 MB de tablas esenciales extraídas) y reconstruir la base de datos de récords:
 ```bash
-# 1. Descargar y descomprimir el export WCA en data/raw/
+# 1. Descargar y extraer únicamente las tablas requeridas en data/raw/
 python data/download_wca_data.py
 
-# 2. Filtrar, limpiar y generar las matrices históricas de las 17 categorías
+# 2. Filtrar, limpiar y generar las series temporales de las 17 categorías
 python data/process_all_wca_events.py
 ```
 
