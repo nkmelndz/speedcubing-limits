@@ -34,6 +34,9 @@ function formatTime(val, unit) {
 
 async function initDashboard() {
   try {
+    const savedTheme = localStorage.getItem('speedcubing_theme') || 'dark';
+    applyTheme(savedTheme);
+
     const response = await fetch('limits_summary.json');
     summaryData = await response.json();
     
@@ -59,6 +62,20 @@ function populateEventSelect() {
 }
 
 function setupEventListeners() {
+  // Manejo del tema oscuro / claro
+  const savedTheme = localStorage.getItem('speedcubing_theme') || 'dark';
+  applyTheme(savedTheme);
+
+  const themeToggle = document.getElementById('themeToggle');
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      const newTheme = isDark ? 'light' : 'dark';
+      applyTheme(newTheme);
+      updateDashboard();
+    });
+  }
+
   document.getElementById('eventSelect').addEventListener('change', (e) => {
     currentEventId = e.target.value;
     updateDashboard();
@@ -72,6 +89,19 @@ function setupEventListeners() {
       updateDashboard();
     });
   });
+}
+
+function applyTheme(theme) {
+  if (theme === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  } else {
+    document.documentElement.removeAttribute('data-theme');
+  }
+  localStorage.setItem('speedcubing_theme', theme);
+  const themeToggle = document.getElementById('themeToggle');
+  if (themeToggle) {
+    themeToggle.setAttribute('title', theme === 'dark' ? 'Cambiar a Modo Claro' : 'Cambiar a Modo Oscuro');
+  }
 }
 
 function updateDashboard() {
@@ -127,14 +157,14 @@ function renderTable(holders, unit) {
     const tr = document.createElement('tr');
     
     const tagHtml = h.is_new_wr_this_year 
-      ? `<span class="badge-wr-new">🔥 Roto</span>` 
-      : `<span class="badge-wr-hold">Meseta</span>`;
+      ? `<span class="badge-wr-new">Récord</span>` 
+      : `<span class="badge-wr-hold">Mantenido</span>`;
       
     tr.innerHTML = `
-      <td style="font-weight: 700; color: #fff;">${h.year}</td>
-      <td style="font-weight: 700; color: #60a5fa;">${formatTime(h.record, unit)}</td>
-      <td style="font-weight: 600; color: #f8fafc; max-width: 160px; overflow: hidden; text-overflow: ellipsis;">${h.person_name}</td>
-      <td style="color: #94a3b8; font-size: 0.78rem;">${h.record_date || '--'}</td>
+      <td class="cell-year">${h.year}</td>
+      <td class="cell-record">${formatTime(h.record, unit)}</td>
+      <td class="cell-person" title="${h.person_name}">${h.person_name}</td>
+      <td class="cell-date">${h.record_date || '--'}</td>
       <td>${tagHtml}</td>
     `;
     tbody.appendChild(tr);
@@ -144,6 +174,13 @@ function renderTable(holders, unit) {
 function renderChart(eventName, data, unit, holders) {
   const ctx = document.getElementById('trajectoryChart').getContext('2d');
   
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const gridColor = isDark ? '#262626' : '#bcc7d5';
+  const tickColor = isDark ? '#a3a3a3' : '#334155';
+  const scaleBorderColor = isDark ? '#333333' : '#94a3b8';
+  const legendTextColor = isDark ? '#e5e5e5' : '#1e293b';
+  const uncertaintyBg = isDark ? 'rgba(59, 130, 246, 0.22)' : 'rgba(37, 99, 235, 0.12)';
+
   const years = data.trajectory.years;
   const means = data.trajectory.mean;
   const stds = data.trajectory.std;
@@ -177,13 +214,13 @@ function renderChart(eventName, data, unit, holders) {
         {
           label: 'Récord Oficial',
           data: recordPoints,
-          borderColor: '#ef4444',
-          backgroundColor: '#ef4444',
-          pointBackgroundColor: '#ef4444',
-          pointBorderColor: '#ffffff',
+          borderColor: '#dc2626',
+          backgroundColor: '#dc2626',
+          pointBackgroundColor: '#dc2626',
+          pointBorderColor: isDark ? '#141414' : '#ebf0f5',
           pointBorderWidth: 1.5,
-          pointRadius: 4.5,
-          pointHoverRadius: 7.5,
+          pointRadius: 3.8,
+          pointHoverRadius: 6,
           showLine: true,
           borderDash: [3, 3],
           borderWidth: 1.5,
@@ -193,10 +230,10 @@ function renderChart(eventName, data, unit, holders) {
         {
           label: 'Récord Esperado (GP)',
           data: means,
-          borderColor: '#3b82f6',
-          borderWidth: 2.75,
-          pointBackgroundColor: '#3b82f6',
-          pointRadius: 1.5,
+          borderColor: '#2563eb',
+          borderWidth: 2.2,
+          pointBackgroundColor: '#2563eb',
+          pointRadius: 1,
           tension: 0.35,
           order: 2
         },
@@ -204,7 +241,7 @@ function renderChart(eventName, data, unit, holders) {
           label: 'Incertidumbre Superior (95% CI)',
           data: upper95,
           borderColor: 'transparent',
-          backgroundColor: 'rgba(59, 130, 246, 0.15)',
+          backgroundColor: uncertaintyBg,
           fill: '+1',
           pointRadius: 0,
           order: 3
@@ -221,9 +258,9 @@ function renderChart(eventName, data, unit, holders) {
         {
           label: `Límite Asintótico (${formatTime(data.human_limit.median, unit)})`,
           data: Array(years.length).fill(data.human_limit.median),
-          borderColor: '#10b981',
-          borderWidth: 1.75,
-          borderDash: [5, 5],
+          borderColor: '#059669',
+          borderWidth: 1.5,
+          borderDash: [5, 4],
           pointRadius: 0,
           order: 5
         }
@@ -247,19 +284,26 @@ function renderChart(eventName, data, unit, holders) {
               return original.map(item => {
                 if (item.text.includes('Superior')) {
                   item.text = 'Banda Incertidumbre (95% CI)';
-                  item.fillStyle = 'rgba(59, 130, 246, 0.35)';
-                  item.strokeStyle = '#3b82f6';
+                  item.fillStyle = isDark ? 'rgba(59, 130, 246, 0.35)' : 'rgba(37, 99, 235, 0.2)';
+                  item.strokeStyle = '#2563eb';
                 }
                 return item;
               });
             },
-            color: '#94a3b8',
-            font: { family: 'system-ui', size: 12 },
-            boxWidth: 14,
-            padding: 10
+            color: legendTextColor,
+            font: { family: "'Inter', sans-serif", size: 11, weight: '600' },
+            boxWidth: 12,
+            padding: 8
           }
         },
         tooltip: {
+          backgroundColor: isDark ? '#0a0a0a' : '#1e293b',
+          titleColor: '#ffffff',
+          bodyColor: isDark ? '#d4d4d4' : '#e2e8f0',
+          borderColor: isDark ? '#262626' : '#475569',
+          borderWidth: 1,
+          padding: 8,
+          cornerRadius: 6,
           itemSort: function(a, b) {
             return a.datasetIndex - b.datasetIndex;
           },
@@ -271,7 +315,7 @@ function renderChart(eventName, data, unit, holders) {
               const yr = tooltipItems[0].label;
               const hInfo = holderMap[yr];
               if (hInfo) {
-                const status = hInfo.is_new_wr_this_year ? "⚡ [RÉCORD ROTO]" : "⏳ [RÉCORD RETENIDO]";
+                const status = hInfo.is_new_wr_this_year ? "[RÉCORD ROTO]" : "[RÉCORD RETENIDO]";
                 return `Año ${yr} ${status} - ${hInfo.person_name}`;
               }
               return `Año Proyectado ${yr}`;
@@ -305,16 +349,18 @@ function renderChart(eventName, data, unit, holders) {
       },
       scales: {
         x: {
-          grid: { color: '#1f2937' },
-          ticks: { color: '#9ca3af', font: { size: 11 } }
+          grid: { color: gridColor },
+          ticks: { color: tickColor, font: { family: "'Inter', sans-serif", size: 11, weight: '500' } },
+          border: { color: scaleBorderColor }
         },
         y: {
-          grid: { color: '#1f2937' },
+          grid: { color: gridColor },
           ticks: {
-            color: '#9ca3af',
-            font: { size: 11 },
+            color: tickColor,
+            font: { family: "'Inter', sans-serif", size: 11, weight: '500' },
             callback: function(value) { return formatTime(value, unit); }
-          }
+          },
+          border: { color: scaleBorderColor }
         }
       }
     }

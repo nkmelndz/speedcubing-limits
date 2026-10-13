@@ -1,21 +1,30 @@
-/* Full-Viewport Modern Design System for Speedcubing Limits Dashboard */
+/* WCA Stickerless - Speedcubing Limits Dashboard
+   Modo Claro: Gris Grafito Mate (Anti-Glare / Cero Blanco Brillante)
+   Modo Oscuro: Negro Carbón Neutral (0% Azul)
+*/
+
 :root {
-  --bg-app: #080c14;
-  --bg-card: #111827;
-  --bg-card-header: #0e1422;
-  --bg-subtle: #1f2937;
-  --text-primary: #f9fafb;
-  --text-secondary: #9ca3af;
-  --text-muted: #6b7280;
-  --accent-blue: #3b82f6;
-  --accent-blue-hover: #2563eb;
-  --accent-cyan: #06b6d4;
-  --accent-emerald: #10b981;
-  --accent-amber: #f59e0b;
-  --accent-red: #ef4444;
-  --border-subtle: #1f2937;
-  --border-focus: #3b82f6;
-  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  /* Modo Claro: Gris Grafito Mate Satinado */
+  --bg-app: #dbe1e8;            /* Lienzo gris medio mate (elimina el deslumbramiento) */
+  --bg-card: #ebf0f5;           /* Tarjetas en gris claro satinado (sin blanco reflectante) */
+  --bg-card-header: #dfe5ec;    /* Cabecera estructurada */
+  --bg-subtle: #d3dbe4;         /* Controles en gris mate */
+  
+  /* Paleta Oficial Cubo de Rubik / WCA Stickerless */
+  --rubik-red: #ef4444;
+  --rubik-orange: #f97316;
+  --rubik-yellow: #eab308;
+  --rubik-green: #10b981;
+  --rubik-blue: #3b82f6;
+  
+  --text-primary: #0f172a;      /* Negro pizarra de alto contraste */
+  --text-secondary: #334155;    /* Gris carbón nítido */
+  --text-muted: #59677a;        /* Gris medio */
+  
+  --border-subtle: #bcc7d5;     /* Borde definido */
+  --border-card: #bcc7d5;       /* Borde nítido */
+  
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -26,6 +35,7 @@
 
 html, body {
   height: 100vh;
+  height: 100dvh;
   width: 100vw;
   overflow: hidden;
   background-color: var(--bg-app);
@@ -34,75 +44,110 @@ html, body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Contenedor Principal Ajustado al 100% de la Altura de Pantalla */
+/* Contenedor Principal Ajustado al 100% de la Altura sin Scrollbar en Ventana */
 .app-viewport {
   height: 100vh;
+  height: 100dvh;
   width: 100vw;
-  padding: 1.1rem 1.75rem;
+  max-height: 100vh;
+  max-height: 100dvh;
+  padding: 0.65rem 1.25rem;
   display: flex;
   flex-direction: column;
-  gap: 0.9rem;
+  gap: 0.6rem;
+  overflow: hidden;
 }
 
-/* 1. Header Principal */
+/* 1. Header WCA Stickerless: Barra Grafito Mate con Cinta Superior Multicolor del Cubo */
 .app-topbar {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
-  padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--border-subtle);
-  min-height: 52px;
+  background-color: var(--bg-card);
+  padding: 0.65rem 1.15rem 0.6rem 1.15rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-card);
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.05);
+  min-height: 48px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+/* Borde superior multicolor con las 5 caras stickerless del cubo */
+.app-topbar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(
+    90deg, 
+    #ef4444 0% 20%, 
+    #f97316 20% 40%, 
+    #eab308 40% 60%, 
+    #10b981 60% 80%, 
+    #3b82f6 80% 100%
+  );
 }
 
 .brand-group {
   display: flex;
   flex-direction: column;
-  gap: 0.15rem;
+  gap: 0.1rem;
 }
 
 .brand-title {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.65rem;
+}
+
+.rubik-icon {
+  flex-shrink: 0;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
 }
 
 .brand-title h1 {
-  font-size: 1.35rem;
+  font-size: 1.22rem;
   font-weight: 800;
   letter-spacing: -0.02em;
-  color: #ffffff;
+  color: var(--text-primary);
 }
 
 .badge-tag {
-  background: rgba(59, 130, 246, 0.15);
-  color: #60a5fa;
-  font-size: 0.75rem;
+  background: #fef3c7;
+  color: #b45309;
+  font-size: 0.72rem;
   font-weight: 700;
-  padding: 0.22rem 0.65rem;
-  border-radius: 9999px;
-  border: 1px solid rgba(59, 130, 246, 0.35);
+  padding: 0.16rem 0.55rem;
+  border-radius: 4px;
+  border: 1px solid #fde68a;
+  letter-spacing: 0.03em;
 }
 
 .brand-subtitle {
   color: var(--text-muted);
-  font-size: 0.82rem;
+  font-size: 0.78rem;
+  font-weight: 500;
 }
 
 .controls-toolbar {
   display: flex;
   align-items: center;
-  gap: 1.25rem;
+  gap: 1.1rem;
 }
 
 .control-item {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.5rem;
 }
 
 .control-item label {
-  font-size: 0.8rem;
+  font-size: 0.74rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -111,94 +156,116 @@ html, body {
 }
 
 select {
-  background: var(--bg-card);
+  background: #dfe5ec;
   color: var(--text-primary);
-  border: 1px solid var(--border-subtle);
-  padding: 0.45rem 1rem;
-  border-radius: 7px;
-  font-size: 0.9rem;
+  border: 1px solid var(--border-card);
+  padding: 0.38rem 0.85rem;
+  border-radius: 6px;
+  font-size: 0.84rem;
   font-weight: 600;
+  font-family: inherit;
   cursor: pointer;
   outline: none;
   transition: all 0.15s ease;
 }
 
 select:hover, select:focus {
-  border-color: var(--accent-blue);
+  border-color: var(--rubik-orange);
+  box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.2);
 }
 
 .segmented-control {
   display: flex;
-  background: var(--bg-card);
-  border-radius: 7px;
-  padding: 0.2rem;
-  border: 1px solid var(--border-subtle);
+  background: #d3dbe4;
+  border-radius: 6px;
+  padding: 2px;
+  border: 1px solid var(--border-card);
 }
 
 .segment-btn {
   background: transparent;
-  border: none;
+  border: 1px solid transparent;
   color: var(--text-secondary);
-  padding: 0.35rem 0.95rem;
-  border-radius: 5px;
-  font-size: 0.85rem;
+  padding: 0.3rem 0.85rem;
+  border-radius: 4px;
+  font-size: 0.82rem;
   font-weight: 600;
+  font-family: inherit;
   cursor: pointer;
   transition: all 0.15s ease;
 }
 
-.segment-btn.active {
-  background: var(--accent-blue);
-  color: #ffffff;
+.segment-btn:hover {
+  color: var(--text-primary);
 }
 
-/* Botón de Enlace a GitHub */
-.github-btn {
+.segment-btn.active {
+  background: var(--rubik-orange);
+  color: #ffffff;
+  border-color: var(--rubik-orange);
+  font-weight: 700;
+  box-shadow: 0 1px 3px rgba(249, 115, 22, 0.35);
+}
+
+/* Botón de Alternancia de Tema */
+.theme-toggle-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  background: rgba(255, 255, 255, 0.06);
-  color: var(--text-primary);
-  border: 1px solid var(--border-subtle);
-  padding: 0.4rem 0.85rem;
-  border-radius: 7px;
-  font-size: 0.82rem;
-  font-weight: 700;
-  text-decoration: none;
+  justify-content: center;
+  background: #dfe5ec;
+  color: var(--text-secondary);
+  border: 1px solid var(--border-card);
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.15s ease;
+  padding: 0;
+  flex-shrink: 0;
 }
 
-.github-btn:hover {
-  background: rgba(255, 255, 255, 0.12);
-  border-color: #60a5fa;
-  color: #60a5fa;
+.theme-toggle-btn:hover {
+  color: var(--rubik-orange);
+  border-color: var(--rubik-orange);
+  background: var(--bg-card);
 }
 
-/* 2. Fila de Tarjetas de Métricas (KPIs Ampliadas) */
+.theme-icon-moon {
+  display: block;
+}
+.theme-icon-sun {
+  display: none;
+}
+
+[data-theme="dark"] .theme-icon-moon {
+  display: none;
+}
+[data-theme="dark"] .theme-icon-sun {
+  display: block;
+}
+
+/* 2. Tarjetas KPI Inspiradas en las 4 Caras de Color del Cubo */
 .metrics-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0.85rem;
-  min-height: 116px;
+  gap: 0.6rem;
+  flex-shrink: 0;
 }
 
 .metric-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border-subtle);
-  border-radius: 10px;
-  padding: 1rem 1.3rem;
+  border-radius: 8px;
+  padding: 0.85rem 1.15rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 116px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
-  transition: transform 0.2s ease, border-color 0.2s ease;
+  min-height: 108px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.05);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .metric-card:hover {
-  transform: translateY(-2px);
-  border-color: rgba(59, 130, 246, 0.4);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(15, 23, 42, 0.09);
 }
 
 .metric-head {
@@ -208,11 +275,10 @@ select:hover, select:focus {
 }
 
 .metric-label {
-  font-size: 0.74rem;
-  font-weight: 700;
+  font-size: 0.72rem;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--text-muted);
 }
 
 .metric-dot {
@@ -220,84 +286,132 @@ select:hover, select:focus {
   height: 8px;
   border-radius: 50%;
 }
-.dot-red { background: var(--accent-red); box-shadow: 0 0 8px rgba(239, 68, 68, 0.7); }
-.dot-green { background: var(--accent-emerald); box-shadow: 0 0 8px rgba(16, 185, 129, 0.7); }
-.dot-cyan { background: var(--accent-cyan); box-shadow: 0 0 8px rgba(6, 182, 212, 0.7); }
-.dot-amber { background: var(--accent-amber); box-shadow: 0 0 8px rgba(245, 158, 11, 0.7); }
 
 .metric-value {
   font-size: 1.95rem;
   font-weight: 800;
   letter-spacing: -0.02em;
-  margin: 0.35rem 0 0.25rem 0;
+  margin: 0.25rem 0 0.18rem 0;
   line-height: 1.1;
+  font-variant-numeric: tabular-nums;
 }
 
-.text-white { color: #ffffff; }
-.text-emerald { color: #10b981; }
-.text-cyan { color: #06b6d4; }
-.text-amber { color: #f59e0b; }
-
 .metric-foot {
-  font-size: 0.82rem;
-  color: var(--text-secondary);
+  font-size: 0.78rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-weight: 600;
 }
+
+/* Cara 1: Roja (Récord Actual) */
+.card-rubik-red {
+  background-color: #fecdd3;
+  border: 1px solid #fda4af;
+  border-top: 3.5px solid #e11d48;
+}
+.card-rubik-red .metric-label { color: #881337; }
+.card-rubik-red .metric-foot { color: #9f1239; }
+.dot-red { background: #e11d48; }
+.text-rubik-red { color: #be123c; }
+
+/* Cara 2: Verde (Límite Asintótico) */
+.card-rubik-green {
+  background-color: #a7f3d0;
+  border: 1px solid #6ee7b7;
+  border-top: 3.5px solid #059669;
+}
+.card-rubik-green .metric-label { color: #064e3b; }
+.card-rubik-green .metric-foot { color: #065f46; }
+.dot-green { background: #059669; }
+.text-rubik-green { color: #047857; }
+
+/* Cara 3: Naranja (Convergencia al Límite) */
+.card-rubik-orange {
+  background-color: #fed7aa;
+  border: 1px solid #fdba74;
+  border-top: 3.5px solid #ea580c;
+}
+.card-rubik-orange .metric-label { color: #7c2d12; }
+.card-rubik-orange .metric-foot { color: #9a3412; }
+.dot-orange { background: #ea580c; }
+.text-rubik-orange { color: #c2410c; }
+
+/* Cara 4: Azul (Índice de Saturación) */
+.card-rubik-blue {
+  background-color: #bfdbfe;
+  border: 1px solid #93c5fd;
+  border-top: 3.5px solid #2563eb;
+}
+.card-rubik-blue .metric-label { color: #1e3a8a; }
+.card-rubik-blue .metric-foot { color: #1e40af; }
+.dot-blue { background: #2563eb; }
+.text-rubik-blue { color: #1d4ed8; }
 
 /* 3. Main Workspace: Grid Gráfico + Tabla */
 .main-workspace {
   flex: 1;
   display: grid;
   grid-template-columns: 1.35fr 0.95fr;
-  gap: 0.85rem;
+  gap: 0.6rem;
   min-height: 0;
 }
 
 .panel-card {
   background: var(--bg-card);
-  border: 1px solid var(--border-subtle);
-  border-radius: 10px;
+  border: 1px solid var(--border-card);
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.05);
+  min-height: 0;
 }
 
 .panel-header {
-  padding: 0.65rem 1.1rem;
+  padding: 0.55rem 0.95rem;
   background: var(--bg-card-header);
-  border-bottom: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-card);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-shrink: 0;
+}
+
+/* Acentos distintivos de panel */
+.chart-panel .panel-header {
+  border-left: 3.5px solid var(--rubik-blue);
+}
+.table-panel-header {
+  border-left: 3.5px solid var(--rubik-orange);
 }
 
 .panel-title-wrap {
   display: flex;
   flex-direction: column;
-  gap: 0.15rem;
+  gap: 0.1rem;
 }
 
 .panel-header h2 {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--text-primary);
+  letter-spacing: -0.01em;
 }
 
 .panel-note {
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   color: var(--text-muted);
 }
 
 .badge-count {
-  background: var(--bg-subtle);
-  color: var(--text-secondary);
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.18rem 0.55rem;
-  border-radius: 5px;
+  background: #fef3c7;
+  color: #854d0e;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  border: 1px solid #fde047;
 }
 
 /* Contenedor del Gráfico */
@@ -306,7 +420,7 @@ select:hover, select:focus {
   position: relative;
   width: 100%;
   height: 100%;
-  padding: 0.75rem;
+  padding: 0.55rem 0.85rem;
   min-height: 0;
 }
 
@@ -322,74 +436,112 @@ select:hover, select:focus {
   width: 100%;
   border-collapse: collapse;
   text-align: left;
-  font-size: 0.84rem;
+  font-size: 0.82rem;
 }
 
 .data-table thead th {
   position: sticky;
   top: 0;
-  background: #0b111e;
-  color: var(--text-muted);
+  background: #d5dce5;
+  color: #1e293b;
   font-weight: 700;
-  padding: 0.55rem 0.85rem;
-  border-bottom: 1px solid var(--border-subtle);
+  padding: 0.55rem 0.75rem;
+  border-bottom: 1px solid var(--border-card);
   text-transform: uppercase;
-  font-size: 0.72rem;
-  letter-spacing: 0.04em;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
   z-index: 5;
 }
 
+/* Zebra Striping en Gris Grafito Mate */
+.data-table tbody tr:nth-child(even) {
+  background-color: #dfe5ec;
+}
+.data-table tbody tr:nth-child(odd) {
+  background-color: var(--bg-card);
+}
+
 .data-table td {
-  padding: 0.5rem 0.85rem;
-  border-bottom: 1px solid rgba(31, 41, 55, 0.7);
-  color: var(--text-primary);
+  padding: 0.45rem 0.75rem;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
   white-space: nowrap;
 }
 
-.data-table tr:hover td {
-  background-color: rgba(255, 255, 255, 0.035);
+/* Hover temático cálido estilo cubo */
+.data-table tbody tr:hover td {
+  background-color: #fef08a;
 }
 
-/* Insignias de Estado */
+/* Clases específicas para celdas de la tabla */
+.cell-year {
+  font-weight: 700;
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+}
+
+.cell-record {
+  font-weight: 700;
+  color: #1d4ed8;
+  font-variant-numeric: tabular-nums;
+}
+
+.cell-person {
+  font-weight: 600;
+  color: var(--text-primary);
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cell-date {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+/* Insignias de Estado Planas Rubik */
 .badge-wr-new {
   display: inline-flex;
   align-items: center;
-  background-color: rgba(239, 68, 68, 0.2);
-  color: #f87171;
-  padding: 0.15rem 0.55rem;
-  border-radius: 5px;
-  font-size: 0.72rem;
+  background-color: #fee2e2;
+  color: #dc2626;
+  padding: 0.12rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
   font-weight: 700;
-  border: 1px solid rgba(239, 68, 68, 0.35);
+  border: 1px solid #fca5a5;
 }
 
+/* Cara Amarilla del Cubo para Récords Retenidos */
 .badge-wr-hold {
   display: inline-flex;
   align-items: center;
-  background-color: rgba(156, 163, 175, 0.1);
-  color: #9ca3af;
-  padding: 0.15rem 0.55rem;
-  border-radius: 5px;
-  font-size: 0.72rem;
-  font-weight: 600;
-  border: 1px solid rgba(156, 163, 175, 0.2);
+  background-color: #fef9c3;
+  color: #a16207;
+  padding: 0.12rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  border: 1px solid #fde047;
 }
 
 /* 4. Footer Mínimo Centrado y Discreto */
 .app-footer {
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   color: var(--text-muted);
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.65rem;
-  padding-top: 0.35rem;
+  gap: 0.55rem;
+  padding-top: 0.25rem;
   border-top: 1px solid var(--border-subtle);
-  min-height: 28px;
+  min-height: 24px;
+  flex-shrink: 0;
 }
 
 .app-footer strong {
   color: var(--text-secondary);
+  font-weight: 600;
 }
 
 .footer-divider {
@@ -399,7 +551,7 @@ select:hover, select:focus {
 .footer-gh-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0.3rem;
   color: var(--text-secondary);
   text-decoration: none;
   font-weight: 600;
@@ -407,22 +559,206 @@ select:hover, select:focus {
 }
 
 .footer-gh-link:hover {
-  color: #60a5fa;
+  color: var(--rubik-orange);
   text-decoration: underline;
 }
 
-/* Scrollbars estilizados */
+/* Scrollbars Internos Minimalistas */
 .table-scroll-area::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
 }
 .table-scroll-area::-webkit-scrollbar-track {
-  background: var(--bg-card);
+  background: transparent;
 }
 .table-scroll-area::-webkit-scrollbar-thumb {
-  background: var(--border-subtle);
-  border-radius: 4px;
+  background: #bcc7d5;
+  border-radius: 3px;
 }
 .table-scroll-area::-webkit-scrollbar-thumb:hover {
-  background: var(--text-muted);
+  background: #94a3b8;
+}
+
+/* ==========================================================
+   5. MODO OSCURO NEUTRO PURO (JET BLACK / 0% AZUL)
+   ========================================================== */
+[data-theme="dark"] {
+  --bg-app: #080808;            /* Negro carbón profundo */
+  --bg-card: #141414;           /* Negro azabache elevado */
+  --bg-card-header: #1a1a1a;    /* Cabecera neutra negra/gris */
+  --bg-subtle: #222222;         /* Gris oscuro neutral */
+
+  --text-primary: #f5f5f5;      /* Blanco perla suave */
+  --text-secondary: #d4d4d4;    /* Gris claro neutro */
+  --text-muted: #888888;        /* Gris medio */
+
+  --border-subtle: #222222;     /* Borde negro sutil */
+  --border-card: #282828;       /* Borde negro definido */
+}
+
+[data-theme="dark"] .app-topbar {
+  background-color: var(--bg-card);
+  border-color: var(--border-card);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+[data-theme="dark"] select {
+  background: #1a1a1a;
+  color: #f5f5f5;
+  border-color: #2e2e2e;
+}
+[data-theme="dark"] select:hover,
+[data-theme="dark"] select:focus {
+  border-color: var(--rubik-orange);
+  box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.25);
+}
+
+[data-theme="dark"] .segmented-control {
+  background: #0c0c0c;
+  border-color: #282828;
+}
+
+[data-theme="dark"] .theme-toggle-btn {
+  background: #1a1a1a;
+  color: #f5f5f5;
+  border-color: #2e2e2e;
+}
+[data-theme="dark"] .theme-toggle-btn:hover {
+  color: var(--rubik-orange);
+  border-color: var(--rubik-orange);
+  background: #242424;
+}
+
+[data-theme="dark"] .badge-tag {
+  background: rgba(234, 179, 8, 0.15);
+  color: #facc15;
+  border-color: rgba(234, 179, 8, 0.3);
+}
+
+/* Tarjetas KPI en Modo Oscuro - Alternativa A: Números Nítidos + Micro-Acentos Planos (Cero Neón) */
+[data-theme="dark"] .metric-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-card);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] .metric-value {
+  color: #f5f5f5 !important;
+}
+
+[data-theme="dark"] .metric-label {
+  color: #a3a3a3;
+}
+
+[data-theme="dark"] .metric-foot {
+  color: #737373;
+}
+
+/* Micro-acentos superiores finos de 2.5px en colores mate de las caras del cubo */
+[data-theme="dark"] .card-rubik-red {
+  border-top: 2.5px solid #dc2626;
+}
+[data-theme="dark"] .card-rubik-red .dot-red {
+  background: #dc2626;
+}
+
+[data-theme="dark"] .card-rubik-green {
+  border-top: 2.5px solid #16a34a;
+}
+[data-theme="dark"] .card-rubik-green .dot-green {
+  background: #16a34a;
+}
+
+[data-theme="dark"] .card-rubik-orange {
+  border-top: 2.5px solid #ea580c;
+}
+[data-theme="dark"] .card-rubik-orange .dot-orange {
+  background: #ea580c;
+}
+
+[data-theme="dark"] .card-rubik-blue {
+  border-top: 2.5px solid #2563eb;
+}
+[data-theme="dark"] .card-rubik-blue .dot-blue {
+  background: #2563eb;
+}
+
+/* Paneles en modo oscuro */
+[data-theme="dark"] .panel-card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] .panel-header {
+  background: var(--bg-card-header);
+  border-bottom-color: var(--border-card);
+}
+
+[data-theme="dark"] .chart-panel .panel-header {
+  border-left: 2.5px solid #2563eb;
+}
+
+[data-theme="dark"] .table-panel-header {
+  border-left: 2.5px solid #ea580c;
+}
+
+[data-theme="dark"] .data-table thead th {
+  background: #181818;
+  color: #888888;
+  border-bottom-color: var(--border-card);
+}
+
+[data-theme="dark"] .data-table tbody tr:nth-child(even) {
+  background-color: #141414;
+}
+[data-theme="dark"] .data-table tbody tr:nth-child(odd) {
+  background-color: #0f0f0f;
+}
+
+[data-theme="dark"] .data-table td {
+  border-bottom-color: #1e1e1e;
+}
+
+[data-theme="dark"] .data-table tbody tr:hover td {
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+[data-theme="dark"] .cell-year {
+  color: #f5f5f5;
+}
+
+[data-theme="dark"] .cell-record {
+  color: #60a5fa;
+}
+
+[data-theme="dark"] .cell-person {
+  color: #d4d4d4;
+}
+
+[data-theme="dark"] .badge-wr-new {
+  background-color: rgba(220, 38, 38, 0.15);
+  color: #f87171;
+  border-color: rgba(220, 38, 38, 0.35);
+}
+
+[data-theme="dark"] .badge-wr-hold {
+  background-color: rgba(217, 119, 6, 0.15);
+  color: #fbbf24;
+  border-color: rgba(217, 119, 6, 0.35);
+}
+
+[data-theme="dark"] .badge-count {
+  background: #1a1a1a;
+  color: #fbbf24;
+  border-color: #333333;
+}
+
+[data-theme="dark"] .app-footer {
+  border-top-color: var(--border-subtle);
+}
+
+[data-theme="dark"] .table-scroll-area::-webkit-scrollbar-thumb {
+  background: #333333;
+}
+[data-theme="dark"] .table-scroll-area::-webkit-scrollbar-thumb:hover {
+  background: #444444;
 }

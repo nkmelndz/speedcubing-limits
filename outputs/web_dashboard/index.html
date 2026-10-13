@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-theme="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -7,9 +7,22 @@
   <title>Límites Humanos en Speedcubing | WCA Analytics</title>
   <meta name="description"
     content="Dashboard analítico interactivo sobre la estimación de límites humanos y trayectoria oficial WCA.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <!-- Chart.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script>
+    (function () {
+      const theme = localStorage.getItem('speedcubing_theme') || 'dark';
+      if (theme === 'light') {
+        document.documentElement.removeAttribute('data-theme');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
 </head>
 
 <body>
@@ -19,6 +32,17 @@
     <header class="app-topbar">
       <div class="brand-group">
         <div class="brand-title">
+          <svg class="rubik-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="1" y="1" width="6.2" height="6.2" rx="1.2" fill="#ef4444"/>
+            <rect x="8.9" y="1" width="6.2" height="6.2" rx="1.2" fill="#f97316"/>
+            <rect x="16.8" y="1" width="6.2" height="6.2" rx="1.2" fill="#eab308"/>
+            <rect x="1" y="8.9" width="6.2" height="6.2" rx="1.2" fill="#10b981"/>
+            <rect x="8.9" y="8.9" width="6.2" height="6.2" rx="1.2" fill="#3b82f6"/>
+            <rect x="16.8" y="8.9" width="6.2" height="6.2" rx="1.2" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+            <rect x="1" y="16.8" width="6.2" height="6.2" rx="1.2" fill="#f97316"/>
+            <rect x="8.9" y="16.8" width="6.2" height="6.2" rx="1.2" fill="#10b981"/>
+            <rect x="16.8" y="16.8" width="6.2" height="6.2" rx="1.2" fill="#ef4444"/>
+          </svg>
           <h1>Límites Humanos en Speedcubing</h1>
           <span class="badge-tag">WCA 2003–2026</span>
         </div>
@@ -40,44 +64,61 @@
             <button class="segment-btn" data-type="average">Average</button>
           </div>
         </div>
+
+        <button id="themeToggle" class="theme-toggle-btn" type="button" title="Cambiar a Modo Claro" aria-label="Alternar modo oscuro / claro">
+          <svg class="theme-icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg class="theme-icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
       </div>
     </header>
 
-    <!-- Fila de Tarjetas de Métricas Clave (KPIs Ampliadas) -->
+    <!-- Fila de Tarjetas de Métricas Clave (KPIs Ampliadas con Paleta Rubik) -->
     <section class="metrics-row">
-      <div class="metric-card">
+      <div class="metric-card card-rubik-red">
         <div class="metric-head">
           <span class="metric-label">RÉCORD MUNDIAL ACTUAL</span>
           <span class="metric-dot dot-red"></span>
         </div>
-        <div class="metric-value text-white" id="mCurrentRecord">--</div>
+        <div class="metric-value text-rubik-red" id="mCurrentRecord">--</div>
         <div class="metric-foot" id="mCurrentHolder">Titular: --</div>
       </div>
 
-      <div class="metric-card">
+      <div class="metric-card card-rubik-green">
         <div class="metric-head">
           <span class="metric-label">LÍMITE ASINTÓTICO DERIVADO</span>
           <span class="metric-dot dot-green"></span>
         </div>
-        <div class="metric-value text-emerald" id="mHumanLimit">--</div>
+        <div class="metric-value text-rubik-green" id="mHumanLimit">--</div>
         <div class="metric-foot" id="mLimitCI">95% CI: [-- - --]</div>
       </div>
 
-      <div class="metric-card">
+      <div class="metric-card card-rubik-orange">
         <div class="metric-head">
           <span class="metric-label">CONVERGENCIA AL LÍMITE</span>
-          <span class="metric-dot dot-cyan"></span>
+          <span class="metric-dot dot-orange"></span>
         </div>
-        <div class="metric-value text-cyan" id="mLimitYear">--</div>
+        <div class="metric-value text-rubik-orange" id="mLimitYear">--</div>
         <div class="metric-foot" id="mLimitWindow">Ventana: --</div>
       </div>
 
-      <div class="metric-card">
+      <div class="metric-card card-rubik-blue">
         <div class="metric-head">
           <span class="metric-label">ÍNDICE DE SATURACIÓN</span>
-          <span class="metric-dot dot-amber"></span>
+          <span class="metric-dot dot-blue"></span>
         </div>
-        <div class="metric-value text-amber" id="mSaturation">--</div>
+        <div class="metric-value text-rubik-blue" id="mSaturation">--</div>
         <div class="metric-foot" id="mSaturationDesc">Cercanía a la frontera final</div>
       </div>
     </section>
@@ -128,7 +169,9 @@
 
     <!-- Footer Mínimo Centrado y Conciso -->
     <footer class="app-footer">
-      <span>Datos: <strong>WCA (2003–2026)</strong> · Inferencia: Procesos Gaussianos & EVT</span>
+      <span>Datos: <strong>WCA (2003–2026)</strong></span>
+      <span class="footer-divider">·</span>
+      <span>Inferencia: Procesos Gaussianos & EVT</span>
       <span class="footer-divider">·</span>
       <a href="https://github.com/nkmelndz/speedcubing-limits" target="_blank" rel="noopener noreferrer"
         class="footer-gh-link" title="Ver repositorio en GitHub">
